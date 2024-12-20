@@ -1,0 +1,15 @@
+{
+    "ram": 4096,
+    "output_dates_filename": "output_dates.txt",
+    "nb_threads": "8",
+    "log_level": "DEBUG",
+    "tile_id":"31TGK",
+    "config_file":"/home/ad/barrouz/WORKSPACE/TIMESERIES_PROJECT/SWH_LANDSAT/synthesis_config.json",
+    "input_products_list":["/home/ad/barrouz/WORKSPACE/TIMESERIES_PROJECT/SWH_LANDSAT/data_test/FSC_19970206T104532_SPOT2_31TGK","/home/ad/barrouz/WORKSPACE/TIMESERIES_PROJECT/SWH_LANDSAT/data_test/FSC_19970221T105712_SPOT2_31TGK"],
+    "densification_products_list":["/home/ad/barrouz/WORKSPACE/TIMESERIES_PROJECT/SWH_LANDSAT/data_test/FSC_19970201T00000_LT05_195029",
+"/home/ad/barrouz/WORKSPACE/TIMESERIES_PROJECT/SWH_LANDSAT/data_test/FSC_19970217T000000_LT05_195029"],
+    "date_start":"01/02/1997",
+    "date_stop":"01/03/1997",
+    "output_dir":"/home/ad/barrouz/zacharie/TIMESERIES_PROJECT/ARTHUR_ALPS/SYNTHESIS"
+    
+}

@@ -1,0 +1,554 @@
+[PROLOGUE] Starting prologue on node gpgpu01 at date Thu Oct  5 11:52:06 UTC 2023
+[PROLOGUE] Ending prologue on node gpgpu01 at date Thu Oct  5 11:52:06 UTC 2023
+stty: standard input: Inappropriate ioctl for device
+Version d'EPO : /home/ad/barrouz/EPO_CUR/EPO.
+load conda/4.5.4  : OK 
+INPUT_LIST_PATH /home/ad/barrouz/WORKSPACE/TIMESERIES_PROJECT/snow_code/performances/tmp/31TGL_inputs.txt
+TILE 31TGL
+MODELS_PATH /home/ad/barrouz/WORKSPACE/TIMESERIES_PROJECT/snow_code/models
+DEM_PATH /work/CAMPUS/etudes/Neige/DEM
+TCD_PATH /datalake/static_aux/TreeCoverDensity
+start
+/home/ad/barrouz/zacharie/TIMESERIES_PROJECT/LANDSAT_QA_DLR/ALP/195029/LT05_L2SP_195029_19990530_20211205_02_T1_snowclass_QA.tif
+/home/ad/barrouz/datalake/theia/prod/SPOTWORLDHERITAGE/1999/05/30/SPOT1-HRV1-XS_19990530-110632-362_L1C_048-259-2_D_V1-0/SPOT1-HRV1-XS_19990530-110632-362_L1C_048-259-2_D_V1-0.zip
+/tmp/pbs.53394312.admin01/INPUT/LT05_L2SP_195029_19990530_20211205_02_T1_snowclass_QA.tif
+/tmp/pbs.53394312.admin01/INPUT/SPOT1-HRV1-XS_19990530-110632-362_L1C_048-259-2_D_V1-0.zip
+run script
+SPOT OVERLAP TOO SMALL
+/home/ad/barrouz/zacharie/TIMESERIES_PROJECT/LANDSAT_QA_DLR/ALP/195029/LT05_L2SP_195029_19920424_20200915_02_T1_snowclass_QA.tif
+/home/ad/barrouz/datalake/theia/prod/SPOTWORLDHERITAGE/1992/04/24/SPOT1-HRV2-XS_19920424-104022-605_L1C_049-258-4_D_V1-0/SPOT1-HRV2-XS_19920424-104022-605_L1C_049-258-4_D_V1-0.zip
+/tmp/pbs.53394312.admin01/INPUT/LT05_L2SP_195029_19920424_20200915_02_T1_snowclass_QA.tif
+/tmp/pbs.53394312.admin01/INPUT/SPOT1-HRV2-XS_19920424-104022-605_L1C_049-258-4_D_V1-0.zip
+run script
+0...10...20...30...40...50...60...70...80...90...100 - done.
+0...10...20...30...40...50...60...70...80...90...100 - done.
+0...10...20...30...40...50...60...70...80...90...100 - done.
+/work/scratch/barrouz/conda_env/pl_lightning/lib/python3.8/site-packages/torchvision/io/image.py:13: UserWarning: Failed to load image Python extension: /work/scratch/barrouz/conda_env/pl_lightning/lib/python3.8/site-packages/torchvision/image.so: undefined symbol: _ZN5torch3jit17parseSchemaOrNameERKSs
+  warn(f"Failed to load image Python extension: {e}")
+DATAFRAME TOO SMALL
+/home/ad/barrouz/zacharie/TIMESERIES_PROJECT/LANDSAT_QA_DLR/ALP/195029/LT05_L2SP_195029_19980511_20200909_02_T1_snowclass_QA.tif
+/home/ad/barrouz/datalake/theia/prod/SPOTWORLDHERITAGE/1998/05/11/SPOT1-HRV1-XS_19980511-104823-587_L1C_050-258-0_D_V1-0/SPOT1-HRV1-XS_19980511-104823-587_L1C_050-258-0_D_V1-0.zip
+/tmp/pbs.53394312.admin01/INPUT/LT05_L2SP_195029_19980511_20200909_02_T1_snowclass_QA.tif
+/tmp/pbs.53394312.admin01/INPUT/SPOT1-HRV1-XS_19980511-104823-587_L1C_050-258-0_D_V1-0.zip
+run script
+0...10...20...30...40...50...60...70...80...90...100 - done.
+0...10...20...30...40...50...60...70...80...90...100 - done.
+0...10...20...30...40...50...60...70...80...90...100 - done.
+/work/scratch/barrouz/conda_env/pl_lightning/lib/python3.8/site-packages/torchvision/io/image.py:13: UserWarning: Failed to load image Python extension: /work/scratch/barrouz/conda_env/pl_lightning/lib/python3.8/site-packages/torchvision/image.so: undefined symbol: _ZN5torch3jit17parseSchemaOrNameERKSs
+  warn(f"Failed to load image Python extension: {e}")
+/home/ad/barrouz/zacharie/TIMESERIES_PROJECT/LANDSAT_QA_DLR/ALP/195029/LT05_L2SP_195029_19930614_20200914_02_T1_snowclass_QA.tif
+/home/ad/barrouz/datalake/theia/prod/SPOTWORLDHERITAGE/1993/06/14/SPOT1-HRV1-XS_19930614-102535-372_L1C_052-259-5_D_V1-0/SPOT1-HRV1-XS_19930614-102535-372_L1C_052-259-5_D_V1-0.zip
+/tmp/pbs.53394312.admin01/INPUT/LT05_L2SP_195029_19930614_20200914_02_T1_snowclass_QA.tif
+/tmp/pbs.53394312.admin01/INPUT/SPOT1-HRV1-XS_19930614-102535-372_L1C_052-259-5_D_V1-0.zip
+run script
+0...10...20...30...40...50...60...70...80...90...100 - done.
+0...10...20...30...40...50...60...70...80...90...100 - done.
+0...10...20...30...40...50...60...70...80...90...100 - done.
+/work/scratch/barrouz/conda_env/pl_lightning/lib/python3.8/site-packages/torchvision/io/image.py:13: UserWarning: Failed to load image Python extension: /work/scratch/barrouz/conda_env/pl_lightning/lib/python3.8/site-packages/torchvision/image.so: undefined symbol: _ZN5torch3jit17parseSchemaOrNameERKSs
+  warn(f"Failed to load image Python extension: {e}")
+/home/ad/barrouz/zacharie/TIMESERIES_PROJECT/LANDSAT_QA_DLR/ALP/195029/LT05_L2SP_195029_19980425_20211129_02_T1_snowclass_QA.tif
+/home/ad/barrouz/datalake/theia/prod/SPOTWORLDHERITAGE/1998/04/25/SPOT1-HRV1-XS_19980425-105548-778_L1C_050-257-2_D_V1-0/SPOT1-HRV1-XS_19980425-105548-778_L1C_050-257-2_D_V1-0.zip
+/tmp/pbs.53394312.admin01/INPUT/LT05_L2SP_195029_19980425_20211129_02_T1_snowclass_QA.tif
+/tmp/pbs.53394312.admin01/INPUT/SPOT1-HRV1-XS_19980425-105548-778_L1C_050-257-2_D_V1-0.zip
+run script
+0...10...20...30...40...50...60...70...80...90...100 - done.
+0...10...20...30...40...50...60...70...80...90...100 - done.
+0...10...20...30...40...50...60...70...80...90...100 - done.
+/work/scratch/barrouz/conda_env/pl_lightning/lib/python3.8/site-packages/torchvision/io/image.py:13: UserWarning: Failed to load image Python extension: /work/scratch/barrouz/conda_env/pl_lightning/lib/python3.8/site-packages/torchvision/image.so: undefined symbol: _ZN5torch3jit17parseSchemaOrNameERKSs
+  warn(f"Failed to load image Python extension: {e}")
+DATAFRAME TOO SMALL
+/home/ad/barrouz/zacharie/TIMESERIES_PROJECT/LANDSAT_QA_DLR/ALP/195029/LT05_L2SP_195029_19990903_20211205_02_T1_snowclass_QA.tif
+/home/ad/barrouz/datalake/theia/prod/SPOTWORLDHERITAGE/1999/09/03/SPOT1-HRV1-XS_19990903-101940-350_L1C_050-258-0_D_V1-0/SPOT1-HRV1-XS_19990903-101940-350_L1C_050-258-0_D_V1-0.zip
+/tmp/pbs.53394312.admin01/INPUT/LT05_L2SP_195029_19990903_20211205_02_T1_snowclass_QA.tif
+/tmp/pbs.53394312.admin01/INPUT/SPOT1-HRV1-XS_19990903-101940-350_L1C_050-258-0_D_V1-0.zip
+run script
+0...10...20...30...40...50...60...70...80...90...100 - done.
+0...10...20...30...40...50...60...70...80...90...100 - done.
+0...10...20...30...40...50...60...70...80...90...100 - done.
+/work/scratch/barrouz/conda_env/pl_lightning/lib/python3.8/site-packages/torchvision/io/image.py:13: UserWarning: Failed to load image Python extension: /work/scratch/barrouz/conda_env/pl_lightning/lib/python3.8/site-packages/torchvision/image.so: undefined symbol: _ZN5torch3jit17parseSchemaOrNameERKSs
+  warn(f"Failed to load image Python extension: {e}")
+/home/ad/barrouz/zacharie/TIMESERIES_PROJECT/LANDSAT_QA_DLR/ALP/195029/LT05_L2SP_195029_19970929_20200909_02_T1_snowclass_QA.tif
+/home/ad/barrouz/datalake/theia/prod/SPOTWORLDHERITAGE/1997/09/29/SPOT1-HRV1-XS_19970929-105145-029_L1C_050-258-0_D_V1-0/SPOT1-HRV1-XS_19970929-105145-029_L1C_050-258-0_D_V1-0.zip
+/tmp/pbs.53394312.admin01/INPUT/LT05_L2SP_195029_19970929_20200909_02_T1_snowclass_QA.tif
+/tmp/pbs.53394312.admin01/INPUT/SPOT1-HRV1-XS_19970929-105145-029_L1C_050-258-0_D_V1-0.zip
+run script
+0...10...20...30...40...50...60...70...80...90...100 - done.
+0...10...20...30...40...50...60...70...80...90...100 - done.
+0...10...20...30...40...50...60...70...80...90...100 - done.
+/work/scratch/barrouz/conda_env/pl_lightning/lib/python3.8/site-packages/torchvision/io/image.py:13: UserWarning: Failed to load image Python extension: /work/scratch/barrouz/conda_env/pl_lightning/lib/python3.8/site-packages/torchvision/image.so: undefined symbol: _ZN5torch3jit17parseSchemaOrNameERKSs
+  warn(f"Failed to load image Python extension: {e}")
+/home/ad/barrouz/zacharie/TIMESERIES_PROJECT/LANDSAT_QA_DLR/ALP/195028/LT05_L2SP_195028_19970929_20200909_02_T1_snowclass_QA.tif
+/home/ad/barrouz/datalake/theia/prod/SPOTWORLDHERITAGE/1997/09/29/SPOT1-HRV1-XS_19970929-105145-029_L1C_050-258-0_D_V1-0/SPOT1-HRV1-XS_19970929-105145-029_L1C_050-258-0_D_V1-0.zip
+/tmp/pbs.53394312.admin01/INPUT/LT05_L2SP_195028_19970929_20200909_02_T1_snowclass_QA.tif
+/tmp/pbs.53394312.admin01/INPUT/SPOT1-HRV1-XS_19970929-105145-029_L1C_050-258-0_D_V1-0.zip
+run script
+0...10...20...30...40...50...60...70...80...90...100 - done.
+0...10...20...30...40...50...60...70...80...90...100 - done.
+0...10...20...30...40...50...60...70...80...90...100 - done.
+/work/scratch/barrouz/conda_env/pl_lightning/lib/python3.8/site-packages/torchvision/io/image.py:13: UserWarning: Failed to load image Python extension: /work/scratch/barrouz/conda_env/pl_lightning/lib/python3.8/site-packages/torchvision/image.so: undefined symbol: _ZN5torch3jit17parseSchemaOrNameERKSs
+  warn(f"Failed to load image Python extension: {e}")
+/home/ad/barrouz/zacharie/TIMESERIES_PROJECT/LANDSAT_QA_DLR/ALP/195028/LT05_L2SP_195028_19990903_20200907_02_T1_snowclass_QA.tif
+/home/ad/barrouz/datalake/theia/prod/SPOTWORLDHERITAGE/1999/09/03/SPOT1-HRV1-XS_19990903-101940-350_L1C_050-258-0_D_V1-0/SPOT1-HRV1-XS_19990903-101940-350_L1C_050-258-0_D_V1-0.zip
+/tmp/pbs.53394312.admin01/INPUT/LT05_L2SP_195028_19990903_20200907_02_T1_snowclass_QA.tif
+/tmp/pbs.53394312.admin01/INPUT/SPOT1-HRV1-XS_19990903-101940-350_L1C_050-258-0_D_V1-0.zip
+run script
+0...10...20...30...40...50...60...70...80...90...100 - done.
+0...10...20...30...40...50...60...70...80...90...100 - done.
+0...10...20...30...40...50...60...70...80...90...100 - done.
+/work/scratch/barrouz/conda_env/pl_lightning/lib/python3.8/site-packages/torchvision/io/image.py:13: UserWarning: Failed to load image Python extension: /work/scratch/barrouz/conda_env/pl_lightning/lib/python3.8/site-packages/torchvision/image.so: undefined symbol: _ZN5torch3jit17parseSchemaOrNameERKSs
+  warn(f"Failed to load image Python extension: {e}")
+/home/ad/barrouz/zacharie/TIMESERIES_PROJECT/LANDSAT_QA_DLR/ALP/195028/LT05_L2SP_195028_19920424_20200914_02_T1_snowclass_QA.tif
+/home/ad/barrouz/datalake/theia/prod/SPOTWORLDHERITAGE/1992/04/24/SPOT1-HRV2-XS_19920424-104022-605_L1C_049-258-4_D_V1-0/SPOT1-HRV2-XS_19920424-104022-605_L1C_049-258-4_D_V1-0.zip
+/tmp/pbs.53394312.admin01/INPUT/LT05_L2SP_195028_19920424_20200914_02_T1_snowclass_QA.tif
+/tmp/pbs.53394312.admin01/INPUT/SPOT1-HRV2-XS_19920424-104022-605_L1C_049-258-4_D_V1-0.zip
+run script
+0...10...20...30...40...50...60...70...80...90...100 - done.
+0...10...20...30...40...50...60...70...80...90...100 - done.
+0...10...20...30...40...50...60...70...80...90...100 - done.
+/work/scratch/barrouz/conda_env/pl_lightning/lib/python3.8/site-packages/torchvision/io/image.py:13: UserWarning: Failed to load image Python extension: /work/scratch/barrouz/conda_env/pl_lightning/lib/python3.8/site-packages/torchvision/image.so: undefined symbol: _ZN5torch3jit17parseSchemaOrNameERKSs
+  warn(f"Failed to load image Python extension: {e}")
+DATAFRAME TOO SMALL
+/home/ad/barrouz/zacharie/TIMESERIES_PROJECT/LANDSAT_QA_DLR/ALP/195028/LT05_L2SP_195028_19971031_20200909_02_T1_snowclass_QA.tif
+/home/ad/barrouz/datalake/theia/prod/SPOTWORLDHERITAGE/1997/10/31/SPOT1-HRV1-XS_19971031-103702-021_L1C_051-258-0_D_V1-0/SPOT1-HRV1-XS_19971031-103702-021_L1C_051-258-0_D_V1-0.zip
+/tmp/pbs.53394312.admin01/INPUT/LT05_L2SP_195028_19971031_20200909_02_T1_snowclass_QA.tif
+/tmp/pbs.53394312.admin01/INPUT/SPOT1-HRV1-XS_19971031-103702-021_L1C_051-258-0_D_V1-0.zip
+run script
+0...10...20...30...40...50...60...70...80...90...100 - done.
+0...10...20...30...40...50...60...70...80...90...100 - done.
+0...10...20...30...40...50...60...70...80...90...100 - done.
+/work/scratch/barrouz/conda_env/pl_lightning/lib/python3.8/site-packages/torchvision/io/image.py:13: UserWarning: Failed to load image Python extension: /work/scratch/barrouz/conda_env/pl_lightning/lib/python3.8/site-packages/torchvision/image.so: undefined symbol: _ZN5torch3jit17parseSchemaOrNameERKSs
+  warn(f"Failed to load image Python extension: {e}")
+/home/ad/barrouz/zacharie/TIMESERIES_PROJECT/LANDSAT_QA_DLR/ALP/195028/LT05_L2SP_195028_19980425_20211129_02_T1_snowclass_QA.tif
+/home/ad/barrouz/datalake/theia/prod/SPOTWORLDHERITAGE/1998/04/25/SPOT1-HRV1-XS_19980425-105548-778_L1C_050-257-2_D_V1-0/SPOT1-HRV1-XS_19980425-105548-778_L1C_050-257-2_D_V1-0.zip
+/tmp/pbs.53394312.admin01/INPUT/LT05_L2SP_195028_19980425_20211129_02_T1_snowclass_QA.tif
+/tmp/pbs.53394312.admin01/INPUT/SPOT1-HRV1-XS_19980425-105548-778_L1C_050-257-2_D_V1-0.zip
+run script
+0...10...20...30...40...50...60...70...80...90...100 - done.
+0...10...20...30...40...50...60...70...80...90...100 - done.
+0...10...20...30...40...50...60...70...80...90...100 - done.
+/work/scratch/barrouz/conda_env/pl_lightning/lib/python3.8/site-packages/torchvision/io/image.py:13: UserWarning: Failed to load image Python extension: /work/scratch/barrouz/conda_env/pl_lightning/lib/python3.8/site-packages/torchvision/image.so: undefined symbol: _ZN5torch3jit17parseSchemaOrNameERKSs
+  warn(f"Failed to load image Python extension: {e}")
+/home/ad/barrouz/zacharie/TIMESERIES_PROJECT/LANDSAT_QA_DLR/ALP/195028/LT05_L2SP_195028_19990530_20211205_02_T1_snowclass_QA.tif
+/home/ad/barrouz/datalake/theia/prod/SPOTWORLDHERITAGE/1999/05/30/SPOT1-HRV1-XS_19990530-110632-362_L1C_048-259-2_D_V1-0/SPOT1-HRV1-XS_19990530-110632-362_L1C_048-259-2_D_V1-0.zip
+/tmp/pbs.53394312.admin01/INPUT/LT05_L2SP_195028_19990530_20211205_02_T1_snowclass_QA.tif
+/tmp/pbs.53394312.admin01/INPUT/SPOT1-HRV1-XS_19990530-110632-362_L1C_048-259-2_D_V1-0.zip
+run script
+SPOT OVERLAP TOO SMALL
+/home/ad/barrouz/zacharie/TIMESERIES_PROJECT/LANDSAT_QA_DLR/ALP/195028/LT05_L2SP_195028_19980511_20200909_02_T1_snowclass_QA.tif
+/home/ad/barrouz/datalake/theia/prod/SPOTWORLDHERITAGE/1998/05/11/SPOT1-HRV1-XS_19980511-104823-587_L1C_050-258-0_D_V1-0/SPOT1-HRV1-XS_19980511-104823-587_L1C_050-258-0_D_V1-0.zip
+/tmp/pbs.53394312.admin01/INPUT/LT05_L2SP_195028_19980511_20200909_02_T1_snowclass_QA.tif
+/tmp/pbs.53394312.admin01/INPUT/SPOT1-HRV1-XS_19980511-104823-587_L1C_050-258-0_D_V1-0.zip
+run script
+0...10...20...30...40...50...60...70...80...90...100 - done.
+0...10...20...30...40...50...60...70...80...90...100 - done.
+0...10...20...30...40...50...60...70...80...90...100 - done.
+/work/scratch/barrouz/conda_env/pl_lightning/lib/python3.8/site-packages/torchvision/io/image.py:13: UserWarning: Failed to load image Python extension: /work/scratch/barrouz/conda_env/pl_lightning/lib/python3.8/site-packages/torchvision/image.so: undefined symbol: _ZN5torch3jit17parseSchemaOrNameERKSs
+  warn(f"Failed to load image Python extension: {e}")
+/home/ad/barrouz/zacharie/TIMESERIES_PROJECT/LANDSAT_QA_DLR/ALP/195028/LT05_L2SP_195028_19930614_20200914_02_T1_snowclass_QA.tif
+/home/ad/barrouz/datalake/theia/prod/SPOTWORLDHERITAGE/1993/06/14/SPOT1-HRV1-XS_19930614-102535-372_L1C_052-259-5_D_V1-0/SPOT1-HRV1-XS_19930614-102535-372_L1C_052-259-5_D_V1-0.zip
+/tmp/pbs.53394312.admin01/INPUT/LT05_L2SP_195028_19930614_20200914_02_T1_snowclass_QA.tif
+/tmp/pbs.53394312.admin01/INPUT/SPOT1-HRV1-XS_19930614-102535-372_L1C_052-259-5_D_V1-0.zip
+run script
+0...10...20...30...40...50...60...70...80...90...100 - done.
+0...10...20...30...40...50...60...70...80...90...100 - done.
+0...10...20...30...40...50...60...70...80...90...100 - done.
+/work/scratch/barrouz/conda_env/pl_lightning/lib/python3.8/site-packages/torchvision/io/image.py:13: UserWarning: Failed to load image Python extension: /work/scratch/barrouz/conda_env/pl_lightning/lib/python3.8/site-packages/torchvision/image.so: undefined symbol: _ZN5torch3jit17parseSchemaOrNameERKSs
+  warn(f"Failed to load image Python extension: {e}")
+DATAFRAME TOO SMALL
+/home/ad/barrouz/zacharie/TIMESERIES_PROJECT/LANDSAT_QA_DLR/ALP/196029/LT05_L2SP_196029_19920330_20200914_02_T1_snowclass_QA.tif
+/home/ad/barrouz/datalake/theia/prod/SPOTWORLDHERITAGE/1992/03/30/SPOT1-HRV1-XS_19920330-102047-715_L1C_049-258-0_D_V1-0/SPOT1-HRV1-XS_19920330-102047-715_L1C_049-258-0_D_V1-0.zip
+/tmp/pbs.53394312.admin01/INPUT/LT05_L2SP_196029_19920330_20200914_02_T1_snowclass_QA.tif
+/tmp/pbs.53394312.admin01/INPUT/SPOT1-HRV1-XS_19920330-102047-715_L1C_049-258-0_D_V1-0.zip
+run script
+0...10...20...30...40...50...60...70...80...90...100 - done.
+0...10...20...30...40...50...60...70...80...90...100 - done.
+0...10...20...30...40...50...60...70...80...90...100 - done.
+/work/scratch/barrouz/conda_env/pl_lightning/lib/python3.8/site-packages/torchvision/io/image.py:13: UserWarning: Failed to load image Python extension: /work/scratch/barrouz/conda_env/pl_lightning/lib/python3.8/site-packages/torchvision/image.so: undefined symbol: _ZN5torch3jit17parseSchemaOrNameERKSs
+  warn(f"Failed to load image Python extension: {e}")
+/home/ad/barrouz/zacharie/TIMESERIES_PROJECT/LANDSAT_QA_DLR/ALP/196029/LT05_L2SP_196029_19890407_20200916_02_T1_snowclass_QA.tif
+/home/ad/barrouz/datalake/theia/prod/SPOTWORLDHERITAGE/1989/04/07/SPOT1-HRV1-XS_19890407-103358-143_L1C_053-259-0_D_V1-0/SPOT1-HRV1-XS_19890407-103358-143_L1C_053-259-0_D_V1-0.zip
+/tmp/pbs.53394312.admin01/INPUT/LT05_L2SP_196029_19890407_20200916_02_T1_snowclass_QA.tif
+/tmp/pbs.53394312.admin01/INPUT/SPOT1-HRV1-XS_19890407-103358-143_L1C_053-259-0_D_V1-0.zip
+run script
+0...10...20...30...40...50...60...70...80...90...100 - done.
+0...10...20...30...40...50...60...70...80...90...100 - done.
+0...10...20...30...40...50...60...70...80...90...100 - done.
+/work/scratch/barrouz/conda_env/pl_lightning/lib/python3.8/site-packages/torchvision/io/image.py:13: UserWarning: Failed to load image Python extension: /work/scratch/barrouz/conda_env/pl_lightning/lib/python3.8/site-packages/torchvision/image.so: undefined symbol: _ZN5torch3jit17parseSchemaOrNameERKSs
+  warn(f"Failed to load image Python extension: {e}")
+DATAFRAME TOO SMALL
+/home/ad/barrouz/zacharie/TIMESERIES_PROJECT/LANDSAT_QA_DLR/ALP/196029/LT05_L2SP_196029_19880216_20200917_02_T1_snowclass_QA.tif
+/home/ad/barrouz/datalake/theia/prod/SPOTWORLDHERITAGE/1988/02/16/SPOT1-HRV1-XS_19880216-103353-787_L1C_051-258-0_D_V1-0/SPOT1-HRV1-XS_19880216-103353-787_L1C_051-258-0_D_V1-0.zip
+/tmp/pbs.53394312.admin01/INPUT/LT05_L2SP_196029_19880216_20200917_02_T1_snowclass_QA.tif
+/tmp/pbs.53394312.admin01/INPUT/SPOT1-HRV1-XS_19880216-103353-787_L1C_051-258-0_D_V1-0.zip
+run script
+0...10...20...30...40...50...60...70...80...90...100 - done.
+0...10...20...30...40...50...60...70...80...90...100 - done.
+0...10...20...30...40...50...60...70...80...90...100 - done.
+/work/scratch/barrouz/conda_env/pl_lightning/lib/python3.8/site-packages/torchvision/io/image.py:13: UserWarning: Failed to load image Python extension: /work/scratch/barrouz/conda_env/pl_lightning/lib/python3.8/site-packages/torchvision/image.so: undefined symbol: _ZN5torch3jit17parseSchemaOrNameERKSs
+  warn(f"Failed to load image Python extension: {e}")
+DATAFRAME TOO SMALL
+/home/ad/barrouz/zacharie/TIMESERIES_PROJECT/LANDSAT_QA_DLR/ALP/196029/LT05_L2SP_196029_19890509_20200916_02_T1_snowclass_QA.tif
+/home/ad/barrouz/datalake/theia/prod/SPOTWORLDHERITAGE/1989/05/09/SPOT1-HRV1-XS_19890509-101817-935_L1C_051-258-0_D_V1-0/SPOT1-HRV1-XS_19890509-101817-935_L1C_051-258-0_D_V1-0.zip
+/tmp/pbs.53394312.admin01/INPUT/LT05_L2SP_196029_19890509_20200916_02_T1_snowclass_QA.tif
+/tmp/pbs.53394312.admin01/INPUT/SPOT1-HRV1-XS_19890509-101817-935_L1C_051-258-0_D_V1-0.zip
+run script
+0...10...20...30...40...50...60...70...80...90...100 - done.
+0...10...20...30...40...50...60...70...80...90...100 - done.
+0...10...20...30...40...50...60...70...80...90...100 - done.
+/work/scratch/barrouz/conda_env/pl_lightning/lib/python3.8/site-packages/torchvision/io/image.py:13: UserWarning: Failed to load image Python extension: /work/scratch/barrouz/conda_env/pl_lightning/lib/python3.8/site-packages/torchvision/image.so: undefined symbol: _ZN5torch3jit17parseSchemaOrNameERKSs
+  warn(f"Failed to load image Python extension: {e}")
+DATAFRAME TOO SMALL
+/home/ad/barrouz/zacharie/TIMESERIES_PROJECT/LANDSAT_QA_DLR/ALP/196029/LT05_L2SP_196029_19970819_20200910_02_T1_snowclass_QA.tif
+/home/ad/barrouz/datalake/theia/prod/SPOTWORLDHERITAGE/1997/08/19/SPOT1-HRV1-XS_19970819-103856-810_L1C_048-257-0_D_V1-0/SPOT1-HRV1-XS_19970819-103856-810_L1C_048-257-0_D_V1-0.zip
+/tmp/pbs.53394312.admin01/INPUT/LT05_L2SP_196029_19970819_20200910_02_T1_snowclass_QA.tif
+/tmp/pbs.53394312.admin01/INPUT/SPOT1-HRV1-XS_19970819-103856-810_L1C_048-257-0_D_V1-0.zip
+run script
+INPUT SWH SCENE DOES NOT OVERLAP ANY S2 TILE WITH AVAILABLE MODEL
+/home/ad/barrouz/zacharie/TIMESERIES_PROJECT/LANDSAT_QA_DLR/ALP/196029/LT05_L2SP_196029_19890930_20211121_02_T1_snowclass_QA.tif
+/home/ad/barrouz/datalake/theia/prod/SPOTWORLDHERITAGE/1989/09/30/SPOT1-HRV1-XS_19890930-105010-561_L1C_049-258-0_D_V1-0/SPOT1-HRV1-XS_19890930-105010-561_L1C_049-258-0_D_V1-0.zip
+/tmp/pbs.53394312.admin01/INPUT/LT05_L2SP_196029_19890930_20211121_02_T1_snowclass_QA.tif
+/tmp/pbs.53394312.admin01/INPUT/SPOT1-HRV1-XS_19890930-105010-561_L1C_049-258-0_D_V1-0.zip
+run script
+0...10...20...30...40...50...60...70...80...90...100 - done.
+0...10...20...30...40...50...60...70...80...90...100 - done.
+0...10...20...30...40...50...60...70...80...90...100 - done.
+/work/scratch/barrouz/conda_env/pl_lightning/lib/python3.8/site-packages/torchvision/io/image.py:13: UserWarning: Failed to load image Python extension: /work/scratch/barrouz/conda_env/pl_lightning/lib/python3.8/site-packages/torchvision/image.so: undefined symbol: _ZN5torch3jit17parseSchemaOrNameERKSs
+  warn(f"Failed to load image Python extension: {e}")
+/home/ad/barrouz/zacharie/TIMESERIES_PROJECT/LANDSAT_QA_DLR/ALP/196029/LT05_L2SP_196029_19990403_20211203_02_T1_snowclass_QA.tif
+/home/ad/barrouz/datalake/theia/prod/SPOTWORLDHERITAGE/1999/04/03/SPOT1-HRV1-XS_19990403-110229-585_L1C_051-257-4_D_V1-0/SPOT1-HRV1-XS_19990403-110229-585_L1C_051-257-4_D_V1-0.zip
+/tmp/pbs.53394312.admin01/INPUT/LT05_L2SP_196029_19990403_20211203_02_T1_snowclass_QA.tif
+/tmp/pbs.53394312.admin01/INPUT/SPOT1-HRV1-XS_19990403-110229-585_L1C_051-257-4_D_V1-0.zip
+run script
+0...10...20...30...40...50...60...70...80...90...100 - done.
+0...10...20...30...40...50...60...70...80...90...100 - done.
+0...10...20...30...40...50...60...70...80...90...100 - done.
+/work/scratch/barrouz/conda_env/pl_lightning/lib/python3.8/site-packages/torchvision/io/image.py:13: UserWarning: Failed to load image Python extension: /work/scratch/barrouz/conda_env/pl_lightning/lib/python3.8/site-packages/torchvision/image.so: undefined symbol: _ZN5torch3jit17parseSchemaOrNameERKSs
+  warn(f"Failed to load image Python extension: {e}")
+DATAFRAME TOO SMALL
+/home/ad/barrouz/zacharie/TIMESERIES_PROJECT/LANDSAT_QA_DLR/ALP/196029/LT05_L2SP_196029_19971006_20211128_02_T1_snowclass_QA.tif
+/home/ad/barrouz/datalake/theia/prod/SPOTWORLDHERITAGE/1997/10/06/SPOT1-HRV2-XS_19971006-101709-871_L1C_050-258-0_D_V1-0/SPOT1-HRV2-XS_19971006-101709-871_L1C_050-258-0_D_V1-0.zip
+/tmp/pbs.53394312.admin01/INPUT/LT05_L2SP_196029_19971006_20211128_02_T1_snowclass_QA.tif
+/tmp/pbs.53394312.admin01/INPUT/SPOT1-HRV2-XS_19971006-101709-871_L1C_050-258-0_D_V1-0.zip
+run script
+0...10...20...30...40...50...60...70...80...90...100 - done.
+0...10...20...30...40...50...60...70...80...90...100 - done.
+0...10...20...30...40...50...60...70...80...90...100 - done.
+/work/scratch/barrouz/conda_env/pl_lightning/lib/python3.8/site-packages/torchvision/io/image.py:13: UserWarning: Failed to load image Python extension: /work/scratch/barrouz/conda_env/pl_lightning/lib/python3.8/site-packages/torchvision/image.so: undefined symbol: _ZN5torch3jit17parseSchemaOrNameERKSs
+  warn(f"Failed to load image Python extension: {e}")
+DATAFRAME TOO SMALL
+/home/ad/barrouz/zacharie/TIMESERIES_PROJECT/LANDSAT_QA_DLR/ALP/196029/LT05_L2SP_196029_19880725_20200917_02_T1_snowclass_QA.tif
+/home/ad/barrouz/datalake/theia/prod/SPOTWORLDHERITAGE/1988/07/25/SPOT1-HRV1-XS_19880725-105704-215_L1C_051-258-0_D_V1-0/SPOT1-HRV1-XS_19880725-105704-215_L1C_051-258-0_D_V1-0.zip
+/tmp/pbs.53394312.admin01/INPUT/LT05_L2SP_196029_19880725_20200917_02_T1_snowclass_QA.tif
+/tmp/pbs.53394312.admin01/INPUT/SPOT1-HRV1-XS_19880725-105704-215_L1C_051-258-0_D_V1-0.zip
+run script
+0...10...20...30...40...50...60...70...80...90...100 - done.
+0...10...20...30...40...50...60...70...80...90...100 - done.
+0...10...20...30...40...50...60...70...80...90...100 - done.
+/work/scratch/barrouz/conda_env/pl_lightning/lib/python3.8/site-packages/torchvision/io/image.py:13: UserWarning: Failed to load image Python extension: /work/scratch/barrouz/conda_env/pl_lightning/lib/python3.8/site-packages/torchvision/image.so: undefined symbol: _ZN5torch3jit17parseSchemaOrNameERKSs
+  warn(f"Failed to load image Python extension: {e}")
+DATAFRAME TOO SMALL
+/home/ad/barrouz/zacharie/TIMESERIES_PROJECT/LANDSAT_QA_DLR/ALP/196029/LT05_L2SP_196029_20000624_20200906_02_T1_snowclass_QA.tif
+/home/ad/barrouz/datalake/theia/prod/SPOTWORLDHERITAGE/2000/06/24/SPOT1-HRV1-XS_20000624-104622-446_L1C_051-258-0_D_V1-0/SPOT1-HRV1-XS_20000624-104622-446_L1C_051-258-0_D_V1-0.zip
+/tmp/pbs.53394312.admin01/INPUT/LT05_L2SP_196029_20000624_20200906_02_T1_snowclass_QA.tif
+/tmp/pbs.53394312.admin01/INPUT/SPOT1-HRV1-XS_20000624-104622-446_L1C_051-258-0_D_V1-0.zip
+run script
+0...10...20...30...40...50...60...70...80...90...100 - done.
+0...10...20...30...40...50...60...70...80...90...100 - done.
+0...10...20...30...40...50...60...70...80...90...100 - done.
+/work/scratch/barrouz/conda_env/pl_lightning/lib/python3.8/site-packages/torchvision/io/image.py:13: UserWarning: Failed to load image Python extension: /work/scratch/barrouz/conda_env/pl_lightning/lib/python3.8/site-packages/torchvision/image.so: undefined symbol: _ZN5torch3jit17parseSchemaOrNameERKSs
+  warn(f"Failed to load image Python extension: {e}")
+DATAFRAME TOO SMALL
+/home/ad/barrouz/zacharie/TIMESERIES_PROJECT/LANDSAT_QA_DLR/ALP/196029/LT05_L2SP_196029_19891016_20200916_02_T1_snowclass_QA.tif
+/home/ad/barrouz/datalake/theia/prod/SPOTWORLDHERITAGE/1989/10/16/SPOT1-HRV1-XS_19891016-104225-805_L1C_049-258-0_D_V1-0/SPOT1-HRV1-XS_19891016-104225-805_L1C_049-258-0_D_V1-0.zip
+/tmp/pbs.53394312.admin01/INPUT/LT05_L2SP_196029_19891016_20200916_02_T1_snowclass_QA.tif
+/tmp/pbs.53394312.admin01/INPUT/SPOT1-HRV1-XS_19891016-104225-805_L1C_049-258-0_D_V1-0.zip
+run script
+0...10...20...30...40...50...60...70...80...90...100 - done.
+0...10...20...30...40...50...60...70...80...90...100 - done.
+0...10...20...30...40...50...60...70...80...90...100 - done.
+/work/scratch/barrouz/conda_env/pl_lightning/lib/python3.8/site-packages/torchvision/io/image.py:13: UserWarning: Failed to load image Python extension: /work/scratch/barrouz/conda_env/pl_lightning/lib/python3.8/site-packages/torchvision/image.so: undefined symbol: _ZN5torch3jit17parseSchemaOrNameERKSs
+  warn(f"Failed to load image Python extension: {e}")
+/home/ad/barrouz/zacharie/TIMESERIES_PROJECT/LANDSAT_QA_DLR/ALP/196029/LT05_L2SP_196029_19880911_20211118_02_T1_snowclass_QA.tif
+/home/ad/barrouz/datalake/theia/prod/SPOTWORLDHERITAGE/1988/09/11/SPOT1-HRV1-XS_19880911-103412-666_L1C_049-258-0_D_V1-0/SPOT1-HRV1-XS_19880911-103412-666_L1C_049-258-0_D_V1-0.zip
+/tmp/pbs.53394312.admin01/INPUT/LT05_L2SP_196029_19880911_20211118_02_T1_snowclass_QA.tif
+/tmp/pbs.53394312.admin01/INPUT/SPOT1-HRV1-XS_19880911-103412-666_L1C_049-258-0_D_V1-0.zip
+run script
+0...10...20...30...40...50...60...70...80...90...100 - done.
+0...10...20...30...40...50...60...70...80...90...100 - done.
+0...10...20...30...40...50...60...70...80...90...100 - done.
+/work/scratch/barrouz/conda_env/pl_lightning/lib/python3.8/site-packages/torchvision/io/image.py:13: UserWarning: Failed to load image Python extension: /work/scratch/barrouz/conda_env/pl_lightning/lib/python3.8/site-packages/torchvision/image.so: undefined symbol: _ZN5torch3jit17parseSchemaOrNameERKSs
+  warn(f"Failed to load image Python extension: {e}")
+/home/ad/barrouz/zacharie/TIMESERIES_PROJECT/LANDSAT_QA_DLR/ALP/196029/LT05_L2SP_196029_19980923_20200908_02_T1_snowclass_QA.tif
+/home/ad/barrouz/datalake/theia/prod/SPOTWORLDHERITAGE/1998/09/23/SPOT1-HRV2-XS_19980923-105413-318_L1C_050-259-5_D_V1-0/SPOT1-HRV2-XS_19980923-105413-318_L1C_050-259-5_D_V1-0.zip
+/tmp/pbs.53394312.admin01/INPUT/LT05_L2SP_196029_19980923_20200908_02_T1_snowclass_QA.tif
+/tmp/pbs.53394312.admin01/INPUT/SPOT1-HRV2-XS_19980923-105413-318_L1C_050-259-5_D_V1-0.zip
+run script
+0...10...20...30...40...50...60...70...80...90...100 - done.
+0...10...20...30...40...50...60...70...80...90...100 - done.
+0...10...20...30...40...50...60...70...80...90...100 - done.
+/work/scratch/barrouz/conda_env/pl_lightning/lib/python3.8/site-packages/torchvision/io/image.py:13: UserWarning: Failed to load image Python extension: /work/scratch/barrouz/conda_env/pl_lightning/lib/python3.8/site-packages/torchvision/image.so: undefined symbol: _ZN5torch3jit17parseSchemaOrNameERKSs
+  warn(f"Failed to load image Python extension: {e}")
+/home/ad/barrouz/zacharie/TIMESERIES_PROJECT/LANDSAT_QA_DLR/ALP/196029/LT05_L2SP_196029_19990708_20200907_02_T1_snowclass_QA.tif
+/home/ad/barrouz/datalake/theia/prod/SPOTWORLDHERITAGE/1999/07/08/SPOT1-HRV1-XS_19990708-101612-553_L1C_052-258-0_D_V1-0/SPOT1-HRV1-XS_19990708-101612-553_L1C_052-258-0_D_V1-0.zip
+/tmp/pbs.53394312.admin01/INPUT/LT05_L2SP_196029_19990708_20200907_02_T1_snowclass_QA.tif
+/tmp/pbs.53394312.admin01/INPUT/SPOT1-HRV1-XS_19990708-101612-553_L1C_052-258-0_D_V1-0.zip
+run script
+0...10...20...30...40...50...60...70...80...90...100 - done.
+0...10...20...30...40...50...60...70...80...90...100 - done.
+0...10...20...30...40...50...60...70...80...90...100 - done.
+/work/scratch/barrouz/conda_env/pl_lightning/lib/python3.8/site-packages/torchvision/io/image.py:13: UserWarning: Failed to load image Python extension: /work/scratch/barrouz/conda_env/pl_lightning/lib/python3.8/site-packages/torchvision/image.so: undefined symbol: _ZN5torch3jit17parseSchemaOrNameERKSs
+  warn(f"Failed to load image Python extension: {e}")
+DATAFRAME TOO SMALL
+/home/ad/barrouz/zacharie/TIMESERIES_PROJECT/LANDSAT_QA_DLR/ALP/196029/LT05_L2SP_196029_20000523_20200907_02_T1_snowclass_QA.tif
+/home/ad/barrouz/datalake/theia/prod/SPOTWORLDHERITAGE/2000/05/23/SPOT1-HRV1-XS_20000523-110135-975_L1C_049-258-5_D_V1-0/SPOT1-HRV1-XS_20000523-110135-975_L1C_049-258-5_D_V1-0.zip
+/tmp/pbs.53394312.admin01/INPUT/LT05_L2SP_196029_20000523_20200907_02_T1_snowclass_QA.tif
+/tmp/pbs.53394312.admin01/INPUT/SPOT1-HRV1-XS_20000523-110135-975_L1C_049-258-5_D_V1-0.zip
+run script
+0...10...20...30...40...50...60...70...80...90...100 - done.
+0...10...20...30...40...50...60...70...80...90...100 - done.
+0...10...20...30...40...50...60...70...80...90...100 - done.
+/work/scratch/barrouz/conda_env/pl_lightning/lib/python3.8/site-packages/torchvision/io/image.py:13: UserWarning: Failed to load image Python extension: /work/scratch/barrouz/conda_env/pl_lightning/lib/python3.8/site-packages/torchvision/image.so: undefined symbol: _ZN5torch3jit17parseSchemaOrNameERKSs
+  warn(f"Failed to load image Python extension: {e}")
+/home/ad/barrouz/zacharie/TIMESERIES_PROJECT/LANDSAT_QA_DLR/ALP/196029/LT05_L2SP_196029_19880810_20200917_02_T1_snowclass_QA.tif
+/home/ad/barrouz/datalake/theia/prod/SPOTWORLDHERITAGE/1988/08/10/SPOT1-HRV1-XS_19880810-104926-682_L1C_049-258-0_D_V1-0/SPOT1-HRV1-XS_19880810-104926-682_L1C_049-258-0_D_V1-0.zip
+/tmp/pbs.53394312.admin01/INPUT/LT05_L2SP_196029_19880810_20200917_02_T1_snowclass_QA.tif
+/tmp/pbs.53394312.admin01/INPUT/SPOT1-HRV1-XS_19880810-104926-682_L1C_049-258-0_D_V1-0.zip
+run script
+0...10...20...30...40...50...60...70...80...90...100 - done.
+0...10...20...30...40...50...60...70...80...90...100 - done.
+0...10...20...30...40...50...60...70...80...90...100 - done.
+/work/scratch/barrouz/conda_env/pl_lightning/lib/python3.8/site-packages/torchvision/io/image.py:13: UserWarning: Failed to load image Python extension: /work/scratch/barrouz/conda_env/pl_lightning/lib/python3.8/site-packages/torchvision/image.so: undefined symbol: _ZN5torch3jit17parseSchemaOrNameERKSs
+  warn(f"Failed to load image Python extension: {e}")
+/home/ad/barrouz/zacharie/TIMESERIES_PROJECT/LANDSAT_QA_DLR/ALP/196029/LT05_L2SP_196029_19920906_20200914_02_T1_snowclass_QA.tif
+/home/ad/barrouz/datalake/theia/prod/SPOTWORLDHERITAGE/1992/09/06/SPOT1-HRV2-XS_19920906-104338-387_L1C_048-257-0_D_V1-0/SPOT1-HRV2-XS_19920906-104338-387_L1C_048-257-0_D_V1-0.zip
+/tmp/pbs.53394312.admin01/INPUT/LT05_L2SP_196029_19920906_20200914_02_T1_snowclass_QA.tif
+/tmp/pbs.53394312.admin01/INPUT/SPOT1-HRV2-XS_19920906-104338-387_L1C_048-257-0_D_V1-0.zip
+run script
+INPUT SWH SCENE DOES NOT OVERLAP ANY S2 TILE WITH AVAILABLE MODEL
+/home/ad/barrouz/zacharie/TIMESERIES_PROJECT/LANDSAT_QA_DLR/ALP/196029/LT05_L2SP_196029_19880303_20200917_02_T1_snowclass_QA.tif
+/home/ad/barrouz/datalake/theia/prod/SPOTWORLDHERITAGE/1988/03/03/SPOT1-HRV2-XS_19880303-102609-289_L1C_053-259-0_D_V1-0/SPOT1-HRV2-XS_19880303-102609-289_L1C_053-259-0_D_V1-0.zip
+/tmp/pbs.53394312.admin01/INPUT/LT05_L2SP_196029_19880303_20200917_02_T1_snowclass_QA.tif
+/tmp/pbs.53394312.admin01/INPUT/SPOT1-HRV2-XS_19880303-102609-289_L1C_053-259-0_D_V1-0.zip
+run script
+0...10...20...30...40...50...60...70...80...90...100 - done.
+0...10...20...30...40...50...60...70...80...90...100 - done.
+0...10...20...30...40...50...60...70...80...90...100 - done.
+/work/scratch/barrouz/conda_env/pl_lightning/lib/python3.8/site-packages/torchvision/io/image.py:13: UserWarning: Failed to load image Python extension: /work/scratch/barrouz/conda_env/pl_lightning/lib/python3.8/site-packages/torchvision/image.so: undefined symbol: _ZN5torch3jit17parseSchemaOrNameERKSs
+  warn(f"Failed to load image Python extension: {e}")
+/home/ad/barrouz/zacharie/TIMESERIES_PROJECT/LANDSAT_QA_DLR/ALP/196028/LT05_L2SP_196028_19890509_20200916_02_T1_snowclass_QA.tif
+/home/ad/barrouz/datalake/theia/prod/SPOTWORLDHERITAGE/1989/05/09/SPOT1-HRV1-XS_19890509-101817-935_L1C_051-258-0_D_V1-0/SPOT1-HRV1-XS_19890509-101817-935_L1C_051-258-0_D_V1-0.zip
+/tmp/pbs.53394312.admin01/INPUT/LT05_L2SP_196028_19890509_20200916_02_T1_snowclass_QA.tif
+/tmp/pbs.53394312.admin01/INPUT/SPOT1-HRV1-XS_19890509-101817-935_L1C_051-258-0_D_V1-0.zip
+run script
+0...10...20...30...40...50...60...70...80...90...100 - done.
+0...10...20...30...40...50...60...70...80...90...100 - done.
+0...10...20...30...40...50...60...70...80...90...100 - done.
+/work/scratch/barrouz/conda_env/pl_lightning/lib/python3.8/site-packages/torchvision/io/image.py:13: UserWarning: Failed to load image Python extension: /work/scratch/barrouz/conda_env/pl_lightning/lib/python3.8/site-packages/torchvision/image.so: undefined symbol: _ZN5torch3jit17parseSchemaOrNameERKSs
+  warn(f"Failed to load image Python extension: {e}")
+/home/ad/barrouz/zacharie/TIMESERIES_PROJECT/LANDSAT_QA_DLR/ALP/196028/LT05_L2SP_196028_20000523_20200907_02_T1_snowclass_QA.tif
+/home/ad/barrouz/datalake/theia/prod/SPOTWORLDHERITAGE/2000/05/23/SPOT1-HRV1-XS_20000523-110135-975_L1C_049-258-5_D_V1-0/SPOT1-HRV1-XS_20000523-110135-975_L1C_049-258-5_D_V1-0.zip
+/tmp/pbs.53394312.admin01/INPUT/LT05_L2SP_196028_20000523_20200907_02_T1_snowclass_QA.tif
+/tmp/pbs.53394312.admin01/INPUT/SPOT1-HRV1-XS_20000523-110135-975_L1C_049-258-5_D_V1-0.zip
+run script
+0...10...20...30...40...50...60...70...80...90...100 - done.
+0...10...20...30...40...50...60...70...80...90...100 - done.
+0...10...20...30...40...50...60...70...80...90...100 - done.
+/work/scratch/barrouz/conda_env/pl_lightning/lib/python3.8/site-packages/torchvision/io/image.py:13: UserWarning: Failed to load image Python extension: /work/scratch/barrouz/conda_env/pl_lightning/lib/python3.8/site-packages/torchvision/image.so: undefined symbol: _ZN5torch3jit17parseSchemaOrNameERKSs
+  warn(f"Failed to load image Python extension: {e}")
+/home/ad/barrouz/zacharie/TIMESERIES_PROJECT/LANDSAT_QA_DLR/ALP/196028/LT05_L2SP_196028_19980923_20200908_02_T1_snowclass_QA.tif
+/home/ad/barrouz/datalake/theia/prod/SPOTWORLDHERITAGE/1998/09/23/SPOT1-HRV2-XS_19980923-105413-318_L1C_050-259-5_D_V1-0/SPOT1-HRV2-XS_19980923-105413-318_L1C_050-259-5_D_V1-0.zip
+/tmp/pbs.53394312.admin01/INPUT/LT05_L2SP_196028_19980923_20200908_02_T1_snowclass_QA.tif
+/tmp/pbs.53394312.admin01/INPUT/SPOT1-HRV2-XS_19980923-105413-318_L1C_050-259-5_D_V1-0.zip
+run script
+0...10...20...30...40...50...60...70...80...90...100 - done.
+0...10...20...30...40...50...60...70...80...90...100 - done.
+0...10...20...30...40...50...60...70...80...90...100 - done.
+/work/scratch/barrouz/conda_env/pl_lightning/lib/python3.8/site-packages/torchvision/io/image.py:13: UserWarning: Failed to load image Python extension: /work/scratch/barrouz/conda_env/pl_lightning/lib/python3.8/site-packages/torchvision/image.so: undefined symbol: _ZN5torch3jit17parseSchemaOrNameERKSs
+  warn(f"Failed to load image Python extension: {e}")
+DATAFRAME TOO SMALL
+/home/ad/barrouz/zacharie/TIMESERIES_PROJECT/LANDSAT_QA_DLR/ALP/196028/LT05_L2SP_196028_19890407_20200916_02_T1_snowclass_QA.tif
+/home/ad/barrouz/datalake/theia/prod/SPOTWORLDHERITAGE/1989/04/07/SPOT1-HRV1-XS_19890407-103358-143_L1C_053-259-0_D_V1-0/SPOT1-HRV1-XS_19890407-103358-143_L1C_053-259-0_D_V1-0.zip
+/tmp/pbs.53394312.admin01/INPUT/LT05_L2SP_196028_19890407_20200916_02_T1_snowclass_QA.tif
+/tmp/pbs.53394312.admin01/INPUT/SPOT1-HRV1-XS_19890407-103358-143_L1C_053-259-0_D_V1-0.zip
+run script
+0...10...20...30...40...50...60...70...80...90...100 - done.
+0...10...20...30...40...50...60...70...80...90...100 - done.
+0...10...20...30...40...50...60...70...80...90...100 - done.
+/work/scratch/barrouz/conda_env/pl_lightning/lib/python3.8/site-packages/torchvision/io/image.py:13: UserWarning: Failed to load image Python extension: /work/scratch/barrouz/conda_env/pl_lightning/lib/python3.8/site-packages/torchvision/image.so: undefined symbol: _ZN5torch3jit17parseSchemaOrNameERKSs
+  warn(f"Failed to load image Python extension: {e}")
+DATAFRAME TOO SMALL
+/home/ad/barrouz/zacharie/TIMESERIES_PROJECT/LANDSAT_QA_DLR/ALP/196028/LT05_L2SP_196028_19880911_20211118_02_T1_snowclass_QA.tif
+/home/ad/barrouz/datalake/theia/prod/SPOTWORLDHERITAGE/1988/09/11/SPOT1-HRV1-XS_19880911-103412-666_L1C_049-258-0_D_V1-0/SPOT1-HRV1-XS_19880911-103412-666_L1C_049-258-0_D_V1-0.zip
+/tmp/pbs.53394312.admin01/INPUT/LT05_L2SP_196028_19880911_20211118_02_T1_snowclass_QA.tif
+/tmp/pbs.53394312.admin01/INPUT/SPOT1-HRV1-XS_19880911-103412-666_L1C_049-258-0_D_V1-0.zip
+run script
+0...10...20...30...40...50...60...70...80...90...100 - done.
+0...10...20...30...40...50...60...70...80...90...100 - done.
+0...10...20...30...40...50...60...70...80...90...100 - done.
+/work/scratch/barrouz/conda_env/pl_lightning/lib/python3.8/site-packages/torchvision/io/image.py:13: UserWarning: Failed to load image Python extension: /work/scratch/barrouz/conda_env/pl_lightning/lib/python3.8/site-packages/torchvision/image.so: undefined symbol: _ZN5torch3jit17parseSchemaOrNameERKSs
+  warn(f"Failed to load image Python extension: {e}")
+/home/ad/barrouz/zacharie/TIMESERIES_PROJECT/LANDSAT_QA_DLR/ALP/196028/LT05_L2SP_196028_19971006_20211128_02_T1_snowclass_QA.tif
+/home/ad/barrouz/datalake/theia/prod/SPOTWORLDHERITAGE/1997/10/06/SPOT1-HRV2-XS_19971006-101709-871_L1C_050-258-0_D_V1-0/SPOT1-HRV2-XS_19971006-101709-871_L1C_050-258-0_D_V1-0.zip
+/tmp/pbs.53394312.admin01/INPUT/LT05_L2SP_196028_19971006_20211128_02_T1_snowclass_QA.tif
+/tmp/pbs.53394312.admin01/INPUT/SPOT1-HRV2-XS_19971006-101709-871_L1C_050-258-0_D_V1-0.zip
+run script
+0...10...20...30...40...50...60...70...80...90...100 - done.
+0...10...20...30...40...50...60...70...80...90...100 - done.
+0...10...20...30...40...50...60...70...80...90...100 - done.
+/work/scratch/barrouz/conda_env/pl_lightning/lib/python3.8/site-packages/torchvision/io/image.py:13: UserWarning: Failed to load image Python extension: /work/scratch/barrouz/conda_env/pl_lightning/lib/python3.8/site-packages/torchvision/image.so: undefined symbol: _ZN5torch3jit17parseSchemaOrNameERKSs
+  warn(f"Failed to load image Python extension: {e}")
+/home/ad/barrouz/zacharie/TIMESERIES_PROJECT/LANDSAT_QA_DLR/ALP/196028/LT05_L2SP_196028_19920906_20200914_02_T1_snowclass_QA.tif
+/home/ad/barrouz/datalake/theia/prod/SPOTWORLDHERITAGE/1992/09/06/SPOT1-HRV2-XS_19920906-104338-387_L1C_048-257-0_D_V1-0/SPOT1-HRV2-XS_19920906-104338-387_L1C_048-257-0_D_V1-0.zip
+/tmp/pbs.53394312.admin01/INPUT/LT05_L2SP_196028_19920906_20200914_02_T1_snowclass_QA.tif
+/tmp/pbs.53394312.admin01/INPUT/SPOT1-HRV2-XS_19920906-104338-387_L1C_048-257-0_D_V1-0.zip
+run script
+INPUT SWH SCENE DOES NOT OVERLAP ANY S2 TILE WITH AVAILABLE MODEL
+/home/ad/barrouz/zacharie/TIMESERIES_PROJECT/LANDSAT_QA_DLR/ALP/196028/LT05_L2SP_196028_19890930_20211121_02_T1_snowclass_QA.tif
+/home/ad/barrouz/datalake/theia/prod/SPOTWORLDHERITAGE/1989/09/30/SPOT1-HRV1-XS_19890930-105010-561_L1C_049-258-0_D_V1-0/SPOT1-HRV1-XS_19890930-105010-561_L1C_049-258-0_D_V1-0.zip
+/tmp/pbs.53394312.admin01/INPUT/LT05_L2SP_196028_19890930_20211121_02_T1_snowclass_QA.tif
+/tmp/pbs.53394312.admin01/INPUT/SPOT1-HRV1-XS_19890930-105010-561_L1C_049-258-0_D_V1-0.zip
+run script
+0...10...20...30...40...50...60...70...80...90...100 - done.
+0...10...20...30...40...50...60...70...80...90...100 - done.
+0...10...20...30...40...50...60...70...80...90...100 - done.
+/work/scratch/barrouz/conda_env/pl_lightning/lib/python3.8/site-packages/torchvision/io/image.py:13: UserWarning: Failed to load image Python extension: /work/scratch/barrouz/conda_env/pl_lightning/lib/python3.8/site-packages/torchvision/image.so: undefined symbol: _ZN5torch3jit17parseSchemaOrNameERKSs
+  warn(f"Failed to load image Python extension: {e}")
+/home/ad/barrouz/zacharie/TIMESERIES_PROJECT/LANDSAT_QA_DLR/ALP/196028/LT05_L2SP_196028_19990708_20200908_02_T1_snowclass_QA.tif
+/home/ad/barrouz/datalake/theia/prod/SPOTWORLDHERITAGE/1999/07/08/SPOT1-HRV1-XS_19990708-101612-553_L1C_052-258-0_D_V1-0/SPOT1-HRV1-XS_19990708-101612-553_L1C_052-258-0_D_V1-0.zip
+/tmp/pbs.53394312.admin01/INPUT/LT05_L2SP_196028_19990708_20200908_02_T1_snowclass_QA.tif
+/tmp/pbs.53394312.admin01/INPUT/SPOT1-HRV1-XS_19990708-101612-553_L1C_052-258-0_D_V1-0.zip
+run script
+0...10...20...30...40...50...60...70...80...90...100 - done.
+0...10...20...30...40...50...60...70...80...90...100 - done.
+0...10...20...30...40...50...60...70...80...90...100 - done.
+/work/scratch/barrouz/conda_env/pl_lightning/lib/python3.8/site-packages/torchvision/io/image.py:13: UserWarning: Failed to load image Python extension: /work/scratch/barrouz/conda_env/pl_lightning/lib/python3.8/site-packages/torchvision/image.so: undefined symbol: _ZN5torch3jit17parseSchemaOrNameERKSs
+  warn(f"Failed to load image Python extension: {e}")
+/home/ad/barrouz/zacharie/TIMESERIES_PROJECT/LANDSAT_QA_DLR/ALP/196028/LT05_L2SP_196028_20000624_20200907_02_T1_snowclass_QA.tif
+/home/ad/barrouz/datalake/theia/prod/SPOTWORLDHERITAGE/2000/06/24/SPOT1-HRV1-XS_20000624-104622-446_L1C_051-258-0_D_V1-0/SPOT1-HRV1-XS_20000624-104622-446_L1C_051-258-0_D_V1-0.zip
+/tmp/pbs.53394312.admin01/INPUT/LT05_L2SP_196028_20000624_20200907_02_T1_snowclass_QA.tif
+/tmp/pbs.53394312.admin01/INPUT/SPOT1-HRV1-XS_20000624-104622-446_L1C_051-258-0_D_V1-0.zip
+run script
+0...10...20...30...40...50...60...70...80...90...100 - done.
+0...10...20...30...40...50...60...70...80...90...100 - done.
+0...10...20...30...40...50...60...70...80...90...100 - done.
+/work/scratch/barrouz/conda_env/pl_lightning/lib/python3.8/site-packages/torchvision/io/image.py:13: UserWarning: Failed to load image Python extension: /work/scratch/barrouz/conda_env/pl_lightning/lib/python3.8/site-packages/torchvision/image.so: undefined symbol: _ZN5torch3jit17parseSchemaOrNameERKSs
+  warn(f"Failed to load image Python extension: {e}")
+/home/ad/barrouz/zacharie/TIMESERIES_PROJECT/LANDSAT_QA_DLR/ALP/196028/LT05_L2SP_196028_19891016_20200916_02_T1_snowclass_QA.tif
+/home/ad/barrouz/datalake/theia/prod/SPOTWORLDHERITAGE/1989/10/16/SPOT1-HRV1-XS_19891016-104225-805_L1C_049-258-0_D_V1-0/SPOT1-HRV1-XS_19891016-104225-805_L1C_049-258-0_D_V1-0.zip
+/tmp/pbs.53394312.admin01/INPUT/LT05_L2SP_196028_19891016_20200916_02_T1_snowclass_QA.tif
+/tmp/pbs.53394312.admin01/INPUT/SPOT1-HRV1-XS_19891016-104225-805_L1C_049-258-0_D_V1-0.zip
+run script
+0...10...20...30...40...50...60...70...80...90...100 - done.
+0...10...20...30...40...50...60...70...80...90...100 - done.
+0...10...20...30...40...50...60...70...80...90...100 - done.
+/work/scratch/barrouz/conda_env/pl_lightning/lib/python3.8/site-packages/torchvision/io/image.py:13: UserWarning: Failed to load image Python extension: /work/scratch/barrouz/conda_env/pl_lightning/lib/python3.8/site-packages/torchvision/image.so: undefined symbol: _ZN5torch3jit17parseSchemaOrNameERKSs
+  warn(f"Failed to load image Python extension: {e}")
+/home/ad/barrouz/zacharie/TIMESERIES_PROJECT/LANDSAT_QA_DLR/ALP/196028/LT05_L2SP_196028_19880810_20200917_02_T1_snowclass_QA.tif
+/home/ad/barrouz/datalake/theia/prod/SPOTWORLDHERITAGE/1988/08/10/SPOT1-HRV1-XS_19880810-104926-682_L1C_049-258-0_D_V1-0/SPOT1-HRV1-XS_19880810-104926-682_L1C_049-258-0_D_V1-0.zip
+/tmp/pbs.53394312.admin01/INPUT/LT05_L2SP_196028_19880810_20200917_02_T1_snowclass_QA.tif
+/tmp/pbs.53394312.admin01/INPUT/SPOT1-HRV1-XS_19880810-104926-682_L1C_049-258-0_D_V1-0.zip
+run script
+0...10...20...30...40...50...60...70...80...90...100 - done.
+0...10...20...30...40...50...60...70...80...90...100 - done.
+0...10...20...30...40...50...60...70...80...90...100 - done.
+/work/scratch/barrouz/conda_env/pl_lightning/lib/python3.8/site-packages/torchvision/io/image.py:13: UserWarning: Failed to load image Python extension: /work/scratch/barrouz/conda_env/pl_lightning/lib/python3.8/site-packages/torchvision/image.so: undefined symbol: _ZN5torch3jit17parseSchemaOrNameERKSs
+  warn(f"Failed to load image Python extension: {e}")
+/home/ad/barrouz/zacharie/TIMESERIES_PROJECT/LANDSAT_QA_DLR/ALP/196028/LT05_L2SP_196028_19990403_20211203_02_T1_snowclass_QA.tif
+/home/ad/barrouz/datalake/theia/prod/SPOTWORLDHERITAGE/1999/04/03/SPOT1-HRV1-XS_19990403-110229-585_L1C_051-257-4_D_V1-0/SPOT1-HRV1-XS_19990403-110229-585_L1C_051-257-4_D_V1-0.zip
+/tmp/pbs.53394312.admin01/INPUT/LT05_L2SP_196028_19990403_20211203_02_T1_snowclass_QA.tif
+/tmp/pbs.53394312.admin01/INPUT/SPOT1-HRV1-XS_19990403-110229-585_L1C_051-257-4_D_V1-0.zip
+run script
+0...10...20...30...40...50...60...70...80...90...100 - done.
+0...10...20...30...40...50...60...70...80...90...100 - done.
+0...10...20...30...40...50...60...70...80...90...100 - done.
+/work/scratch/barrouz/conda_env/pl_lightning/lib/python3.8/site-packages/torchvision/io/image.py:13: UserWarning: Failed to load image Python extension: /work/scratch/barrouz/conda_env/pl_lightning/lib/python3.8/site-packages/torchvision/image.so: undefined symbol: _ZN5torch3jit17parseSchemaOrNameERKSs
+  warn(f"Failed to load image Python extension: {e}")
+/home/ad/barrouz/zacharie/TIMESERIES_PROJECT/LANDSAT_QA_DLR/ALP/196028/LT05_L2SP_196028_19880725_20200917_02_T1_snowclass_QA.tif
+/home/ad/barrouz/datalake/theia/prod/SPOTWORLDHERITAGE/1988/07/25/SPOT1-HRV1-XS_19880725-105704-215_L1C_051-258-0_D_V1-0/SPOT1-HRV1-XS_19880725-105704-215_L1C_051-258-0_D_V1-0.zip
+/tmp/pbs.53394312.admin01/INPUT/LT05_L2SP_196028_19880725_20200917_02_T1_snowclass_QA.tif
+/tmp/pbs.53394312.admin01/INPUT/SPOT1-HRV1-XS_19880725-105704-215_L1C_051-258-0_D_V1-0.zip
+run script
+0...10...20...30...40...50...60...70...80...90...100 - done.
+0...10...20...30...40...50...60...70...80...90...100 - done.
+0...10...20...30...40...50...60...70...80...90...100 - done.
+/work/scratch/barrouz/conda_env/pl_lightning/lib/python3.8/site-packages/torchvision/io/image.py:13: UserWarning: Failed to load image Python extension: /work/scratch/barrouz/conda_env/pl_lightning/lib/python3.8/site-packages/torchvision/image.so: undefined symbol: _ZN5torch3jit17parseSchemaOrNameERKSs
+  warn(f"Failed to load image Python extension: {e}")
+/home/ad/barrouz/zacharie/TIMESERIES_PROJECT/LANDSAT_QA_DLR/ALP/196028/LT05_L2SP_196028_19880303_20200917_02_T1_snowclass_QA.tif
+/home/ad/barrouz/datalake/theia/prod/SPOTWORLDHERITAGE/1988/03/03/SPOT1-HRV2-XS_19880303-102609-289_L1C_053-259-0_D_V1-0/SPOT1-HRV2-XS_19880303-102609-289_L1C_053-259-0_D_V1-0.zip
+/tmp/pbs.53394312.admin01/INPUT/LT05_L2SP_196028_19880303_20200917_02_T1_snowclass_QA.tif
+/tmp/pbs.53394312.admin01/INPUT/SPOT1-HRV2-XS_19880303-102609-289_L1C_053-259-0_D_V1-0.zip
+run script
+0...10...20...30...40...50...60...70...80...90...100 - done.
+0...10...20...30...40...50...60...70...80...90...100 - done.
+0...10...20...30...40...50...60...70...80...90...100 - done.
+/work/scratch/barrouz/conda_env/pl_lightning/lib/python3.8/site-packages/torchvision/io/image.py:13: UserWarning: Failed to load image Python extension: /work/scratch/barrouz/conda_env/pl_lightning/lib/python3.8/site-packages/torchvision/image.so: undefined symbol: _ZN5torch3jit17parseSchemaOrNameERKSs
+  warn(f"Failed to load image Python extension: {e}")
+/home/ad/barrouz/zacharie/TIMESERIES_PROJECT/LANDSAT_QA_DLR/ALP/196028/LT05_L2SP_196028_19920330_20200915_02_T1_snowclass_QA.tif
+/home/ad/barrouz/datalake/theia/prod/SPOTWORLDHERITAGE/1992/03/30/SPOT1-HRV1-XS_19920330-102047-715_L1C_049-258-0_D_V1-0/SPOT1-HRV1-XS_19920330-102047-715_L1C_049-258-0_D_V1-0.zip
+/tmp/pbs.53394312.admin01/INPUT/LT05_L2SP_196028_19920330_20200915_02_T1_snowclass_QA.tif
+/tmp/pbs.53394312.admin01/INPUT/SPOT1-HRV1-XS_19920330-102047-715_L1C_049-258-0_D_V1-0.zip
+run script
+0...10...20...30...40...50...60...70...80...90...100 - done.
+0...10...20...30...40...50...60...70...80...90...100 - done.
+0...10...20...30...40...50...60...70...80...90...100 - done.
+/work/scratch/barrouz/conda_env/pl_lightning/lib/python3.8/site-packages/torchvision/io/image.py:13: UserWarning: Failed to load image Python extension: /work/scratch/barrouz/conda_env/pl_lightning/lib/python3.8/site-packages/torchvision/image.so: undefined symbol: _ZN5torch3jit17parseSchemaOrNameERKSs
+  warn(f"Failed to load image Python extension: {e}")
+/home/ad/barrouz/zacharie/TIMESERIES_PROJECT/LANDSAT_QA_DLR/ALP/196028/LT05_L2SP_196028_19970819_20200910_02_T1_snowclass_QA.tif
+/home/ad/barrouz/datalake/theia/prod/SPOTWORLDHERITAGE/1997/08/19/SPOT1-HRV1-XS_19970819-103856-810_L1C_048-257-0_D_V1-0/SPOT1-HRV1-XS_19970819-103856-810_L1C_048-257-0_D_V1-0.zip
+/tmp/pbs.53394312.admin01/INPUT/LT05_L2SP_196028_19970819_20200910_02_T1_snowclass_QA.tif
+/tmp/pbs.53394312.admin01/INPUT/SPOT1-HRV1-XS_19970819-103856-810_L1C_048-257-0_D_V1-0.zip
+run script
+INPUT SWH SCENE DOES NOT OVERLAP ANY S2 TILE WITH AVAILABLE MODEL
+unload conda/4.5.4  : OK 
+/home/ad/barrouz/WORKSPACE/TIMESERIES_PROJECT/snow_code/snow-swh/perf_dataframe.py:21: RuntimeWarning: invalid value encountered in long_scalars
+  Precision_1 = TP_1/(TP_1 + FP_1)
+/home/ad/barrouz/WORKSPACE/TIMESERIES_PROJECT/snow_code/snow-swh/perf_dataframe.py:22: RuntimeWarning: invalid value encountered in long_scalars
+  Recall_1 = TP_1/(TP_1+FN_1)
+/home/ad/barrouz/WORKSPACE/TIMESERIES_PROJECT/snow_code/snow-swh/perf_dataframe.py:42: RuntimeWarning: invalid value encountered in double_scalars
+  kappa = (Agree - ChanceAgree)/(1 - ChanceAgree)
+/home/ad/barrouz/WORKSPACE/TIMESERIES_PROJECT/snow_code/snow-swh/perf_dataframe.py:32: RuntimeWarning: invalid value encountered in long_scalars
+  Recall_2= TP_2/(TP_2+FN_2)
+/home/ad/barrouz/WORKSPACE/TIMESERIES_PROJECT/snow_code/snow-swh/perf_dataframe.py:32: RuntimeWarning: invalid value encountered in long_scalars
+  Recall_2= TP_2/(TP_2+FN_2)
+/home/ad/barrouz/WORKSPACE/TIMESERIES_PROJECT/snow_code/snow-swh/perf_dataframe.py:31: RuntimeWarning: invalid value encountered in long_scalars
+  Precision_2 = TP_2/(TP_2 + FP_2)
+/home/ad/barrouz/WORKSPACE/TIMESERIES_PROJECT/snow_code/snow-swh/perf_dataframe.py:32: RuntimeWarning: invalid value encountered in long_scalars
+  Recall_2= TP_2/(TP_2+FN_2)
+/home/ad/barrouz/WORKSPACE/TIMESERIES_PROJECT/snow_code/snow-swh/perf_dataframe.py:42: RuntimeWarning: invalid value encountered in double_scalars
+  kappa = (Agree - ChanceAgree)/(1 - ChanceAgree)
+/home/ad/barrouz/WORKSPACE/TIMESERIES_PROJECT/snow_code/snow-swh/perf_dataframe.py:31: RuntimeWarning: invalid value encountered in long_scalars
+  Precision_2 = TP_2/(TP_2 + FP_2)
+/home/ad/barrouz/WORKSPACE/TIMESERIES_PROJECT/snow_code/snow-swh/perf_dataframe.py:32: RuntimeWarning: invalid value encountered in long_scalars
+  Recall_2= TP_2/(TP_2+FN_2)
+Traceback (most recent call last):
+  File "/home/ad/barrouz/WORKSPACE/TIMESERIES_PROJECT/snow_code/snow-swh/perf_dataframe.py", line 128, in <module>
+    df2 = pd.DataFrame(data=d)
+  File "/softs/rh7/conda-envs/pangeo_202211/lib/python3.9/site-packages/pandas/core/frame.py", line 636, in __init__
+    mgr = dict_to_mgr(data, index, columns, dtype=dtype, copy=copy, typ=manager)
+  File "/softs/rh7/conda-envs/pangeo_202211/lib/python3.9/site-packages/pandas/core/internals/construction.py", line 502, in dict_to_mgr
+    return arrays_to_mgr(arrays, columns, index, dtype=dtype, typ=typ, consolidate=copy)
+  File "/softs/rh7/conda-envs/pangeo_202211/lib/python3.9/site-packages/pandas/core/internals/construction.py", line 120, in arrays_to_mgr
+    index = _extract_index(arrays)
+  File "/softs/rh7/conda-envs/pangeo_202211/lib/python3.9/site-packages/pandas/core/internals/construction.py", line 674, in _extract_index
+    raise ValueError("All arrays must be of the same length")
+ValueError: All arrays must be of the same length
+cp: cannot stat '/tmp/pbs.53394312.admin01/DF/timeserie.pkl': No such file or directory
+[EPILOGUE] Starting epilogue on node gpgpu01 at date Thu Oct  5 12:11:07 UTC 2023
+
+------------ JOB INFO 53394312.admin01 -------------
+
+JOBID		: 53394312.admin01
+USER		: barrouz
+GROUP		: cesbio
+JOB NAME	: LANDSAT
+SESSION		: 116301
+RES REQSTED	: ncpus=8,mem=196gb,walltime=11:59:59,place=free
+RES USED	: cpupercent=88,cput=00:17:19,ncpus=8,vmem=3351888kb,mem=3351888kb,walltime=00:18:54
+BILLING         : 02:31:12 (ncpus x walltime)
+QUEUE		: qgpgpu
+ACCOUNT		: null
+JOB EXIT CODE	: 1
+
+------------ END JOB INFO 53394312.admin01 ---------
+
+[EPILOGUE] Ending epilogue on node gpgpu01 at date Thu Oct  5 12:11:07 UTC 2023

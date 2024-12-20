@@ -1,0 +1,250 @@
+unload conda/22.11.1  : OK 
+load conda/22.11.1  : OK 
+envs_dirs : /work/scratch/env/barrouz/conda_env/
+pkgs_dirs : /work/scratch/env/barrouz/pkgs_conda
+INPUT_PATH /home/ad/barrouz/WORKSPACE/TIMESERIES_PROJECT/inference_code/list_large/ALP/19.txt
+OUTPUT_PATH /work/CAMPUS/etudes/Neige/CoSIMS/zacharie/TIMESERIES_PROJECT/SWH_INFERENCE2/TCD-CIRRUS-BLUE_AVG-1200
+DEM_PATH /work/CAMPUS/etudes/Neige/DEM
+TCD_PATH /work/datalake/static_aux/TreeCoverDensity
+MODELS_PATH /work/CAMPUS/etudes/Neige/CoSIMS/zacharie/TIMESERIES_PROJECT/MODELS/TCD-CIRRUS-BLUE_AVG-1200
+KEEP_REFL 0
+MASK 1
+start
+/home/ad/barrouz/WORKSPACE/TIMESERIES_PROJECT/inference_code/list_large/ALP/19.txt
+muscate/SPOTWORLDHERITAGE/1998/06/29/SPOT4-HRVIR1-XS_19980629-105038-034_L1C_052-260-0_D_V1-0/SPOT4-HRVIR1-XS_19980629-105038-034_L1C_052-260-0_D_V1-0.zip
+activate s3 conda env
+start s2 script
+get credentials
+get s3filesystem
+download
+SPOT4-HRVIR1-XS_19980629-105038-034_L1C_052-260-0_D_V1-0.zip
+/tmp/slurm-4444868/INPUT/SPOT4-HRVIR1-XS_19980629-105038-034_L1C_052-260-0_D_V1-0.zip
+run script
+2024-01-16T17:35:30.516    INFO:run_snow_swh.py::main:output directory : /work/CAMPUS/etudes/Neige/CoSIMS/zacharie/TIMESERIES_PROJECT/SWH_INFERENCE2/TCD-CIRRUS-BLUE_AVG-1200
+2024-01-16T17:35:30.518    INFO:run_snow_swh.py::main:input file : /tmp/slurm-4444868/INPUT/SPOT4-HRVIR1-XS_19980629-105038-034_L1C_052-260-0_D_V1-0.zip
+2024-01-16T17:35:30.518    INFO:run_snow_swh.py::main:dem directory : /work/CAMPUS/etudes/Neige/DEM
+2024-01-16T17:35:30.518    INFO:run_snow_swh.py::main:tree cover density directory : /work/datalake/static_aux/TreeCoverDensity
+2024-01-16T17:35:30.518    INFO:run_snow_swh.py::main:model directory : /work/CAMPUS/etudes/Neige/CoSIMS/zacharie/TIMESERIES_PROJECT/MODELS/TCD-CIRRUS-BLUE_AVG-1200
+2024-01-16T17:35:30.518    INFO:run_snow_swh.py::main:model type : mtn
+2024-01-16T17:35:30.518    INFO:run_snow_swh.py::main:keep merged bands : None
+2024-01-16T17:35:30.518    INFO:run_snow_swh.py::main:mask inference : None
+2024-01-16T17:35:30.518    INFO:run_snow_swh.py::main:no data buffer : 2000
+2024-01-16T17:35:30.518    INFO:run_snow_swh.py::main:Launch snow detection.
+Namespace(buffer=None, dem_dir='/work/CAMPUS/etudes/Neige/DEM', input_file='/tmp/slurm-4444868/INPUT/SPOT4-HRVIR1-XS_19980629-105038-034_L1C_052-260-0_D_V1-0.zip', job_dir='/tmp/slurm-4444868/OUTPUT', json_config_file=None, keep='0', log_level=None, mask='1', model_dir='/work/CAMPUS/etudes/Neige/CoSIMS/zacharie/TIMESERIES_PROJECT/MODELS/TCD-CIRRUS-BLUE_AVG-1200', model_type='mtn', output_dir='/work/CAMPUS/etudes/Neige/CoSIMS/zacharie/TIMESERIES_PROJECT/SWH_INFERENCE2/TCD-CIRRUS-BLUE_AVG-1200', tcd_dir='/work/datalake/static_aux/TreeCoverDensity')
+DEVICE cpu
+skipped existing inference for /work/CAMPUS/etudes/Neige/CoSIMS/zacharie/TIMESERIES_PROJECT/SWH_INFERENCE2/TCD-CIRRUS-BLUE_AVG-1200/ALP/SPOT4/1998/6/29/SPOT4-HRVIR1-XS_19980629-105038-034_L1C_052-260-0_C_V1-0/31TGK/FSC_19980629T105038_SPOT4_31TGK
+skipped existing inference for /work/CAMPUS/etudes/Neige/CoSIMS/zacharie/TIMESERIES_PROJECT/SWH_INFERENCE2/TCD-CIRRUS-BLUE_AVG-1200/ALP/SPOT4/1998/6/29/SPOT4-HRVIR1-XS_19980629-105038-034_L1C_052-260-0_C_V1-0/32TLQ/FSC_19980629T105038_SPOT4_32TLQ
+muscate/SPOTWORLDHERITAGE/1998/06/29/SPOT4-HRVIR1-XS_19980629-105039-839_L1C_052-260-2_D_V1-0/SPOT4-HRVIR1-XS_19980629-105039-839_L1C_052-260-2_D_V1-0.zip
+activate s3 conda env
+start s2 script
+get credentials
+get s3filesystem
+download
+SPOT4-HRVIR1-XS_19980629-105039-839_L1C_052-260-2_D_V1-0.zip
+/tmp/slurm-4444868/INPUT/SPOT4-HRVIR1-XS_19980629-105039-839_L1C_052-260-2_D_V1-0.zip
+run script
+2024-01-16T17:35:34.208    INFO:run_snow_swh.py::main:output directory : /work/CAMPUS/etudes/Neige/CoSIMS/zacharie/TIMESERIES_PROJECT/SWH_INFERENCE2/TCD-CIRRUS-BLUE_AVG-1200
+2024-01-16T17:35:34.209    INFO:run_snow_swh.py::main:input file : /tmp/slurm-4444868/INPUT/SPOT4-HRVIR1-XS_19980629-105039-839_L1C_052-260-2_D_V1-0.zip
+2024-01-16T17:35:34.209    INFO:run_snow_swh.py::main:dem directory : /work/CAMPUS/etudes/Neige/DEM
+2024-01-16T17:35:34.209    INFO:run_snow_swh.py::main:tree cover density directory : /work/datalake/static_aux/TreeCoverDensity
+2024-01-16T17:35:34.209    INFO:run_snow_swh.py::main:model directory : /work/CAMPUS/etudes/Neige/CoSIMS/zacharie/TIMESERIES_PROJECT/MODELS/TCD-CIRRUS-BLUE_AVG-1200
+2024-01-16T17:35:34.209    INFO:run_snow_swh.py::main:model type : mtn
+2024-01-16T17:35:34.209    INFO:run_snow_swh.py::main:keep merged bands : None
+2024-01-16T17:35:34.209    INFO:run_snow_swh.py::main:mask inference : None
+2024-01-16T17:35:34.209    INFO:run_snow_swh.py::main:no data buffer : 2000
+2024-01-16T17:35:34.209    INFO:run_snow_swh.py::main:Launch snow detection.
+0...10...20...30...40...50...60...70...80...90...100 - done.
+0...10...20...30...40...50...60...70...80...90...100 - done.
+/work/scratch/env/barrouz/conda_env/pl_lightning/lib/python3.8/site-packages/torchvision/io/image.py:13: UserWarning: Failed to load image Python extension: /work/scratch/env/barrouz/conda_env/pl_lightning/lib/python3.8/site-packages/torchvision/image.so: undefined symbol: _ZN5torch3jit17parseSchemaOrNameERKSs
+  warn(f"Failed to load image Python extension: {e}")
+2024-01-16T17:35:36.325    ERROR:run_snow_swh.py::main:Calculated padded input size per channel: (2 x 1258). Kernel size: (3 x 3). Kernel size can't be greater than actual input size
+Namespace(buffer=None, dem_dir='/work/CAMPUS/etudes/Neige/DEM', input_file='/tmp/slurm-4444868/INPUT/SPOT4-HRVIR1-XS_19980629-105039-839_L1C_052-260-2_D_V1-0.zip', job_dir='/tmp/slurm-4444868/OUTPUT', json_config_file=None, keep='0', log_level=None, mask='1', model_dir='/work/CAMPUS/etudes/Neige/CoSIMS/zacharie/TIMESERIES_PROJECT/MODELS/TCD-CIRRUS-BLUE_AVG-1200', model_type='mtn', output_dir='/work/CAMPUS/etudes/Neige/CoSIMS/zacharie/TIMESERIES_PROJECT/SWH_INFERENCE2/TCD-CIRRUS-BLUE_AVG-1200', tcd_dir='/work/datalake/static_aux/TreeCoverDensity')
+DEVICE cpu
+TOTO
+muscate/SPOTWORLDHERITAGE/1998/07/04/SPOT4-HRVIR1-XS_19980704-105453-270_L1C_049-262-0_D_V1-0/SPOT4-HRVIR1-XS_19980704-105453-270_L1C_049-262-0_D_V1-0.zip
+activate s3 conda env
+start s2 script
+get credentials
+get s3filesystem
+download
+SPOT4-HRVIR1-XS_19980704-105453-270_L1C_049-262-0_D_V1-0.zip
+/tmp/slurm-4444868/INPUT/SPOT4-HRVIR1-XS_19980704-105453-270_L1C_049-262-0_D_V1-0.zip
+run script
+2024-01-16T17:35:40.221    INFO:run_snow_swh.py::main:output directory : /work/CAMPUS/etudes/Neige/CoSIMS/zacharie/TIMESERIES_PROJECT/SWH_INFERENCE2/TCD-CIRRUS-BLUE_AVG-1200
+2024-01-16T17:35:40.222    INFO:run_snow_swh.py::main:input file : /tmp/slurm-4444868/INPUT/SPOT4-HRVIR1-XS_19980704-105453-270_L1C_049-262-0_D_V1-0.zip
+2024-01-16T17:35:40.223    INFO:run_snow_swh.py::main:dem directory : /work/CAMPUS/etudes/Neige/DEM
+2024-01-16T17:35:40.223    INFO:run_snow_swh.py::main:tree cover density directory : /work/datalake/static_aux/TreeCoverDensity
+2024-01-16T17:35:40.223    INFO:run_snow_swh.py::main:model directory : /work/CAMPUS/etudes/Neige/CoSIMS/zacharie/TIMESERIES_PROJECT/MODELS/TCD-CIRRUS-BLUE_AVG-1200
+2024-01-16T17:35:40.223    INFO:run_snow_swh.py::main:model type : mtn
+2024-01-16T17:35:40.223    INFO:run_snow_swh.py::main:keep merged bands : None
+2024-01-16T17:35:40.223    INFO:run_snow_swh.py::main:mask inference : None
+2024-01-16T17:35:40.223    INFO:run_snow_swh.py::main:no data buffer : 2000
+2024-01-16T17:35:40.223    INFO:run_snow_swh.py::main:Launch snow detection.
+Namespace(buffer=None, dem_dir='/work/CAMPUS/etudes/Neige/DEM', input_file='/tmp/slurm-4444868/INPUT/SPOT4-HRVIR1-XS_19980704-105453-270_L1C_049-262-0_D_V1-0.zip', job_dir='/tmp/slurm-4444868/OUTPUT', json_config_file=None, keep='0', log_level=None, mask='1', model_dir='/work/CAMPUS/etudes/Neige/CoSIMS/zacharie/TIMESERIES_PROJECT/MODELS/TCD-CIRRUS-BLUE_AVG-1200', model_type='mtn', output_dir='/work/CAMPUS/etudes/Neige/CoSIMS/zacharie/TIMESERIES_PROJECT/SWH_INFERENCE2/TCD-CIRRUS-BLUE_AVG-1200', tcd_dir='/work/datalake/static_aux/TreeCoverDensity')
+DEVICE cpu
+INPUT SWH SCENE DOES NOT OVERLAP ANY S2 TILE WITH AVAILABLE MODEL
+muscate/SPOTWORLDHERITAGE/1998/07/04/SPOT4-HRVIR1-XS_19980704-105432-403_L1C_050-259-6_D_V1-0/SPOT4-HRVIR1-XS_19980704-105432-403_L1C_050-259-6_D_V1-0.zip
+activate s3 conda env
+start s2 script
+get credentials
+get s3filesystem
+download
+SPOT4-HRVIR1-XS_19980704-105432-403_L1C_050-259-6_D_V1-0.zip
+/tmp/slurm-4444868/INPUT/SPOT4-HRVIR1-XS_19980704-105432-403_L1C_050-259-6_D_V1-0.zip
+run script
+2024-01-16T17:35:43.902    INFO:run_snow_swh.py::main:output directory : /work/CAMPUS/etudes/Neige/CoSIMS/zacharie/TIMESERIES_PROJECT/SWH_INFERENCE2/TCD-CIRRUS-BLUE_AVG-1200
+2024-01-16T17:35:43.903    INFO:run_snow_swh.py::main:input file : /tmp/slurm-4444868/INPUT/SPOT4-HRVIR1-XS_19980704-105432-403_L1C_050-259-6_D_V1-0.zip
+2024-01-16T17:35:43.903    INFO:run_snow_swh.py::main:dem directory : /work/CAMPUS/etudes/Neige/DEM
+2024-01-16T17:35:43.903    INFO:run_snow_swh.py::main:tree cover density directory : /work/datalake/static_aux/TreeCoverDensity
+2024-01-16T17:35:43.903    INFO:run_snow_swh.py::main:model directory : /work/CAMPUS/etudes/Neige/CoSIMS/zacharie/TIMESERIES_PROJECT/MODELS/TCD-CIRRUS-BLUE_AVG-1200
+2024-01-16T17:35:43.903    INFO:run_snow_swh.py::main:model type : mtn
+2024-01-16T17:35:43.903    INFO:run_snow_swh.py::main:keep merged bands : None
+2024-01-16T17:35:43.903    INFO:run_snow_swh.py::main:mask inference : None
+2024-01-16T17:35:43.903    INFO:run_snow_swh.py::main:no data buffer : 2000
+2024-01-16T17:35:43.903    INFO:run_snow_swh.py::main:Launch snow detection.
+Namespace(buffer=None, dem_dir='/work/CAMPUS/etudes/Neige/DEM', input_file='/tmp/slurm-4444868/INPUT/SPOT4-HRVIR1-XS_19980704-105432-403_L1C_050-259-6_D_V1-0.zip', job_dir='/tmp/slurm-4444868/OUTPUT', json_config_file=None, keep='0', log_level=None, mask='1', model_dir='/work/CAMPUS/etudes/Neige/CoSIMS/zacharie/TIMESERIES_PROJECT/MODELS/TCD-CIRRUS-BLUE_AVG-1200', model_type='mtn', output_dir='/work/CAMPUS/etudes/Neige/CoSIMS/zacharie/TIMESERIES_PROJECT/SWH_INFERENCE2/TCD-CIRRUS-BLUE_AVG-1200', tcd_dir='/work/datalake/static_aux/TreeCoverDensity')
+DEVICE cpu
+skipped existing inference for /work/CAMPUS/etudes/Neige/CoSIMS/zacharie/TIMESERIES_PROJECT/SWH_INFERENCE2/TCD-CIRRUS-BLUE_AVG-1200/ALP/SPOT4/1998/7/4/SPOT4-HRVIR1-XS_19980704-105432-403_L1C_050-259-6_C_V1-0/31TGK/FSC_19980704T105432_SPOT4_31TGK
+skipped existing inference for /work/CAMPUS/etudes/Neige/CoSIMS/zacharie/TIMESERIES_PROJECT/SWH_INFERENCE2/TCD-CIRRUS-BLUE_AVG-1200/ALP/SPOT4/1998/7/4/SPOT4-HRVIR1-XS_19980704-105432-403_L1C_050-259-6_C_V1-0/31TGL/FSC_19980704T105432_SPOT4_31TGL
+muscate/SPOTWORLDHERITAGE/1998/07/04/SPOT4-HRVIR1-XS_19980704-105435-390_L1C_050-260-0_D_V1-0/SPOT4-HRVIR1-XS_19980704-105435-390_L1C_050-260-0_D_V1-0.zip
+activate s3 conda env
+start s2 script
+get credentials
+get s3filesystem
+download
+SPOT4-HRVIR1-XS_19980704-105435-390_L1C_050-260-0_D_V1-0.zip
+/tmp/slurm-4444868/INPUT/SPOT4-HRVIR1-XS_19980704-105435-390_L1C_050-260-0_D_V1-0.zip
+run script
+2024-01-16T17:35:48.080    INFO:run_snow_swh.py::main:output directory : /work/CAMPUS/etudes/Neige/CoSIMS/zacharie/TIMESERIES_PROJECT/SWH_INFERENCE2/TCD-CIRRUS-BLUE_AVG-1200
+2024-01-16T17:35:48.081    INFO:run_snow_swh.py::main:input file : /tmp/slurm-4444868/INPUT/SPOT4-HRVIR1-XS_19980704-105435-390_L1C_050-260-0_D_V1-0.zip
+2024-01-16T17:35:48.081    INFO:run_snow_swh.py::main:dem directory : /work/CAMPUS/etudes/Neige/DEM
+2024-01-16T17:35:48.081    INFO:run_snow_swh.py::main:tree cover density directory : /work/datalake/static_aux/TreeCoverDensity
+2024-01-16T17:35:48.081    INFO:run_snow_swh.py::main:model directory : /work/CAMPUS/etudes/Neige/CoSIMS/zacharie/TIMESERIES_PROJECT/MODELS/TCD-CIRRUS-BLUE_AVG-1200
+2024-01-16T17:35:48.081    INFO:run_snow_swh.py::main:model type : mtn
+2024-01-16T17:35:48.081    INFO:run_snow_swh.py::main:keep merged bands : None
+2024-01-16T17:35:48.081    INFO:run_snow_swh.py::main:mask inference : None
+2024-01-16T17:35:48.081    INFO:run_snow_swh.py::main:no data buffer : 2000
+2024-01-16T17:35:48.081    INFO:run_snow_swh.py::main:Launch snow detection.
+Namespace(buffer=None, dem_dir='/work/CAMPUS/etudes/Neige/DEM', input_file='/tmp/slurm-4444868/INPUT/SPOT4-HRVIR1-XS_19980704-105435-390_L1C_050-260-0_D_V1-0.zip', job_dir='/tmp/slurm-4444868/OUTPUT', json_config_file=None, keep='0', log_level=None, mask='1', model_dir='/work/CAMPUS/etudes/Neige/CoSIMS/zacharie/TIMESERIES_PROJECT/MODELS/TCD-CIRRUS-BLUE_AVG-1200', model_type='mtn', output_dir='/work/CAMPUS/etudes/Neige/CoSIMS/zacharie/TIMESERIES_PROJECT/SWH_INFERENCE2/TCD-CIRRUS-BLUE_AVG-1200', tcd_dir='/work/datalake/static_aux/TreeCoverDensity')
+DEVICE cpu
+skipped existing inference for /work/CAMPUS/etudes/Neige/CoSIMS/zacharie/TIMESERIES_PROJECT/SWH_INFERENCE2/TCD-CIRRUS-BLUE_AVG-1200/ALP/SPOT4/1998/7/4/SPOT4-HRVIR1-XS_19980704-105435-390_L1C_050-260-0_C_V1-0/31TGK/FSC_19980704T105435_SPOT4_31TGK
+muscate/SPOTWORLDHERITAGE/1998/05/20/SPOT4-HRVIR2-XS_19980520-101832-886_L1C_050-254-0_D_V1-0/SPOT4-HRVIR2-XS_19980520-101832-886_L1C_050-254-0_D_V1-0.zip
+activate s3 conda env
+start s2 script
+get credentials
+get s3filesystem
+download
+SPOT4-HRVIR2-XS_19980520-101832-886_L1C_050-254-0_D_V1-0.zip
+/tmp/slurm-4444868/INPUT/SPOT4-HRVIR2-XS_19980520-101832-886_L1C_050-254-0_D_V1-0.zip
+run script
+2024-01-16T17:35:52.125    INFO:run_snow_swh.py::main:output directory : /work/CAMPUS/etudes/Neige/CoSIMS/zacharie/TIMESERIES_PROJECT/SWH_INFERENCE2/TCD-CIRRUS-BLUE_AVG-1200
+2024-01-16T17:35:52.126    INFO:run_snow_swh.py::main:input file : /tmp/slurm-4444868/INPUT/SPOT4-HRVIR2-XS_19980520-101832-886_L1C_050-254-0_D_V1-0.zip
+2024-01-16T17:35:52.126    INFO:run_snow_swh.py::main:dem directory : /work/CAMPUS/etudes/Neige/DEM
+2024-01-16T17:35:52.126    INFO:run_snow_swh.py::main:tree cover density directory : /work/datalake/static_aux/TreeCoverDensity
+2024-01-16T17:35:52.126    INFO:run_snow_swh.py::main:model directory : /work/CAMPUS/etudes/Neige/CoSIMS/zacharie/TIMESERIES_PROJECT/MODELS/TCD-CIRRUS-BLUE_AVG-1200
+2024-01-16T17:35:52.126    INFO:run_snow_swh.py::main:model type : mtn
+2024-01-16T17:35:52.127    INFO:run_snow_swh.py::main:keep merged bands : None
+2024-01-16T17:35:52.127    INFO:run_snow_swh.py::main:mask inference : None
+2024-01-16T17:35:52.127    INFO:run_snow_swh.py::main:no data buffer : 2000
+2024-01-16T17:35:52.127    INFO:run_snow_swh.py::main:Launch snow detection.
+Namespace(buffer=None, dem_dir='/work/CAMPUS/etudes/Neige/DEM', input_file='/tmp/slurm-4444868/INPUT/SPOT4-HRVIR2-XS_19980520-101832-886_L1C_050-254-0_D_V1-0.zip', job_dir='/tmp/slurm-4444868/OUTPUT', json_config_file=None, keep='0', log_level=None, mask='1', model_dir='/work/CAMPUS/etudes/Neige/CoSIMS/zacharie/TIMESERIES_PROJECT/MODELS/TCD-CIRRUS-BLUE_AVG-1200', model_type='mtn', output_dir='/work/CAMPUS/etudes/Neige/CoSIMS/zacharie/TIMESERIES_PROJECT/SWH_INFERENCE2/TCD-CIRRUS-BLUE_AVG-1200', tcd_dir='/work/datalake/static_aux/TreeCoverDensity')
+DEVICE cpu
+INPUT SWH SCENE DOES NOT OVERLAP ANY S2 TILE WITH AVAILABLE MODEL
+muscate/SPOTWORLDHERITAGE/1998/05/20/SPOT4-HRVIR2-XS_19980520-101841-074_L1C_050-255-0_D_V1-0/SPOT4-HRVIR2-XS_19980520-101841-074_L1C_050-255-0_D_V1-0.zip
+activate s3 conda env
+start s2 script
+get credentials
+get s3filesystem
+download
+SPOT4-HRVIR2-XS_19980520-101841-074_L1C_050-255-0_D_V1-0.zip
+/tmp/slurm-4444868/INPUT/SPOT4-HRVIR2-XS_19980520-101841-074_L1C_050-255-0_D_V1-0.zip
+run script
+2024-01-16T17:35:56.033    INFO:run_snow_swh.py::main:output directory : /work/CAMPUS/etudes/Neige/CoSIMS/zacharie/TIMESERIES_PROJECT/SWH_INFERENCE2/TCD-CIRRUS-BLUE_AVG-1200
+2024-01-16T17:35:56.034    INFO:run_snow_swh.py::main:input file : /tmp/slurm-4444868/INPUT/SPOT4-HRVIR2-XS_19980520-101841-074_L1C_050-255-0_D_V1-0.zip
+2024-01-16T17:35:56.035    INFO:run_snow_swh.py::main:dem directory : /work/CAMPUS/etudes/Neige/DEM
+2024-01-16T17:35:56.035    INFO:run_snow_swh.py::main:tree cover density directory : /work/datalake/static_aux/TreeCoverDensity
+2024-01-16T17:35:56.035    INFO:run_snow_swh.py::main:model directory : /work/CAMPUS/etudes/Neige/CoSIMS/zacharie/TIMESERIES_PROJECT/MODELS/TCD-CIRRUS-BLUE_AVG-1200
+2024-01-16T17:35:56.035    INFO:run_snow_swh.py::main:model type : mtn
+2024-01-16T17:35:56.035    INFO:run_snow_swh.py::main:keep merged bands : None
+2024-01-16T17:35:56.035    INFO:run_snow_swh.py::main:mask inference : None
+2024-01-16T17:35:56.035    INFO:run_snow_swh.py::main:no data buffer : 2000
+2024-01-16T17:35:56.035    INFO:run_snow_swh.py::main:Launch snow detection.
+Namespace(buffer=None, dem_dir='/work/CAMPUS/etudes/Neige/DEM', input_file='/tmp/slurm-4444868/INPUT/SPOT4-HRVIR2-XS_19980520-101841-074_L1C_050-255-0_D_V1-0.zip', job_dir='/tmp/slurm-4444868/OUTPUT', json_config_file=None, keep='0', log_level=None, mask='1', model_dir='/work/CAMPUS/etudes/Neige/CoSIMS/zacharie/TIMESERIES_PROJECT/MODELS/TCD-CIRRUS-BLUE_AVG-1200', model_type='mtn', output_dir='/work/CAMPUS/etudes/Neige/CoSIMS/zacharie/TIMESERIES_PROJECT/SWH_INFERENCE2/TCD-CIRRUS-BLUE_AVG-1200', tcd_dir='/work/datalake/static_aux/TreeCoverDensity')
+DEVICE cpu
+skipped existing inference for /work/CAMPUS/etudes/Neige/CoSIMS/zacharie/TIMESERIES_PROJECT/SWH_INFERENCE2/TCD-CIRRUS-BLUE_AVG-1200/ALP/SPOT4/1998/5/20/SPOT4-HRVIR2-XS_19980520-101841-074_L1C_050-255-0_C_V1-0/31TGM/FSC_19980520T101841_SPOT4_31TGM
+skipped existing inference for /work/CAMPUS/etudes/Neige/CoSIMS/zacharie/TIMESERIES_PROJECT/SWH_INFERENCE2/TCD-CIRRUS-BLUE_AVG-1200/ALP/SPOT4/1998/5/20/SPOT4-HRVIR2-XS_19980520-101841-074_L1C_050-255-0_C_V1-0/32TLS/FSC_19980520T101841_SPOT4_32TLS
+muscate/SPOTWORLDHERITAGE/1998/05/20/SPOT4-HRVIR2-XS_19980520-101857-929_L1C_050-256-9_D_V1-0/SPOT4-HRVIR2-XS_19980520-101857-929_L1C_050-256-9_D_V1-0.zip
+activate s3 conda env
+start s2 script
+get credentials
+get s3filesystem
+download
+SPOT4-HRVIR2-XS_19980520-101857-929_L1C_050-256-9_D_V1-0.zip
+/tmp/slurm-4444868/INPUT/SPOT4-HRVIR2-XS_19980520-101857-929_L1C_050-256-9_D_V1-0.zip
+run script
+2024-01-16T17:35:59.654    INFO:run_snow_swh.py::main:output directory : /work/CAMPUS/etudes/Neige/CoSIMS/zacharie/TIMESERIES_PROJECT/SWH_INFERENCE2/TCD-CIRRUS-BLUE_AVG-1200
+2024-01-16T17:35:59.656    INFO:run_snow_swh.py::main:input file : /tmp/slurm-4444868/INPUT/SPOT4-HRVIR2-XS_19980520-101857-929_L1C_050-256-9_D_V1-0.zip
+2024-01-16T17:35:59.656    INFO:run_snow_swh.py::main:dem directory : /work/CAMPUS/etudes/Neige/DEM
+2024-01-16T17:35:59.656    INFO:run_snow_swh.py::main:tree cover density directory : /work/datalake/static_aux/TreeCoverDensity
+2024-01-16T17:35:59.656    INFO:run_snow_swh.py::main:model directory : /work/CAMPUS/etudes/Neige/CoSIMS/zacharie/TIMESERIES_PROJECT/MODELS/TCD-CIRRUS-BLUE_AVG-1200
+2024-01-16T17:35:59.656    INFO:run_snow_swh.py::main:model type : mtn
+2024-01-16T17:35:59.656    INFO:run_snow_swh.py::main:keep merged bands : None
+2024-01-16T17:35:59.656    INFO:run_snow_swh.py::main:mask inference : None
+2024-01-16T17:35:59.656    INFO:run_snow_swh.py::main:no data buffer : 2000
+2024-01-16T17:35:59.656    INFO:run_snow_swh.py::main:Launch snow detection.
+Namespace(buffer=None, dem_dir='/work/CAMPUS/etudes/Neige/DEM', input_file='/tmp/slurm-4444868/INPUT/SPOT4-HRVIR2-XS_19980520-101857-929_L1C_050-256-9_D_V1-0.zip', job_dir='/tmp/slurm-4444868/OUTPUT', json_config_file=None, keep='0', log_level=None, mask='1', model_dir='/work/CAMPUS/etudes/Neige/CoSIMS/zacharie/TIMESERIES_PROJECT/MODELS/TCD-CIRRUS-BLUE_AVG-1200', model_type='mtn', output_dir='/work/CAMPUS/etudes/Neige/CoSIMS/zacharie/TIMESERIES_PROJECT/SWH_INFERENCE2/TCD-CIRRUS-BLUE_AVG-1200', tcd_dir='/work/datalake/static_aux/TreeCoverDensity')
+DEVICE cpu
+skipped existing inference for /work/CAMPUS/etudes/Neige/CoSIMS/zacharie/TIMESERIES_PROJECT/SWH_INFERENCE2/TCD-CIRRUS-BLUE_AVG-1200/ALP/SPOT4/1998/5/20/SPOT4-HRVIR2-XS_19980520-101857-929_L1C_050-256-9_C_V1-0/31TGL/FSC_19980520T101857_SPOT4_31TGL
+skipped existing inference for /work/CAMPUS/etudes/Neige/CoSIMS/zacharie/TIMESERIES_PROJECT/SWH_INFERENCE2/TCD-CIRRUS-BLUE_AVG-1200/ALP/SPOT4/1998/5/20/SPOT4-HRVIR2-XS_19980520-101857-929_L1C_050-256-9_C_V1-0/31TGM/FSC_19980520T101857_SPOT4_31TGM
+skipped existing inference for /work/CAMPUS/etudes/Neige/CoSIMS/zacharie/TIMESERIES_PROJECT/SWH_INFERENCE2/TCD-CIRRUS-BLUE_AVG-1200/ALP/SPOT4/1998/5/20/SPOT4-HRVIR2-XS_19980520-101857-929_L1C_050-256-9_C_V1-0/32TLR/FSC_19980520T101857_SPOT4_32TLR
+skipped existing inference for /work/CAMPUS/etudes/Neige/CoSIMS/zacharie/TIMESERIES_PROJECT/SWH_INFERENCE2/TCD-CIRRUS-BLUE_AVG-1200/ALP/SPOT4/1998/5/20/SPOT4-HRVIR2-XS_19980520-101857-929_L1C_050-256-9_C_V1-0/32TLS/FSC_19980520T101857_SPOT4_32TLS
+muscate/SPOTWORLDHERITAGE/1998/05/20/SPOT4-HRVIR1-XS_19980520-101831-984_L1C_051-254-0_D_V1-0/SPOT4-HRVIR1-XS_19980520-101831-984_L1C_051-254-0_D_V1-0.zip
+activate s3 conda env
+start s2 script
+get credentials
+get s3filesystem
+download
+SPOT4-HRVIR1-XS_19980520-101831-984_L1C_051-254-0_D_V1-0.zip
+/tmp/slurm-4444868/INPUT/SPOT4-HRVIR1-XS_19980520-101831-984_L1C_051-254-0_D_V1-0.zip
+run script
+2024-01-16T17:36:04.089    INFO:run_snow_swh.py::main:output directory : /work/CAMPUS/etudes/Neige/CoSIMS/zacharie/TIMESERIES_PROJECT/SWH_INFERENCE2/TCD-CIRRUS-BLUE_AVG-1200
+2024-01-16T17:36:04.089    INFO:run_snow_swh.py::main:input file : /tmp/slurm-4444868/INPUT/SPOT4-HRVIR1-XS_19980520-101831-984_L1C_051-254-0_D_V1-0.zip
+2024-01-16T17:36:04.089    INFO:run_snow_swh.py::main:dem directory : /work/CAMPUS/etudes/Neige/DEM
+2024-01-16T17:36:04.090    INFO:run_snow_swh.py::main:tree cover density directory : /work/datalake/static_aux/TreeCoverDensity
+2024-01-16T17:36:04.090    INFO:run_snow_swh.py::main:model directory : /work/CAMPUS/etudes/Neige/CoSIMS/zacharie/TIMESERIES_PROJECT/MODELS/TCD-CIRRUS-BLUE_AVG-1200
+2024-01-16T17:36:04.090    INFO:run_snow_swh.py::main:model type : mtn
+2024-01-16T17:36:04.090    INFO:run_snow_swh.py::main:keep merged bands : None
+2024-01-16T17:36:04.090    INFO:run_snow_swh.py::main:mask inference : None
+2024-01-16T17:36:04.090    INFO:run_snow_swh.py::main:no data buffer : 2000
+2024-01-16T17:36:04.090    INFO:run_snow_swh.py::main:Launch snow detection.
+Namespace(buffer=None, dem_dir='/work/CAMPUS/etudes/Neige/DEM', input_file='/tmp/slurm-4444868/INPUT/SPOT4-HRVIR1-XS_19980520-101831-984_L1C_051-254-0_D_V1-0.zip', job_dir='/tmp/slurm-4444868/OUTPUT', json_config_file=None, keep='0', log_level=None, mask='1', model_dir='/work/CAMPUS/etudes/Neige/CoSIMS/zacharie/TIMESERIES_PROJECT/MODELS/TCD-CIRRUS-BLUE_AVG-1200', model_type='mtn', output_dir='/work/CAMPUS/etudes/Neige/CoSIMS/zacharie/TIMESERIES_PROJECT/SWH_INFERENCE2/TCD-CIRRUS-BLUE_AVG-1200', tcd_dir='/work/datalake/static_aux/TreeCoverDensity')
+DEVICE cpu
+INPUT SWH SCENE DOES NOT OVERLAP ANY S2 TILE WITH AVAILABLE MODEL
+muscate/SPOTWORLDHERITAGE/1998/05/20/SPOT4-HRVIR2-XS_19980520-101928-484_L1C_051-260-7_D_V1-0/SPOT4-HRVIR2-XS_19980520-101928-484_L1C_051-260-7_D_V1-0.zip
+activate s3 conda env
+start s2 script
+get credentials
+get s3filesystem
+download
+SPOT4-HRVIR2-XS_19980520-101928-484_L1C_051-260-7_D_V1-0.zip
+/tmp/slurm-4444868/INPUT/SPOT4-HRVIR2-XS_19980520-101928-484_L1C_051-260-7_D_V1-0.zip
+run script
+2024-01-16T17:36:08.225    INFO:run_snow_swh.py::main:output directory : /work/CAMPUS/etudes/Neige/CoSIMS/zacharie/TIMESERIES_PROJECT/SWH_INFERENCE2/TCD-CIRRUS-BLUE_AVG-1200
+2024-01-16T17:36:08.226    INFO:run_snow_swh.py::main:input file : /tmp/slurm-4444868/INPUT/SPOT4-HRVIR2-XS_19980520-101928-484_L1C_051-260-7_D_V1-0.zip
+2024-01-16T17:36:08.226    INFO:run_snow_swh.py::main:dem directory : /work/CAMPUS/etudes/Neige/DEM
+2024-01-16T17:36:08.226    INFO:run_snow_swh.py::main:tree cover density directory : /work/datalake/static_aux/TreeCoverDensity
+2024-01-16T17:36:08.226    INFO:run_snow_swh.py::main:model directory : /work/CAMPUS/etudes/Neige/CoSIMS/zacharie/TIMESERIES_PROJECT/MODELS/TCD-CIRRUS-BLUE_AVG-1200
+2024-01-16T17:36:08.226    INFO:run_snow_swh.py::main:model type : mtn
+2024-01-16T17:36:08.226    INFO:run_snow_swh.py::main:keep merged bands : None
+2024-01-16T17:36:08.226    INFO:run_snow_swh.py::main:mask inference : None
+2024-01-16T17:36:08.226    INFO:run_snow_swh.py::main:no data buffer : 2000
+2024-01-16T17:36:08.226    INFO:run_snow_swh.py::main:Launch snow detection.
+Namespace(buffer=None, dem_dir='/work/CAMPUS/etudes/Neige/DEM', input_file='/tmp/slurm-4444868/INPUT/SPOT4-HRVIR2-XS_19980520-101928-484_L1C_051-260-7_D_V1-0.zip', job_dir='/tmp/slurm-4444868/OUTPUT', json_config_file=None, keep='0', log_level=None, mask='1', model_dir='/work/CAMPUS/etudes/Neige/CoSIMS/zacharie/TIMESERIES_PROJECT/MODELS/TCD-CIRRUS-BLUE_AVG-1200', model_type='mtn', output_dir='/work/CAMPUS/etudes/Neige/CoSIMS/zacharie/TIMESERIES_PROJECT/SWH_INFERENCE2/TCD-CIRRUS-BLUE_AVG-1200', tcd_dir='/work/datalake/static_aux/TreeCoverDensity')
+DEVICE cpu
+skipped existing inference for /work/CAMPUS/etudes/Neige/CoSIMS/zacharie/TIMESERIES_PROJECT/SWH_INFERENCE2/TCD-CIRRUS-BLUE_AVG-1200/ALP/SPOT4/1998/5/20/SPOT4-HRVIR2-XS_19980520-101928-484_L1C_051-260-7_C_V1-0/31TGJ/FSC_19980520T101928_SPOT4_31TGJ
+skipped existing inference for /work/CAMPUS/etudes/Neige/CoSIMS/zacharie/TIMESERIES_PROJECT/SWH_INFERENCE2/TCD-CIRRUS-BLUE_AVG-1200/ALP/SPOT4/1998/5/20/SPOT4-HRVIR2-XS_19980520-101928-484_L1C_051-260-7_C_V1-0/31TGK/FSC_19980520T101928_SPOT4_31TGK
+skipped existing inference for /work/CAMPUS/etudes/Neige/CoSIMS/zacharie/TIMESERIES_PROJECT/SWH_INFERENCE2/TCD-CIRRUS-BLUE_AVG-1200/ALP/SPOT4/1998/5/20/SPOT4-HRVIR2-XS_19980520-101928-484_L1C_051-260-7_C_V1-0/32TLP/FSC_19980520T101928_SPOT4_32TLP
+skipped existing inference for /work/CAMPUS/etudes/Neige/CoSIMS/zacharie/TIMESERIES_PROJECT/SWH_INFERENCE2/TCD-CIRRUS-BLUE_AVG-1200/ALP/SPOT4/1998/5/20/SPOT4-HRVIR2-XS_19980520-101928-484_L1C_051-260-7_C_V1-0/32TLQ/FSC_19980520T101928_SPOT4_32TLQ
+muscate/SPOTWORLDHERITAGE/1998/05/20/SPOT4-HRVIR2-XS_19980520-101930-415_L1C_051-261-0_D_V1-0/SPOT4-HRVIR2-XS_19980520-101930-415_L1C_051-261-0_D_V1-0.zip
+activate s3 conda env
+start s2 script

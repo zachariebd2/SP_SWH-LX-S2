@@ -1,0 +1,69 @@
+unload conda/22.11.1  : OK 
+load conda/22.11.1  : OK 
+envs_dirs : /work/scratch/env/barrouz/conda_env/
+pkgs_dirs : /work/scratch/env/barrouz/pkgs_conda
+INPUT_PATH /home/ad/barrouz/WORKSPACE/TIMESERIES_PROJECT/inference_code/list_large/ALP/.ipynb_checkpoints
+OUTPUT_PATH /work/CAMPUS/etudes/Neige/CoSIMS/zacharie/TIMESERIES_PROJECT/SWH_INFERENCE/ALP/TCD-ONLY_AVG-1200
+DEM_PATH /work/CAMPUS/etudes/Neige/DEM
+TCD_PATH /work/datalake/static_aux/TreeCoverDensity
+MODELS_PATH /work/CAMPUS/etudes/Neige/CoSIMS/zacharie/TIMESERIES_PROJECT/MODELS/TCD-ONLY_AVG-1200
+KEEP_REFL 0
+MASK 1
+start
+/home/ad/barrouz/WORKSPACE/TIMESERIES_PROJECT/inference_code/list_large/ALP/.ipynb_checkpoints
+/var/spool/slurmd/job4016167/slurm_script: line 66: read: read error: 0: Is a directory
+end
+[2024-01-09 16:27:49.700327823+00:00] cnes_level2/barrouz/4016167:  Account (env) = cnes_level2
+[2024-01-09 16:27:49.701662333+00:00] cnes_level2/barrouz/4016167:     User (env) = barrouz
+[2024-01-09 16:27:49.702990563+00:00] cnes_level2/barrouz/4016167:        GroupId = cesbio(426000053)
+[2024-01-09 16:27:49.704297014+00:00] cnes_level2/barrouz/4016167:         UserId = barrouz(9134)
+[2024-01-09 16:27:49.705506495+00:00] cnes_level2/barrouz/4016167:        Account = cnes_level2
+[2024-01-09 16:27:49.706758076+00:00] cnes_level2/barrouz/4016167:        Account = cnes_level2
+[2024-01-09 16:27:49.707932938+00:00] cnes_level2/barrouz/4016167:      Partition = cpu2022
+[2024-01-09 16:27:49.709120329+00:00] cnes_level2/barrouz/4016167:            QOS = cpu_2022_1280
+[2024-01-09 16:27:49.710460919+00:00] cnes_level2/barrouz/4016167:        JobName = inf_ALP_60_TCD-ONLY_AVG-1200
+[2024-01-09 16:27:49.711759750+00:00] cnes_level2/barrouz/4016167:     SubmitTime = 2024-01-09T10:51:21
+[2024-01-09 16:27:49.713008171+00:00] cnes_level2/barrouz/4016167:        RunTime = 00:00:03
+[2024-01-09 16:27:49.714347581+00:00] cnes_level2/barrouz/4016167:      TimeLimit = 1-16:00:00
+[2024-01-09 16:27:49.715735481+00:00] cnes_level2/barrouz/4016167:   EligibleTime = 2024-01-09T10:51:21
+[2024-01-09 16:27:49.717041102+00:00] cnes_level2/barrouz/4016167:      StartTime = 2024-01-09T16:27:46
+[2024-01-09 16:27:49.718293973+00:00] cnes_level2/barrouz/4016167:        EndTime = 2024-01-09T16:27:49
+[2024-01-09 16:27:49.719583473+00:00] cnes_level2/barrouz/4016167:       ExitCode = 0:0
+[2024-01-09 16:27:49.720856214+00:00] cnes_level2/barrouz/4016167:       NodeList = trex035
+[2024-01-09 16:27:49.722044796+00:00] cnes_level2/barrouz/4016167:      BatchHost = trex035
+[2024-01-09 16:27:49.723213857+00:00] cnes_level2/barrouz/4016167:           TRES = 
+[2024-01-09 16:27:49.724360849+00:00] cnes_level2/barrouz/4016167:        Command = /home/ad/barrouz/WORKSPACE/TIMESERIES_PROJECT/inference_unet/run_snow_swh_job.sh
+[2024-01-09 16:27:49.725596650+00:00] cnes_level2/barrouz/4016167:        WorkDir = /home/ad/barrouz/WORKSPACE/TIMESERIES_PROJECT/inference_code
+[2024-01-09 16:27:49.726815801+00:00] cnes_level2/barrouz/4016167:         StdErr = /home/ad/barrouz/WORKSPACE/TIMESERIES_PROJECT/inference_code/logs/inf_ALP_60_TCD-ONLY_AVG-1200.log
+[2024-01-09 16:27:49.727996192+00:00] cnes_level2/barrouz/4016167:         StdOut = /home/ad/barrouz/WORKSPACE/TIMESERIES_PROJECT/inference_code/logs/inf_ALP_60_TCD-ONLY_AVG-1200.log
+
+#########################################
+#        EVIDEN - CNES                  #
+#        Job Accounting                 #
+#########################################
+Cluster              : trex
+JobIDRaw             : 4016167
+JobID                : 4016167
+JobName              : inf_ALP_60_TCD-ONLY_AVG-1200
+Account              : cnes_level2
+User                 : barrouz(9134), cesbio(426000053)
+Partition            : cpu2022
+QOS                  : cpu_2022_1280
+Nodelist             : trex035 (1)
+State                : COMPLETED  (Exitcode=0:0, DerivedExitCode=0:0, Restarts=0)
+Submit date          : 2024-01-09T10:51:21
+Start time           : 2024-01-09T16:27:46
+End time             : 2024-01-09T16:27:49
+Elapsed time         : 00:00:03  (Timelimit=1-16:00:00, Suspended=00:00:00)
+TEI                  : 0:00:24
+Command              : /home/ad/barrouz/WORKSPACE/TIMESERIES_PROJECT/inference_unet/run_snow_swh_job.sh
+StdOut               : /home/ad/barrouz/WORKSPACE/TIMESERIES_PROJECT/inference_code/logs/inf_ALP_60_TCD-ONLY_AVG-1200.log
+StdErr               : /home/ad/barrouz/WORKSPACE/TIMESERIES_PROJECT/inference_code/logs/inf_ALP_60_TCD-ONLY_AVG-1200.log
+
+STEP(s) : 2
+--------- 
+   StepID  | JobName      State       Exit   Start               End                 Elapsed   TotalCPU   CPUTime    ConsumedEnergy MaxDiskRead MaxDiskWrite     MaxRSS MaxRSSTask MaxRSSNode NNodes UserCPU    NodeList
+   ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- 
+   batch   | batch        COMPLETED   0:0    2024-01-09T16:27:46 2024-01-09T16:27:49 00:00:03  00:01.028  00:00:24              0.0           0        0.00M      1964K          0    trex035      1 00:00.821  trex035
+   extern  | extern       COMPLETED   0:0    2024-01-09T16:27:46 2024-01-09T16:27:49 00:00:03  00:00.001  00:00:24             3.75           0        0.00M      1716K          0    trex035      1 00:00.001  trex035
+

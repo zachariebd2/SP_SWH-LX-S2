@@ -1,0 +1,4 @@
+/home/ad/barrouz/Neige/Snow_SWH/test/INPUTS/SPOT1-HRV2-XS_19971228-102312-766_L1C_051-259-6_D_V1-0.zip
+/home/ad/barrouz/Neige/Snow_SWH/test/INPUTS/SPOT1-HRV2-XS_20010619-102518-021_L1C_051-259-0_D_V1-0.zip
+/home/ad/barrouz/Neige/Snow_SWH/test/INPUTS/SPOT1-HRV2-XS_20011011-103428-280_L1C_051-258-8_D_V1-0.zip
+/home/ad/barrouz/Neige/Snow_SWH/test/INPUTS/SPOT1-HRV2-XS_20011106-103438-241_L1C_052-258-8_D_V1-0.zip

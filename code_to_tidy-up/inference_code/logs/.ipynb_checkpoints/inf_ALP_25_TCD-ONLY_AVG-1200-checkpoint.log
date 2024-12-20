@@ -1,0 +1,132 @@
+unload conda/22.11.1  : OK 
+load conda/22.11.1  : OK 
+envs_dirs : /work/scratch/env/barrouz/conda_env/
+pkgs_dirs : /work/scratch/env/barrouz/pkgs_conda
+INPUT_PATH /home/ad/barrouz/WORKSPACE/TIMESERIES_PROJECT/inference_code/list_large/ALP/25.txt
+OUTPUT_PATH /work/CAMPUS/etudes/Neige/CoSIMS/zacharie/TIMESERIES_PROJECT/SWH_INFERENCE/ALP/TCD-ONLY_AVG-1200
+DEM_PATH /work/CAMPUS/etudes/Neige/DEM
+TCD_PATH /work/datalake/static_aux/TreeCoverDensity
+MODELS_PATH /work/CAMPUS/etudes/Neige/CoSIMS/zacharie/TIMESERIES_PROJECT/MODELS/TCD-ONLY_AVG-1200
+KEEP_REFL 0
+MASK 1
+start
+/home/ad/barrouz/WORKSPACE/TIMESERIES_PROJECT/inference_code/list_large/ALP/25.txt
+muscate/SPOTWORLDHERITAGE/2006/08/27/SPOT4-HRVIR2-XS_20060827-102357-067_L1C_054-261-0_D_V1-0/SPOT4-HRVIR2-XS_20060827-102357-067_L1C_054-261-0_D_V1-0.zip
+activate s3 conda env
+start s2 script
+get credentials
+get s3filesystem
+download
+SPOT4-HRVIR2-XS_20060827-102357-067_L1C_054-261-0_D_V1-0.zip
+/tmp/slurm-4016131/INPUT/SPOT4-HRVIR2-XS_20060827-102357-067_L1C_054-261-0_D_V1-0.zip
+run script
+2024-01-09T10:51:27.598    INFO:run_snow_swh.py::main:output directory : /work/CAMPUS/etudes/Neige/CoSIMS/zacharie/TIMESERIES_PROJECT/SWH_INFERENCE/ALP/TCD-ONLY_AVG-1200
+2024-01-09T10:51:27.598    INFO:run_snow_swh.py::main:input file : /tmp/slurm-4016131/INPUT/SPOT4-HRVIR2-XS_20060827-102357-067_L1C_054-261-0_D_V1-0.zip
+2024-01-09T10:51:27.598    INFO:run_snow_swh.py::main:dem directory : /work/CAMPUS/etudes/Neige/DEM
+2024-01-09T10:51:27.598    INFO:run_snow_swh.py::main:tree cover density directory : /work/datalake/static_aux/TreeCoverDensity
+2024-01-09T10:51:27.598    INFO:run_snow_swh.py::main:model directory : /work/CAMPUS/etudes/Neige/CoSIMS/zacharie/TIMESERIES_PROJECT/MODELS/TCD-ONLY_AVG-1200
+2024-01-09T10:51:27.598    INFO:run_snow_swh.py::main:model type : mtn
+2024-01-09T10:51:27.598    INFO:run_snow_swh.py::main:keep merged bands : None
+2024-01-09T10:51:27.599    INFO:run_snow_swh.py::main:mask inference : None
+2024-01-09T10:51:27.599    INFO:run_snow_swh.py::main:no data buffer : 2000
+2024-01-09T10:51:27.599    INFO:run_snow_swh.py::main:Launch snow detection.
+0...10...20...30...40...50...60...70...80...90...100 - done.
+0...10...20...30...40...50...60...70...80...90...100 - done.
+0...10...20...30...40...50...60...70...80...90...100 - done.
+0...10...20...30...40...50...60...70...80...90...100 - done.
+0...10...20...30...40...50...60...70...80...90...100 - done.
+0...10...20...30...40...50...60...70...80...90...100 - done.
+/work/scratch/env/barrouz/conda_env/pl_lightning/lib/python3.8/site-packages/torchvision/io/image.py:13: UserWarning: Failed to load image Python extension: /work/scratch/env/barrouz/conda_env/pl_lightning/lib/python3.8/site-packages/torchvision/image.so: undefined symbol: _ZN5torch3jit17parseSchemaOrNameERKSs
+  warn(f"Failed to load image Python extension: {e}")
+Namespace(buffer=None, dem_dir='/work/CAMPUS/etudes/Neige/DEM', input_file='/tmp/slurm-4016131/INPUT/SPOT4-HRVIR2-XS_20060827-102357-067_L1C_054-261-0_D_V1-0.zip', job_dir='/tmp/slurm-4016131/OUTPUT', json_config_file=None, keep='0', log_level=None, mask='1', model_dir='/work/CAMPUS/etudes/Neige/CoSIMS/zacharie/TIMESERIES_PROJECT/MODELS/TCD-ONLY_AVG-1200', model_type='mtn', output_dir='/work/CAMPUS/etudes/Neige/CoSIMS/zacharie/TIMESERIES_PROJECT/SWH_INFERENCE/ALP/TCD-ONLY_AVG-1200', tcd_dir='/work/datalake/static_aux/TreeCoverDensity')
+DEVICE cpu
+TOTO
+[[2 2 2 ... 0 0 0]
+ [2 2 2 ... 0 0 0]
+ [2 2 2 ... 0 0 0]
+ ...
+ [2 2 2 ... 0 0 0]
+ [2 2 2 ... 0 0 0]
+ [2 2 2 ... 0 0 0]]
+geo data
+copy to output
+TOTO
+[[2 2 2 ... 2 2 2]
+ [2 2 2 ... 2 2 2]
+ [2 2 2 ... 2 2 2]
+ ...
+ [2 2 2 ... 0 0 0]
+ [2 2 2 ... 0 0 0]
+ [2 2 2 ... 0 0 0]]
+geo data
+copy to output
+muscate/SPOTWORLDHERITAGE/2006/02/20/SPOT4-HRVIR1-XS_20060220-103805-529_L1C_054-261-0_D_V1-0/SPOT4-HRVIR1-XS_20060220-103805-529_L1C_054-261-0_D_V1-0.zip
+activate s3 conda env
+start s2 script
+get credentials
+get s3filesystem
+download
+SPOT4-HRVIR1-XS_20060220-103805-529_L1C_054-261-0_D_V1-0.zip
+/tmp/slurm-4016131/INPUT/SPOT4-HRVIR1-XS_20060220-103805-529_L1C_054-261-0_D_V1-0.zip
+run script
+2024-01-09T10:53:32.423    INFO:run_snow_swh.py::main:output directory : /work/CAMPUS/etudes/Neige/CoSIMS/zacharie/TIMESERIES_PROJECT/SWH_INFERENCE/ALP/TCD-ONLY_AVG-1200
+2024-01-09T10:53:32.424    INFO:run_snow_swh.py::main:input file : /tmp/slurm-4016131/INPUT/SPOT4-HRVIR1-XS_20060220-103805-529_L1C_054-261-0_D_V1-0.zip
+2024-01-09T10:53:32.424    INFO:run_snow_swh.py::main:dem directory : /work/CAMPUS/etudes/Neige/DEM
+2024-01-09T10:53:32.424    INFO:run_snow_swh.py::main:tree cover density directory : /work/datalake/static_aux/TreeCoverDensity
+2024-01-09T10:53:32.425    INFO:run_snow_swh.py::main:model directory : /work/CAMPUS/etudes/Neige/CoSIMS/zacharie/TIMESERIES_PROJECT/MODELS/TCD-ONLY_AVG-1200
+2024-01-09T10:53:32.425    INFO:run_snow_swh.py::main:model type : mtn
+2024-01-09T10:53:32.425    INFO:run_snow_swh.py::main:keep merged bands : None
+2024-01-09T10:53:32.425    INFO:run_snow_swh.py::main:mask inference : None
+2024-01-09T10:53:32.425    INFO:run_snow_swh.py::main:no data buffer : 2000
+2024-01-09T10:53:32.425    INFO:run_snow_swh.py::main:Launch snow detection.
+0...10...20...30...40...50...60...70...80...90...100 - done.
+0...10...20...30...40...50...60...70...80...90...100 - done.
+0...10...20...30...40...50...60...70...80...90...100 - done.
+0...10...20...30...40...50...60...70...80...90...100 - done.
+0...10...20...30...40...50...60...70...80...90...100 - done.
+0...10...20...30...40...50...60...70...80...90...100 - done.
+/work/scratch/env/barrouz/conda_env/pl_lightning/lib/python3.8/site-packages/torchvision/io/image.py:13: UserWarning: Failed to load image Python extension: /work/scratch/env/barrouz/conda_env/pl_lightning/lib/python3.8/site-packages/torchvision/image.so: undefined symbol: _ZN5torch3jit17parseSchemaOrNameERKSs
+  warn(f"Failed to load image Python extension: {e}")
+Namespace(buffer=None, dem_dir='/work/CAMPUS/etudes/Neige/DEM', input_file='/tmp/slurm-4016131/INPUT/SPOT4-HRVIR1-XS_20060220-103805-529_L1C_054-261-0_D_V1-0.zip', job_dir='/tmp/slurm-4016131/OUTPUT', json_config_file=None, keep='0', log_level=None, mask='1', model_dir='/work/CAMPUS/etudes/Neige/CoSIMS/zacharie/TIMESERIES_PROJECT/MODELS/TCD-ONLY_AVG-1200', model_type='mtn', output_dir='/work/CAMPUS/etudes/Neige/CoSIMS/zacharie/TIMESERIES_PROJECT/SWH_INFERENCE/ALP/TCD-ONLY_AVG-1200', tcd_dir='/work/datalake/static_aux/TreeCoverDensity')
+DEVICE cpu
+TOTO
+[[2 2 2 ... 2 2 2]
+ [2 2 2 ... 2 2 2]
+ [2 2 2 ... 2 2 2]
+ ...
+ [2 2 2 ... 2 2 2]
+ [2 2 2 ... 2 2 2]
+ [2 2 2 ... 2 2 2]]
+geo data
+copy to output
+TOTO
+[[2 2 2 ... 2 2 2]
+ [2 2 2 ... 2 2 2]
+ [2 2 2 ... 2 2 2]
+ ...
+ [2 2 2 ... 2 2 2]
+ [2 2 2 ... 2 2 2]
+ [2 2 2 ... 2 2 2]]
+geo data
+copy to output
+muscate/SPOTWORLDHERITAGE/2006/02/20/SPOT4-HRVIR1-XS_20060220-103813-897_L1C_054-262-0_D_V1-0/SPOT4-HRVIR1-XS_20060220-103813-897_L1C_054-262-0_D_V1-0.zip
+activate s3 conda env
+start s2 script
+get credentials
+get s3filesystem
+download
+SPOT4-HRVIR1-XS_20060220-103813-897_L1C_054-262-0_D_V1-0.zip
+/tmp/slurm-4016131/INPUT/SPOT4-HRVIR1-XS_20060220-103813-897_L1C_054-262-0_D_V1-0.zip
+run script
+2024-01-09T10:55:20.185    INFO:run_snow_swh.py::main:output directory : /work/CAMPUS/etudes/Neige/CoSIMS/zacharie/TIMESERIES_PROJECT/SWH_INFERENCE/ALP/TCD-ONLY_AVG-1200
+2024-01-09T10:55:20.187    INFO:run_snow_swh.py::main:input file : /tmp/slurm-4016131/INPUT/SPOT4-HRVIR1-XS_20060220-103813-897_L1C_054-262-0_D_V1-0.zip
+2024-01-09T10:55:20.187    INFO:run_snow_swh.py::main:dem directory : /work/CAMPUS/etudes/Neige/DEM
+2024-01-09T10:55:20.187    INFO:run_snow_swh.py::main:tree cover density directory : /work/datalake/static_aux/TreeCoverDensity
+2024-01-09T10:55:20.187    INFO:run_snow_swh.py::main:model directory : /work/CAMPUS/etudes/Neige/CoSIMS/zacharie/TIMESERIES_PROJECT/MODELS/TCD-ONLY_AVG-1200
+2024-01-09T10:55:20.187    INFO:run_snow_swh.py::main:model type : mtn
+2024-01-09T10:55:20.187    INFO:run_snow_swh.py::main:keep merged bands : None
+2024-01-09T10:55:20.187    INFO:run_snow_swh.py::main:mask inference : None
+2024-01-09T10:55:20.187    INFO:run_snow_swh.py::main:no data buffer : 2000
+2024-01-09T10:55:20.187    INFO:run_snow_swh.py::main:Launch snow detection.
+0...10...20...30...40...50...60...70...80...90...100 - done.
+0...10...20...30...40...50...60...70...80...90...100 - done.

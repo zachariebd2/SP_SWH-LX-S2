@@ -1,0 +1,167 @@
+[PROLOGUE] Starting prologue on node gpgpu02 at date Fri Sep 29 13:50:01 UTC 2023
+[PROLOGUE] Ending prologue on node gpgpu02 at date Fri Sep 29 13:50:01 UTC 2023
+stty: standard input: Inappropriate ioctl for device
+Version d'EPO : /home/ad/barrouz/EPO_CUR/EPO.
+load conda/4.5.4  : OK 
+INPUT_LIST_PATH /home/ad/barrouz/WORKSPACE/TIMESERIES_PROJECT/snow_code/performances/tmp/31TGL_inputs.txt
+TILE 31TGL
+MODELS_PATH /home/ad/barrouz/WORKSPACE/TIMESERIES_PROJECT/snow_code/models
+DEM_PATH /work/CAMPUS/etudes/Neige/DEM
+TCD_PATH /datalake/static_aux/TreeCoverDensity
+start
+/home/ad/barrouz/zacharie/TIMESERIES_PROJECT/LANDSAT_QA_DLR/ALP/195029/LT05_L2SP_195029_19981018_20211129_02_T1_snowclass_QA.tif
+/home/ad/barrouz/datalake/theia/prod/SPOTWORLDHERITAGE/1998/10/18/SPOT4-HRVIR2-XS_19981018-101602-303_L1C_053-259-0_D_V1-0/SPOT4-HRVIR2-XS_19981018-101602-303_L1C_053-259-0_D_V1-0.zip
+/tmp/pbs.52993131.admin01/INPUT/LT05_L2SP_195029_19981018_20211129_02_T1_snowclass_QA.tif
+/tmp/pbs.52993131.admin01/INPUT/SPOT4-HRVIR2-XS_19981018-101602-303_L1C_053-259-0_D_V1-0.zip
+run script
+0...10...20...30...40...50...60...70...80...90...100 - done.
+0...10...20...30...40...50...60...70...80...90...100 - done.
+0...10...20...30...40...50...60...70...80...90...100 - done.
+/work/scratch/barrouz/conda_env/pl_lightning/lib/python3.8/site-packages/torchvision/io/image.py:13: UserWarning: Failed to load image Python extension: /work/scratch/barrouz/conda_env/pl_lightning/lib/python3.8/site-packages/torchvision/image.so: undefined symbol: _ZN5torch3jit17parseSchemaOrNameERKSs
+  warn(f"Failed to load image Python extension: {e}")
+rm: cannot remove '/tmp/pbs.52993131.admin01/INPUT': Is a directory
+/home/ad/barrouz/zacharie/TIMESERIES_PROJECT/LANDSAT_QA_DLR/ALP/195029/LE07_L2SP_195029_20050404_20200914_02_T1_snowclass_QA.tif
+/home/ad/barrouz/datalake/theia/prod/SPOTWORLDHERITAGE/2005/04/04/SPOT4-HRVIR1-XS_20050404-103225-185_L1C_050-258-0_D_V1-0/SPOT4-HRVIR1-XS_20050404-103225-185_L1C_050-258-0_D_V1-0.zip
+/tmp/pbs.52993131.admin01/INPUT/LE07_L2SP_195029_20050404_20200914_02_T1_snowclass_QA.tif
+/tmp/pbs.52993131.admin01/INPUT/SPOT4-HRVIR1-XS_20050404-103225-185_L1C_050-258-0_D_V1-0.zip
+run script
+0...10...20...30...40...50...60...70...80...90...100 - done.
+0...10...20...30...40...50...60...70...80...90...100 - done.
+0...10...20...30...40...50...60...70...80...90...100 - done.
+/work/scratch/barrouz/conda_env/pl_lightning/lib/python3.8/site-packages/torchvision/io/image.py:13: UserWarning: Failed to load image Python extension: /work/scratch/barrouz/conda_env/pl_lightning/lib/python3.8/site-packages/torchvision/image.so: undefined symbol: _ZN5torch3jit17parseSchemaOrNameERKSs
+  warn(f"Failed to load image Python extension: {e}")
+rm: cannot remove '/tmp/pbs.52993131.admin01/INPUT': Is a directory
+/home/ad/barrouz/zacharie/TIMESERIES_PROJECT/LANDSAT_QA_DLR/ALP/195029/LT05_L2SP_195029_19940225_20200913_02_T1_snowclass_QA.tif
+/home/ad/barrouz/datalake/theia/prod/SPOTWORLDHERITAGE/1994/02/25/SPOT3-HRV1-XS_19940225-101527-003_L1C_053-259-0_D_V1-0/SPOT3-HRV1-XS_19940225-101527-003_L1C_053-259-0_D_V1-0.zip
+/tmp/pbs.52993131.admin01/INPUT/LT05_L2SP_195029_19940225_20200913_02_T1_snowclass_QA.tif
+/tmp/pbs.52993131.admin01/INPUT/SPOT3-HRV1-XS_19940225-101527-003_L1C_053-259-0_D_V1-0.zip
+run script
+0...10...20...30...40...50...60...70...80...90...100 - done.
+0...10...20...30...40...50...60...70...80...90...100 - done.
+0...10...20...30...40...50...60...70...80...90...100 - done.
+/work/scratch/barrouz/conda_env/pl_lightning/lib/python3.8/site-packages/torchvision/io/image.py:13: UserWarning: Failed to load image Python extension: /work/scratch/barrouz/conda_env/pl_lightning/lib/python3.8/site-packages/torchvision/image.so: undefined symbol: _ZN5torch3jit17parseSchemaOrNameERKSs
+  warn(f"Failed to load image Python extension: {e}")
+rm: cannot remove '/tmp/pbs.52993131.admin01/INPUT': Is a directory
+/home/ad/barrouz/zacharie/TIMESERIES_PROJECT/LANDSAT_QA_DLR/ALP/195029/LE07_L2SP_195029_20080818_20200912_02_T1_snowclass_QA.tif
+/home/ad/barrouz/datalake/theia/prod/SPOTWORLDHERITAGE/2008/08/18/SPOT4-HRVIR2-XS_20080818-103304-122_L1C_050-258-0_D_V1-0/SPOT4-HRVIR2-XS_20080818-103304-122_L1C_050-258-0_D_V1-0.zip
+/tmp/pbs.52993131.admin01/INPUT/LE07_L2SP_195029_20080818_20200912_02_T1_snowclass_QA.tif
+/tmp/pbs.52993131.admin01/INPUT/SPOT4-HRVIR2-XS_20080818-103304-122_L1C_050-258-0_D_V1-0.zip
+run script
+0...10...20...30...40...50...60...70...80...90...100 - done.
+0...10...20...30...40...50...60...70...80...90...100 - done.
+0...10...20...30...40...50...60...70...80...90...100 - done.
+/work/scratch/barrouz/conda_env/pl_lightning/lib/python3.8/site-packages/torchvision/io/image.py:13: UserWarning: Failed to load image Python extension: /work/scratch/barrouz/conda_env/pl_lightning/lib/python3.8/site-packages/torchvision/image.so: undefined symbol: _ZN5torch3jit17parseSchemaOrNameERKSs
+  warn(f"Failed to load image Python extension: {e}")
+rm: cannot remove '/tmp/pbs.52993131.admin01/INPUT': Is a directory
+/home/ad/barrouz/zacharie/TIMESERIES_PROJECT/LANDSAT_QA_DLR/ALP/195029/LE07_L2SP_195029_19990810_20211108_02_T1_snowclass_QA.tif
+/home/ad/barrouz/datalake/theia/prod/SPOTWORLDHERITAGE/1999/08/10/SPOT4-HRVIR1-XS_19990810-102159-859_L1C_048-258-0_D_V1-0/SPOT4-HRVIR1-XS_19990810-102159-859_L1C_048-258-0_D_V1-0.zip
+/tmp/pbs.52993131.admin01/INPUT/LE07_L2SP_195029_19990810_20211108_02_T1_snowclass_QA.tif
+/tmp/pbs.52993131.admin01/INPUT/SPOT4-HRVIR1-XS_19990810-102159-859_L1C_048-258-0_D_V1-0.zip
+run script
+0...10...20...30...40...50...60...70...80...90...100 - done.
+0...10...20...30...40...50...60...70...80...90...100 - done.
+0...10...20...30...40...50...60...70...80...90...100 - done.
+/work/scratch/barrouz/conda_env/pl_lightning/lib/python3.8/site-packages/torchvision/io/image.py:13: UserWarning: Failed to load image Python extension: /work/scratch/barrouz/conda_env/pl_lightning/lib/python3.8/site-packages/torchvision/image.so: undefined symbol: _ZN5torch3jit17parseSchemaOrNameERKSs
+  warn(f"Failed to load image Python extension: {e}")
+rm: cannot remove '/tmp/pbs.52993131.admin01/INPUT': Is a directory
+/home/ad/barrouz/zacharie/TIMESERIES_PROJECT/LANDSAT_QA_DLR/ALP/195029/LT05_L2SP_195029_20060821_20200831_02_T1_snowclass_QA.tif
+/home/ad/barrouz/datalake/theia/prod/SPOTWORLDHERITAGE/2006/08/21/SPOT4-HRVIR2-XS_20060821-103859-016_L1C_052-258-0_D_V1-0/SPOT4-HRVIR2-XS_20060821-103859-016_L1C_052-258-0_D_V1-0.zip
+/tmp/pbs.52993131.admin01/INPUT/LT05_L2SP_195029_20060821_20200831_02_T1_snowclass_QA.tif
+/tmp/pbs.52993131.admin01/INPUT/SPOT4-HRVIR2-XS_20060821-103859-016_L1C_052-258-0_D_V1-0.zip
+run script
+0...10...20...30...40...50...60...70...80...90...100 - done.
+0...10...20...30...40...50...60...70...80...90...100 - done.
+0...10...20...30...40...50...60...70...80...90...100 - done.
+/work/scratch/barrouz/conda_env/pl_lightning/lib/python3.8/site-packages/torchvision/io/image.py:13: UserWarning: Failed to load image Python extension: /work/scratch/barrouz/conda_env/pl_lightning/lib/python3.8/site-packages/torchvision/image.so: undefined symbol: _ZN5torch3jit17parseSchemaOrNameERKSs
+  warn(f"Failed to load image Python extension: {e}")
+rm: cannot remove '/tmp/pbs.52993131.admin01/INPUT': Is a directory
+/home/ad/barrouz/zacharie/TIMESERIES_PROJECT/LANDSAT_QA_DLR/ALP/195029/LT05_L2SP_195029_20000820_20200907_02_T1_snowclass_QA.tif
+/home/ad/barrouz/datalake/theia/prod/SPOTWORLDHERITAGE/2000/08/20/SPOT2-HRV2-XS_20000820-101850-009_L1C_050-258-0_D_V1-0/SPOT2-HRV2-XS_20000820-101850-009_L1C_050-258-0_D_V1-0.zip
+/tmp/pbs.52993131.admin01/INPUT/LT05_L2SP_195029_20000820_20200907_02_T1_snowclass_QA.tif
+/tmp/pbs.52993131.admin01/INPUT/SPOT2-HRV2-XS_20000820-101850-009_L1C_050-258-0_D_V1-0.zip
+run script
+0...10...20...30...40...50...60...70...80...90...100 - done.
+0...10...20...30...40...50...60...70...80...90...100 - done.
+0...10...20...30...40...50...60...70...80...90...100 - done.
+/work/scratch/barrouz/conda_env/pl_lightning/lib/python3.8/site-packages/torchvision/io/image.py:13: UserWarning: Failed to load image Python extension: /work/scratch/barrouz/conda_env/pl_lightning/lib/python3.8/site-packages/torchvision/image.so: undefined symbol: _ZN5torch3jit17parseSchemaOrNameERKSs
+  warn(f"Failed to load image Python extension: {e}")
+rm: cannot remove '/tmp/pbs.52993131.admin01/INPUT': Is a directory
+/home/ad/barrouz/zacharie/TIMESERIES_PROJECT/LANDSAT_QA_DLR/ALP/195029/LT05_L2SP_195029_19911202_20200915_02_T1_snowclass_QA.tif
+/home/ad/barrouz/datalake/theia/prod/SPOTWORLDHERITAGE/1991/12/02/SPOT2-HRV2-XS_19911202-105106-585_L1C_051-258-0_D_V1-0/SPOT2-HRV2-XS_19911202-105106-585_L1C_051-258-0_D_V1-0.zip
+/tmp/pbs.52993131.admin01/INPUT/LT05_L2SP_195029_19911202_20200915_02_T1_snowclass_QA.tif
+/tmp/pbs.52993131.admin01/INPUT/SPOT2-HRV2-XS_19911202-105106-585_L1C_051-258-0_D_V1-0.zip
+run script
+0...10...20...30...40...50...60...70...80...90...100 - done.
+0...10...20...30...40...50...60...70...80...90...100 - done.
+0...10...20...30...40...50...60...70...80...90...100 - done.
+/work/scratch/barrouz/conda_env/pl_lightning/lib/python3.8/site-packages/torchvision/io/image.py:13: UserWarning: Failed to load image Python extension: /work/scratch/barrouz/conda_env/pl_lightning/lib/python3.8/site-packages/torchvision/image.so: undefined symbol: _ZN5torch3jit17parseSchemaOrNameERKSs
+  warn(f"Failed to load image Python extension: {e}")
+rm: cannot remove '/tmp/pbs.52993131.admin01/INPUT': Is a directory
+/home/ad/barrouz/zacharie/TIMESERIES_PROJECT/LANDSAT_QA_DLR/ALP/195029/LE07_L2SP_195029_20000727_20200918_02_T1_snowclass_QA.tif
+/home/ad/barrouz/datalake/theia/prod/SPOTWORLDHERITAGE/2000/07/27/SPOT4-HRVIR1-XS_20000727-105427-137_L1C_050-258-0_D_V1-0/SPOT4-HRVIR1-XS_20000727-105427-137_L1C_050-258-0_D_V1-0.zip
+/tmp/pbs.52993131.admin01/INPUT/LE07_L2SP_195029_20000727_20200918_02_T1_snowclass_QA.tif
+/tmp/pbs.52993131.admin01/INPUT/SPOT4-HRVIR1-XS_20000727-105427-137_L1C_050-258-0_D_V1-0.zip
+run script
+0...10...20...30...40...50...60...70...80...90...100 - done.
+0...10...20...30...40...50...60...70...80...90...100 - done.
+0...10...20...30...40...50...60...70...80...90...100 - done.
+/work/scratch/barrouz/conda_env/pl_lightning/lib/python3.8/site-packages/torchvision/io/image.py:13: UserWarning: Failed to load image Python extension: /work/scratch/barrouz/conda_env/pl_lightning/lib/python3.8/site-packages/torchvision/image.so: undefined symbol: _ZN5torch3jit17parseSchemaOrNameERKSs
+  warn(f"Failed to load image Python extension: {e}")
+rm: cannot remove '/tmp/pbs.52993131.admin01/INPUT': Is a directory
+/home/ad/barrouz/zacharie/TIMESERIES_PROJECT/LANDSAT_QA_DLR/ALP/195029/LT05_L2SP_195029_19930902_20200913_02_T1_snowclass_QA.tif
+/home/ad/barrouz/datalake/theia/prod/SPOTWORLDHERITAGE/1993/09/02/SPOT2-HRV2-XS_19930902-104257-827_L1C_051-258-0_D_V1-0/SPOT2-HRV2-XS_19930902-104257-827_L1C_051-258-0_D_V1-0.zip
+/tmp/pbs.52993131.admin01/INPUT/LT05_L2SP_195029_19930902_20200913_02_T1_snowclass_QA.tif
+/tmp/pbs.52993131.admin01/INPUT/SPOT2-HRV2-XS_19930902-104257-827_L1C_051-258-0_D_V1-0.zip
+run script
+0...10...20...30...40...50...60...70...80...90...100 - done.
+0...10...20...30...40...50...60...70...80...90...100 - done.
+0...10...20...30...40...50...60...70...80...90...100 - done.
+/work/scratch/barrouz/conda_env/pl_lightning/lib/python3.8/site-packages/torchvision/io/image.py:13: UserWarning: Failed to load image Python extension: /work/scratch/barrouz/conda_env/pl_lightning/lib/python3.8/site-packages/torchvision/image.so: undefined symbol: _ZN5torch3jit17parseSchemaOrNameERKSs
+  warn(f"Failed to load image Python extension: {e}")
+rm: cannot remove '/tmp/pbs.52993131.admin01/INPUT': Is a directory
+/home/ad/barrouz/zacharie/TIMESERIES_PROJECT/LANDSAT_QA_DLR/ALP/195029/LE07_L2SP_195029_19990911_20200918_02_T1_snowclass_QA.tif
+/home/ad/barrouz/datalake/theia/prod/SPOTWORLDHERITAGE/1999/09/11/SPOT1-HRV1-XS_19990911-110556-155_L1C_049-258-0_D_V1-0/SPOT1-HRV1-XS_19990911-110556-155_L1C_049-258-0_D_V1-0.zip
+/tmp/pbs.52993131.admin01/INPUT/LE07_L2SP_195029_19990911_20200918_02_T1_snowclass_QA.tif
+/tmp/pbs.52993131.admin01/INPUT/SPOT1-HRV1-XS_19990911-110556-155_L1C_049-258-0_D_V1-0.zip
+run script
+0...10...20...30...40...50...60...70...80...90...100 - done.
+0...10...20...30...40...50...60...70...80...90...100 - done.
+0...10...20...30...40...50...60...70...80...90...100 - done.
+/work/scratch/barrouz/conda_env/pl_lightning/lib/python3.8/site-packages/torchvision/io/image.py:13: UserWarning: Failed to load image Python extension: /work/scratch/barrouz/conda_env/pl_lightning/lib/python3.8/site-packages/torchvision/image.so: undefined symbol: _ZN5torch3jit17parseSchemaOrNameERKSs
+  warn(f"Failed to load image Python extension: {e}")
+rm: cannot remove '/tmp/pbs.52993131.admin01/INPUT': Is a directory
+/home/ad/barrouz/zacharie/TIMESERIES_PROJECT/LANDSAT_QA_DLR/ALP/195029/LT05_L2SP_195029_19980815_20200909_02_T1_snowclass_QA.tif
+/home/ad/barrouz/datalake/theia/prod/SPOTWORLDHERITAGE/1998/08/15/SPOT4-HRVIR1-XS_19980815-104646-577_L1C_052-258-6_D_V1-0/SPOT4-HRVIR1-XS_19980815-104646-577_L1C_052-258-6_D_V1-0.zip
+/tmp/pbs.52993131.admin01/INPUT/LT05_L2SP_195029_19980815_20200909_02_T1_snowclass_QA.tif
+/tmp/pbs.52993131.admin01/INPUT/SPOT4-HRVIR1-XS_19980815-104646-577_L1C_052-258-6_D_V1-0.zip
+run script
+0...10...20...30...40...50...60...70...80...90...100 - done.
+0...10...20...30...40...50...60...70...80...90...100 - done.
+0...10...20...30...40...50...60...70...80...90...100 - done.
+/work/scratch/barrouz/conda_env/pl_lightning/lib/python3.8/site-packages/torchvision/io/image.py:13: UserWarning: Failed to load image Python extension: /work/scratch/barrouz/conda_env/pl_lightning/lib/python3.8/site-packages/torchvision/image.so: undefined symbol: _ZN5torch3jit17parseSchemaOrNameERKSs
+  warn(f"Failed to load image Python extension: {e}")
+rm: cannot remove '/tmp/pbs.52993131.admin01/INPUT': Is a directory
+/home/ad/barrouz/zacharie/TIMESERIES_PROJECT/LANDSAT_QA_DLR/ALP/195029/LC08_L2SP_195029_20131112_20200912_02_T1_snowclass_QA.tif
+/home/ad/barrouz/datalake/theia/prod/SPOTWORLDHERITAGE/2013/11/12/SPOT5-HRG1-XS_20131112-101010-023_L1C_053-259-0_D_V1-0/SPOT5-HRG1-XS_20131112-101010-023_L1C_053-259-0_D_V1-0.zip
+/tmp/pbs.52993131.admin01/INPUT/LC08_L2SP_195029_20131112_20200912_02_T1_snowclass_QA.tif
+/tmp/pbs.52993131.admin01/INPUT/SPOT5-HRG1-XS_20131112-101010-023_L1C_053-259-0_D_V1-0.zip
+run script
+[EPILOGUE] Starting epilogue on node gpgpu02 at date Fri Sep 29 13:56:39 UTC 2023
+
+------------ JOB INFO 52993131.admin01 -------------
+
+JOBID		: 52993131.admin01
+USER		: barrouz
+GROUP		: cesbio
+JOB NAME	: LANDSAT
+SESSION		: 125625
+RES REQSTED	: ncpus=8,mem=49gb,walltime=39:59:59,place=free
+RES USED	: cpupercent=71,cput=00:05:01,ncpus=8,vmem=3242900kb,mem=3242900kb,walltime=00:06:33
+BILLING         : 00:52:24 (ncpus x walltime)
+QUEUE		: qgpgpumax
+ACCOUNT		: null
+JOB EXIT CODE	: 271
+
+------------ END JOB INFO 52993131.admin01 ---------
+
+[EPILOGUE] Ending epilogue on node gpgpu02 at date Fri Sep 29 13:56:39 UTC 2023
