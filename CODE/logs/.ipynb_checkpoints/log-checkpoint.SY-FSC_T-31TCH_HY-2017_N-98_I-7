@@ -1,0 +1,548 @@
+[PROLOGUE] Starting prologue on node node194 at date Fri Oct 20 16:53:15 UTC 2023
+[PROLOGUE] Ending prologue on node node194 at date Fri Oct 20 16:53:15 UTC 2023
+stty: standard input: Inappropriate ioctl for device
+Version d'EPO : /home/ad/barrouz/EPO_CUR/EPO.
+load saga-gis/7.4.0_py3.8  : OK 
+load gcc/7.3.0  : OK 
+load python/3.8.4  : OK 
+load openmpi/3.1.1  : OK 
+load otb-depends/7.4-python3.8.4  : OK 
+load otb/7.4-python3.8.4  : OK 
+load lis/1.10.2  : OK 
+2023-10-20T16:53:31.905    INFO:let_it_snow_synthesis.py:line=105:main:output directory : /home/ad/barrouz/zacharie/TIMESERIES_PROJECT/S2_BIAS_ANALYSIS/31TCH/REDUCED/2017/98/7/SY-FSC_T-31TCH_HY-2017_N-98_I-7
+2023-10-20T16:53:31.905    INFO:let_it_snow_synthesis.py:line=123:main:date_margin : 15
+2023-10-20T16:53:31.907    INFO:let_it_snow_synthesis.py:line=150:let_it_snow_synthesis:Reading configuration = /home/ad/barrouz/WORKSPACE/TIMESERIES_PROJECT/synthesis_code/configs/SY-FSC_T-31TCH_HY-2017_N-98_I-7.json
+2023-10-20T16:53:31.913    INFO:synthesis_config.py:line=54:load_config:Load configuration
+2023-10-20T16:53:31.915    INFO:let_it_snow_synthesis.py:line=164:let_it_snow_synthesis:Launch snow synthesis computation.
+2023-10-20T16:53:31.916    INFO:snow_synthesis.py:line=70:compute_snow_synthesis:Load S2 snow products.
+2023-10-20T16:53:31.951    INFO:snow_synthesis.py:line=477:load_snow_products:Keeping product : /home/ad/barrouz/datalake/datalake/S2-L2B-COSIMS/data/Snow/FSC/31TCH/2018/08/01/FSC_20180801T104716_S2B_T31TCH_V100_1
+2023-10-20T16:53:31.953    INFO:snow_synthesis.py:line=477:load_snow_products:Keeping product : /home/ad/barrouz/datalake/datalake/S2-L2B-COSIMS/data/Snow/FSC/31TCH/2018/04/06/FSC_20180406T105331_S2B_T31TCH_V100_1
+2023-10-20T16:53:31.955    INFO:snow_synthesis.py:line=477:load_snow_products:Keeping product : /home/ad/barrouz/datalake/datalake/S2-L2B-COSIMS/data/Snow/FSC/31TCH/2018/03/07/FSC_20180307T105016_S2B_T31TCH_V100_1
+2023-10-20T16:53:31.957    INFO:snow_synthesis.py:line=477:load_snow_products:Keeping product : /home/ad/barrouz/datalake/datalake/S2-L2B-COSIMS/data/Snow/FSC/31TCH/2018/02/02/FSC_20180202T104813_S2B_T31TCH_V100_1
+2023-10-20T16:53:31.959    INFO:snow_synthesis.py:line=477:load_snow_products:Keeping product : /home/ad/barrouz/datalake/datalake/S2-L2B-COSIMS/data/Snow/FSC/31TCH/2017/11/29/FSC_20171129T104402_S2A_T31TCH_V100_1
+2023-10-20T16:53:31.960    INFO:snow_synthesis.py:line=477:load_snow_products:Keeping product : /home/ad/barrouz/datalake/datalake/S2-L2B-COSIMS/data/Snow/FSC/31TCH/2018/03/29/FSC_20180329T104021_S2A_T31TCH_V100_1
+2023-10-20T16:53:31.962    INFO:snow_synthesis.py:line=477:load_snow_products:Keeping product : /home/ad/barrouz/datalake/datalake/S2-L2B-COSIMS/data/Snow/FSC/31TCH/2017/09/05/FSC_20170905T104015_S2B_T31TCH_V100_1
+2023-10-20T16:53:31.964    INFO:snow_synthesis.py:line=477:load_snow_products:Keeping product : /home/ad/barrouz/datalake/datalake/S2-L2B-COSIMS/data/Snow/FSC/31TCH/2018/07/25/FSC_20180725T105415_S2B_T31TCH_V100_1
+2023-10-20T16:53:31.966    INFO:snow_synthesis.py:line=477:load_snow_products:Keeping product : /home/ad/barrouz/datalake/datalake/S2-L2B-COSIMS/data/Snow/FSC/31TCH/2017/12/12/FSC_20171212T105907_S2A_T31TCH_V100_1
+2023-10-20T16:53:31.967    INFO:snow_synthesis.py:line=477:load_snow_products:Keeping product : /home/ad/barrouz/datalake/datalake/S2-L2B-COSIMS/data/Snow/FSC/31TCH/2017/10/10/FSC_20171010T104021_S2A_T31TCH_V100_1
+2023-10-20T16:53:31.968    INFO:snow_synthesis.py:line=477:load_snow_products:Keeping product : /home/ad/barrouz/datalake/datalake/S2-L2B-COSIMS/data/Snow/FSC/31TCH/2018/06/30/FSC_20180630T105440_S2A_T31TCH_V100_1
+2023-10-20T16:53:31.970    INFO:snow_synthesis.py:line=477:load_snow_products:Keeping product : /home/ad/barrouz/datalake/datalake/S2-L2B-COSIMS/data/Snow/FSC/31TCH/2017/12/24/FSC_20171224T104432_S2B_T31TCH_V100_1
+2023-10-20T16:53:31.971    INFO:snow_synthesis.py:line=477:load_snow_products:Keeping product : /home/ad/barrouz/datalake/datalake/S2-L2B-COSIMS/data/Snow/FSC/31TCH/2018/08/24/FSC_20180824T105058_S2B_T31TCH_V100_1
+2023-10-20T16:53:31.972    INFO:snow_synthesis.py:line=477:load_snow_products:Keeping product : /home/ad/barrouz/datalake/datalake/S2-L2B-COSIMS/data/Snow/FSC/31TCH/2018/04/21/FSC_20180421T105629_S2A_T31TCH_V100_1
+2023-10-20T16:53:31.974    INFO:snow_synthesis.py:line=477:load_snow_products:Keeping product : /home/ad/barrouz/datalake/datalake/S2-L2B-COSIMS/data/Snow/FSC/31TCH/2018/06/02/FSC_20180602T104102_S2B_T31TCH_V100_1
+2023-10-20T16:53:31.976    INFO:snow_synthesis.py:line=477:load_snow_products:Keeping product : /home/ad/barrouz/datalake/datalake/S2-L2B-COSIMS/data/Snow/FSC/31TCH/2018/04/26/FSC_20180426T105202_S2B_T31TCH_V100_1
+2023-10-20T16:53:31.977    INFO:snow_synthesis.py:line=477:load_snow_products:Keeping product : /home/ad/barrouz/datalake/datalake/S2-L2B-COSIMS/data/Snow/FSC/31TCH/2017/12/19/FSC_20171219T104438_S2A_T31TCH_V100_1
+2023-10-20T16:53:31.979    INFO:snow_synthesis.py:line=477:load_snow_products:Keeping product : /home/ad/barrouz/datalake/datalake/S2-L2B-COSIMS/data/Snow/FSC/31TCH/2018/02/22/FSC_20180222T104035_S2B_T31TCH_V100_1
+2023-10-20T16:53:31.980    INFO:snow_synthesis.py:line=477:load_snow_products:Keeping product : /home/ad/barrouz/datalake/datalake/S2-L2B-COSIMS/data/Snow/FSC/31TCH/2018/07/17/FSC_20180717T104258_S2A_T31TCH_V100_1
+2023-10-20T16:53:31.981    INFO:snow_synthesis.py:line=477:load_snow_products:Keeping product : /home/ad/barrouz/datalake/datalake/S2-L2B-COSIMS/data/Snow/FSC/31TCH/2018/08/31/FSC_20180831T104845_S2B_T31TCH_V100_1
+2023-10-20T16:53:31.983    INFO:snow_synthesis.py:line=477:load_snow_products:Keeping product : /home/ad/barrouz/datalake/datalake/S2-L2B-COSIMS/data/Snow/FSC/31TCH/2018/08/14/FSC_20180814T105021_S2B_T31TCH_V100_1
+2023-10-20T16:53:31.985    INFO:snow_synthesis.py:line=477:load_snow_products:Keeping product : /home/ad/barrouz/datalake/datalake/S2-L2B-COSIMS/data/Snow/FSC/31TCH/2018/01/23/FSC_20180123T104717_S2B_T31TCH_V100_1
+2023-10-20T16:53:31.986    INFO:snow_synthesis.py:line=477:load_snow_products:Keeping product : /home/ad/barrouz/datalake/datalake/S2-L2B-COSIMS/data/Snow/FSC/31TCH/2018/02/10/FSC_20180210T105158_S2A_T31TCH_V100_1
+2023-10-20T16:53:31.988    INFO:snow_synthesis.py:line=477:load_snow_products:Keeping product : /home/ad/barrouz/datalake/datalake/S2-L2B-COSIMS/data/Snow/FSC/31TCH/2018/01/16/FSC_20180116T105527_S2B_T31TCH_V100_1
+2023-10-20T16:53:31.989    INFO:snow_synthesis.py:line=477:load_snow_products:Keeping product : /home/ad/barrouz/datalake/datalake/S2-L2B-COSIMS/data/Snow/FSC/31TCH/2018/08/19/FSC_20180819T105124_S2A_T31TCH_V100_1
+2023-10-20T16:53:31.991    INFO:snow_synthesis.py:line=477:load_snow_products:Keeping product : /home/ad/barrouz/datalake/datalake/S2-L2B-COSIMS/data/Snow/FSC/31TCH/2017/09/23/FSC_20170923T105717_S2A_T31TCH_V100_1
+2023-10-20T16:53:31.992    INFO:snow_synthesis.py:line=477:load_snow_products:Keeping product : /home/ad/barrouz/datalake/datalake/S2-L2B-COSIMS/data/Snow/FSC/31TCH/2018/06/17/FSC_20180617T104321_S2A_T31TCH_V100_1
+2023-10-20T16:53:31.993    INFO:snow_synthesis.py:line=477:load_snow_products:Keeping product : /home/ad/barrouz/datalake/datalake/S2-L2B-COSIMS/data/Snow/FSC/31TCH/2017/11/14/FSC_20171114T104257_S2B_T31TCH_V100_1
+2023-10-20T16:53:31.994    INFO:snow_synthesis.py:line=477:load_snow_products:Keeping product : /home/ad/barrouz/datalake/datalake/S2-L2B-COSIMS/data/Snow/FSC/31TCH/2017/10/08/FSC_20171008T105012_S2B_T31TCH_V100_1
+2023-10-20T16:53:31.995    INFO:snow_synthesis.py:line=477:load_snow_products:Keeping product : /home/ad/barrouz/datalake/datalake/S2-L2B-COSIMS/data/Snow/FSC/31TCH/2018/01/18/FSC_20180118T104524_S2A_T31TCH_V100_1
+2023-10-20T16:53:31.997    INFO:snow_synthesis.py:line=477:load_snow_products:Keeping product : /home/ad/barrouz/datalake/datalake/S2-L2B-COSIMS/data/Snow/FSC/31TCH/2018/02/25/FSC_20180225T105018_S2B_T31TCH_V100_1
+2023-10-20T16:53:31.998    INFO:snow_synthesis.py:line=477:load_snow_products:Keeping product : /home/ad/barrouz/datalake/datalake/S2-L2B-COSIMS/data/Snow/FSC/31TCH/2017/09/20/FSC_20170920T104622_S2A_T31TCH_V100_1
+2023-10-20T16:53:32.000    INFO:snow_synthesis.py:line=477:load_snow_products:Keeping product : /home/ad/barrouz/datalake/datalake/S2-L2B-COSIMS/data/Snow/FSC/31TCH/2018/05/13/FSC_20180513T104737_S2B_T31TCH_V100_1
+2023-10-20T16:53:32.001    INFO:snow_synthesis.py:line=477:load_snow_products:Keeping product : /home/ad/barrouz/datalake/datalake/S2-L2B-COSIMS/data/Snow/FSC/31TCH/2018/08/06/FSC_20180806T104340_S2A_T31TCH_V100_1
+2023-10-20T16:53:32.001    INFO:snow_synthesis.py:line=477:load_snow_products:Keeping product : /home/ad/barrouz/datalake/datalake/S2-L2B-COSIMS/data/Snow/FSC/31TCH/2018/07/10/FSC_20180710T105618_S2A_T31TCH_V100_1
+2023-10-20T16:53:32.002    INFO:snow_synthesis.py:line=477:load_snow_products:Keeping product : /home/ad/barrouz/datalake/datalake/S2-L2B-COSIMS/data/Snow/FSC/31TCH/2018/05/11/FSC_20180511T105804_S2A_T31TCH_V100_1
+2023-10-20T16:53:32.004    INFO:snow_synthesis.py:line=477:load_snow_products:Keeping product : /home/ad/barrouz/datalake/datalake/S2-L2B-COSIMS/data/Snow/FSC/31TCH/2018/01/31/FSC_20180131T105416_S2A_T31TCH_V100_1
+2023-10-20T16:53:32.004    INFO:snow_synthesis.py:line=477:load_snow_products:Keeping product : /home/ad/barrouz/datalake/datalake/S2-L2B-COSIMS/data/Snow/FSC/31TCH/2018/07/12/FSC_20180712T104722_S2B_T31TCH_V100_1
+2023-10-20T16:53:32.006    INFO:snow_synthesis.py:line=477:load_snow_products:Keeping product : /home/ad/barrouz/datalake/datalake/S2-L2B-COSIMS/data/Snow/FSC/31TCH/2018/03/27/FSC_20180327T105022_S2B_T31TCH_V100_1
+2023-10-20T16:53:32.006    INFO:snow_synthesis.py:line=477:load_snow_products:Keeping product : /home/ad/barrouz/datalake/datalake/S2-L2B-COSIMS/data/Snow/FSC/31TCH/2018/06/27/FSC_20180627T104837_S2A_T31TCH_V100_1
+2023-10-20T16:53:32.007    INFO:snow_synthesis.py:line=477:load_snow_products:Keeping product : /home/ad/barrouz/datalake/datalake/S2-L2B-COSIMS/data/Snow/FSC/31TCH/2018/08/04/FSC_20180804T105811_S2B_T31TCH_V100_1
+2023-10-20T16:53:32.009    INFO:snow_synthesis.py:line=477:load_snow_products:Keeping product : /home/ad/barrouz/datalake/datalake/S2-L2B-COSIMS/data/Snow/FSC/31TCH/2018/07/20/FSC_20180720T105213_S2A_T31TCH_V100_1
+2023-10-20T16:53:32.010    INFO:snow_synthesis.py:line=477:load_snow_products:Keeping product : /home/ad/barrouz/datalake/datalake/S2-L2B-COSIMS/data/Snow/FSC/31TCH/2018/08/16/FSC_20180816T104419_S2A_T31TCH_V100_1
+2023-10-20T16:53:32.011    INFO:snow_synthesis.py:line=477:load_snow_products:Keeping product : /home/ad/barrouz/datalake/datalake/S2-L2B-COSIMS/data/Snow/FSC/31TCH/2018/05/26/FSC_20180526T105635_S2B_T31TCH_V100_1
+2023-10-20T16:53:32.012    INFO:snow_synthesis.py:line=477:load_snow_products:Keeping product : /home/ad/barrouz/datalake/datalake/S2-L2B-COSIMS/data/Snow/FSC/31TCH/2018/08/21/FSC_20180821T104015_S2B_T31TCH_V100_1
+2023-10-20T16:53:32.013    INFO:snow_synthesis.py:line=477:load_snow_products:Keeping product : /home/ad/barrouz/datalake/datalake/S2-L2B-COSIMS/data/Snow/FSC/31TCH/2018/03/14/FSC_20180314T104014_S2B_T31TCH_V100_1
+2023-10-20T16:53:32.015    INFO:snow_synthesis.py:line=477:load_snow_products:Keeping product : /home/ad/barrouz/datalake/datalake/S2-L2B-COSIMS/data/Snow/FSC/31TCH/2018/03/02/FSC_20180302T105023_S2A_T31TCH_V100_1
+2023-10-20T16:53:32.016    INFO:snow_synthesis.py:line=477:load_snow_products:Keeping product : /home/ad/barrouz/datalake/datalake/S2-L2B-COSIMS/data/Snow/FSC/31TCH/2017/11/19/FSC_20171119T104806_S2A_T31TCH_V100_1
+2023-10-20T16:53:32.018    INFO:snow_synthesis.py:line=477:load_snow_products:Keeping product : /home/ad/barrouz/datalake/datalake/S2-L2B-COSIMS/data/Snow/FSC/31TCH/2017/09/10/FSC_20170910T104212_S2A_T31TCH_V100_1
+2023-10-20T16:53:32.020    INFO:snow_synthesis.py:line=477:load_snow_products:Keeping product : /home/ad/barrouz/datalake/datalake/S2-L2B-COSIMS/data/Snow/FSC/31TCH/2018/02/07/FSC_20180207T104643_S2A_T31TCH_V100_1
+2023-10-20T16:53:32.021    INFO:snow_synthesis.py:line=477:load_snow_products:Keeping product : /home/ad/barrouz/datalake/datalake/S2-L2B-COSIMS/data/Snow/FSC/31TCH/2018/03/24/FSC_20180324T104016_S2B_T31TCH_V100_1
+2023-10-20T16:53:32.023    INFO:snow_synthesis.py:line=477:load_snow_products:Keeping product : /home/ad/barrouz/datalake/datalake/S2-L2B-COSIMS/data/Snow/FSC/31TCH/2017/11/17/FSC_20171117T105314_S2B_T31TCH_V100_1
+2023-10-20T16:53:32.023    INFO:snow_synthesis.py:line=477:load_snow_products:Keeping product : /home/ad/barrouz/datalake/datalake/S2-L2B-COSIMS/data/Snow/FSC/31TCH/2017/12/09/FSC_20171209T104426_S2A_T31TCH_V100_1
+2023-10-20T16:53:32.024    INFO:snow_synthesis.py:line=477:load_snow_products:Keeping product : /home/ad/barrouz/datalake/datalake/S2-L2B-COSIMS/data/Snow/FSC/31TCH/2017/11/22/FSC_20171122T105612_S2A_T31TCH_V100_1
+2023-10-20T16:53:32.026    INFO:snow_synthesis.py:line=477:load_snow_products:Keeping product : /home/ad/barrouz/datalake/datalake/S2-L2B-COSIMS/data/Snow/FSC/31TCH/2017/10/05/FSC_20171005T104550_S2B_T31TCH_V100_1
+2023-10-20T16:53:32.026    INFO:snow_synthesis.py:line=477:load_snow_products:Keeping product : /home/ad/barrouz/datalake/datalake/S2-L2B-COSIMS/data/Snow/FSC/31TCH/2017/11/27/FSC_20171127T105827_S2B_T31TCH_V100_1
+2023-10-20T16:53:32.027    INFO:snow_synthesis.py:line=477:load_snow_products:Keeping product : /home/ad/barrouz/datalake/datalake/S2-L2B-COSIMS/data/Snow/FSC/31TCH/2018/08/11/FSC_20180811T104744_S2B_T31TCH_V100_1
+2023-10-20T16:53:32.028    INFO:snow_synthesis.py:line=477:load_snow_products:Keeping product : /home/ad/barrouz/datalake/datalake/S2-L2B-COSIMS/data/Snow/FSC/31TCH/2018/03/22/FSC_20180322T105809_S2A_T31TCH_V100_1
+2023-10-20T16:53:32.029    INFO:snow_synthesis.py:line=477:load_snow_products:Keeping product : /home/ad/barrouz/datalake/datalake/S2-L2B-COSIMS/data/Snow/FSC/31TCH/2017/11/07/FSC_20171107T105753_S2B_T31TCH_V100_1
+2023-10-20T16:53:32.030    INFO:snow_synthesis.py:line=477:load_snow_products:Keeping product : /home/ad/barrouz/datalake/datalake/S2-L2B-COSIMS/data/Snow/FSC/31TCH/2017/10/23/FSC_20171023T105154_S2A_T31TCH_V100_1
+2023-10-20T16:53:32.032    INFO:snow_synthesis.py:line=477:load_snow_products:Keeping product : /home/ad/barrouz/datalake/datalake/S2-L2B-COSIMS/data/Snow/FSC/31TCH/2018/07/15/FSC_20180715T105300_S2B_T31TCH_V100_1
+2023-10-20T16:53:32.032    INFO:snow_synthesis.py:line=477:load_snow_products:Keeping product : /home/ad/barrouz/datalake/datalake/S2-L2B-COSIMS/data/Snow/FSC/31TCH/2017/10/30/FSC_20171030T104754_S2A_T31TCH_V100_1
+2023-10-20T16:53:32.034    INFO:snow_synthesis.py:line=477:load_snow_products:Keeping product : /home/ad/barrouz/datalake/datalake/S2-L2B-COSIMS/data/Snow/FSC/31TCH/2018/07/02/FSC_20180702T104821_S2B_T31TCH_V100_1
+2023-10-20T16:53:32.036    INFO:snow_synthesis.py:line=477:load_snow_products:Keeping product : /home/ad/barrouz/datalake/datalake/S2-L2B-COSIMS/data/Snow/FSC/31TCH/2017/10/20/FSC_20171020T104323_S2A_T31TCH_V100_1
+2023-10-20T16:53:32.036    INFO:snow_synthesis.py:line=477:load_snow_products:Keeping product : /home/ad/barrouz/datalake/datalake/S2-L2B-COSIMS/data/Snow/FSC/31TCH/2018/06/25/FSC_20180625T105253_S2B_T31TCH_V100_1
+2023-10-20T16:53:32.037    INFO:snow_synthesis.py:line=477:load_snow_products:Keeping product : /home/ad/barrouz/datalake/datalake/S2-L2B-COSIMS/data/Snow/FSC/31TCH/2018/01/28/FSC_20180128T104602_S2A_T31TCH_V100_1
+2023-10-20T16:53:32.039    INFO:snow_synthesis.py:line=477:load_snow_products:Keeping product : /home/ad/barrouz/datalake/datalake/S2-L2B-COSIMS/data/Snow/FSC/31TCH/2018/08/26/FSC_20180826T104155_S2A_T31TCH_V100_1
+2023-10-20T16:53:32.039    INFO:snow_synthesis.py:line=477:load_snow_products:Keeping product : /home/ad/barrouz/datalake/datalake/S2-L2B-COSIMS/data/Snow/FSC/31TCH/2017/10/15/FSC_20171015T104525_S2B_T31TCH_V100_1
+2023-10-20T16:53:32.041    INFO:snow_synthesis.py:line=477:load_snow_products:Keeping product : /home/ad/barrouz/datalake/datalake/S2-L2B-COSIMS/data/Snow/FSC/31TCH/2018/05/23/FSC_20180523T104124_S2B_T31TCH_V100_1
+2023-10-20T16:53:32.042    INFO:snow_synthesis.py:line=477:load_snow_products:Keeping product : /home/ad/barrouz/datalake/datalake/S2-L2B-COSIMS/data/Snow/FSC/31TCH/2017/12/17/FSC_20171217T105433_S2B_T31TCH_V100_1
+2023-10-20T16:53:32.042    INFO:snow_synthesis.py:line=477:load_snow_products:Keeping product : /home/ad/barrouz/datalake/datalake/S2-L2B-COSIMS/data/Snow/FSC/31TCH/2018/04/01/FSC_20180401T105529_S2A_T31TCH_V100_1
+2023-10-20T16:53:32.043    INFO:snow_synthesis.py:line=477:load_snow_products:Keeping product : /home/ad/barrouz/datalake/datalake/S2-L2B-COSIMS/data/Snow/FSC/31TCH/2018/04/03/FSC_20180403T104105_S2B_T31TCH_V100_1
+2023-10-20T16:53:32.044    INFO:snow_synthesis.py:line=477:load_snow_products:Keeping product : /home/ad/barrouz/datalake/datalake/S2-L2B-COSIMS/data/Snow/FSC/31TCH/2017/10/25/FSC_20171025T104120_S2B_T31TCH_V100_1
+2023-10-20T16:53:32.044    INFO:snow_synthesis.py:line=477:load_snow_products:Keeping product : /home/ad/barrouz/datalake/datalake/S2-L2B-COSIMS/data/Snow/FSC/31TCH/2018/02/12/FSC_20180212T104835_S2B_T31TCH_V100_1
+2023-10-20T16:53:32.045    INFO:snow_synthesis.py:line=477:load_snow_products:Keeping product : /home/ad/barrouz/datalake/datalake/S2-L2B-COSIMS/data/Snow/FSC/31TCH/2018/07/30/FSC_20180730T105204_S2A_T31TCH_V100_1
+2023-10-20T16:53:32.046    INFO:snow_synthesis.py:line=477:load_snow_products:Keeping product : /home/ad/barrouz/datalake/datalake/S2-L2B-COSIMS/data/Snow/FSC/31TCH/2018/03/09/FSC_20180309T104022_S2A_T31TCH_V100_1
+2023-10-20T16:53:32.047    INFO:snow_synthesis.py:line=477:load_snow_products:Keeping product : /home/ad/barrouz/datalake/datalake/S2-L2B-COSIMS/data/Snow/FSC/31TCH/2018/02/15/FSC_20180215T105300_S2B_T31TCH_V100_1
+2023-10-20T16:53:32.048    INFO:snow_synthesis.py:line=477:load_snow_products:Keeping product : /home/ad/barrouz/datalake/datalake/S2-L2B-COSIMS/data/Snow/FSC/31TCH/2018/07/07/FSC_20180707T104515_S2A_T31TCH_V100_1
+2023-10-20T16:53:32.050    INFO:snow_synthesis.py:line=477:load_snow_products:Keeping product : /home/ad/barrouz/datalake/datalake/S2-L2B-COSIMS/data/Snow/FSC/31TCH/2018/02/27/FSC_20180227T104236_S2A_T31TCH_V100_1
+2023-10-20T16:53:32.050    INFO:snow_synthesis.py:line=477:load_snow_products:Keeping product : /home/ad/barrouz/datalake/datalake/S2-L2B-COSIMS/data/Snow/FSC/31TCH/2018/03/19/FSC_20180319T104019_S2A_T31TCH_V100_1
+2023-10-20T16:53:32.051    INFO:snow_synthesis.py:line=477:load_snow_products:Keeping product : /home/ad/barrouz/datalake/datalake/S2-L2B-COSIMS/data/Snow/FSC/31TCH/2017/12/12/FSC_20171212T105436_S2A_T31TCH_V100_1
+2023-10-20T16:53:32.052    INFO:snow_synthesis.py:line=477:load_snow_products:Keeping product : /home/ad/barrouz/datalake/datalake/S2-L2B-COSIMS/data/Snow/FSC/31TCH/2018/07/27/FSC_20180727T104023_S2A_T31TCH_V100_1
+2023-10-20T16:53:32.052    INFO:snow_synthesis.py:line=477:load_snow_products:Keeping product : /home/ad/barrouz/datalake/datalake/S2-L2B-COSIMS/data/Snow/FSC/31TCH/2018/01/01/FSC_20180101T105435_S2A_T31TCH_V100_1
+2023-10-20T16:53:32.054    INFO:snow_synthesis.py:line=477:load_snow_products:Keeping product : /home/ad/barrouz/datalake/datalake/S2-L2B-COSIMS/data/Snow/FSC/31TCH/2017/10/28/FSC_20171028T105128_S2B_T31TCH_V100_1
+2023-10-20T16:53:32.055    INFO:snow_synthesis.py:line=477:load_snow_products:Keeping product : /home/ad/barrouz/datalake/datalake/S2-L2B-COSIMS/data/Snow/FSC/31TCH/2018/01/11/FSC_20180111T105549_S2A_T31TCH_V100_1
+2023-10-20T16:53:32.055    INFO:snow_synthesis.py:line=477:load_snow_products:Keeping product : /home/ad/barrouz/datalake/datalake/S2-L2B-COSIMS/data/Snow/FSC/31TCH/2017/09/28/FSC_20170928T105619_S2B_T31TCH_V100_1
+2023-10-20T16:53:32.056    INFO:snow_synthesis.py:line=477:load_snow_products:Keeping product : /home/ad/barrouz/datalake/datalake/S2-L2B-COSIMS/data/Snow/FSC/31TCH/2017/09/13/FSC_20170913T105335_S2A_T31TCH_V100_1
+2023-10-20T16:53:32.056    INFO:snow_synthesis.py:line=477:load_snow_products:Keeping product : /home/ad/barrouz/datalake/datalake/S2-L2B-COSIMS/data/Snow/FSC/31TCH/2018/06/20/FSC_20180620T105211_S2A_T31TCH_V100_1
+2023-10-20T16:53:32.057    INFO:snow_synthesis.py:line=477:load_snow_products:Keeping product : /home/ad/barrouz/datalake/datalake/S2-L2B-COSIMS/data/Snow/FSC/31TCH/2018/04/18/FSC_20180418T104512_S2A_T31TCH_V100_1
+2023-10-20T16:53:32.058    INFO:snow_synthesis.py:line=477:load_snow_products:Keeping product : /home/ad/barrouz/datalake/datalake/S2-L2B-COSIMS/data/Snow/FSC/31TCH/2018/01/21/FSC_20180121T105428_S2A_T31TCH_V100_1
+2023-10-20T16:53:32.058    INFO:snow_synthesis.py:line=477:load_snow_products:Keeping product : /home/ad/barrouz/datalake/datalake/S2-L2B-COSIMS/data/Snow/FSC/31TCH/2017/09/08/FSC_20170908T105359_S2B_T31TCH_V100_1
+2023-10-20T16:53:32.059    INFO:snow_synthesis.py:line=477:load_snow_products:Keeping product : /home/ad/barrouz/datalake/datalake/S2-L2B-COSIMS/data/Snow/FSC/31TCH/2018/05/21/FSC_20180521T105702_S2A_T31TCH_V100_1
+2023-10-20T16:53:32.060    INFO:snow_synthesis.py:line=477:load_snow_products:Keeping product : /home/ad/barrouz/datalake/datalake/S2-L2B-COSIMS/data/Snow/FSC/31TCH/2017/11/12/FSC_20171112T105302_S2A_T31TCH_V100_1
+2023-10-20T16:53:32.061    INFO:snow_synthesis.py:line=477:load_snow_products:Keeping product : /home/ad/barrouz/datalake/datalake/S2-L2B-COSIMS/data/Snow/FSC/31TCH/2017/10/03/FSC_20171003T105856_S2A_T31TCH_V100_1
+2023-10-20T16:53:32.062    INFO:snow_synthesis.py:line=477:load_snow_products:Keeping product : /home/ad/barrouz/datalake/datalake/S2-L2B-COSIMS/data/Snow/FSC/31TCH/2018/08/29/FSC_20180829T105441_S2A_T31TCH_V100_1
+2023-10-20T16:53:32.062    INFO:snow_synthesis.py:line=477:load_snow_products:Keeping product : /home/ad/barrouz/datalake/datalake/S2-L2B-COSIMS/data/Snow/FSC/31TCH/2017/10/13/FSC_20171013T105315_S2A_T31TCH_V100_1
+2023-10-20T16:53:32.063    INFO:snow_synthesis.py:line=477:load_snow_products:Keeping product : /home/ad/barrouz/datalake/datalake/S2-L2B-COSIMS/data/Snow/FSC/31TCH/2018/01/03/FSC_20180103T104424_S2B_T31TCH_V100_1
+2023-10-20T16:53:32.063    INFO:snow_synthesis.py:line=477:load_snow_products:Keeping product : /home/ad/barrouz/datalake/datalake/S2-L2B-COSIMS/data/Snow/FSC/31TCH/2018/06/22/FSC_20180622T104021_S2B_T31TCH_V100_1
+2023-10-20T16:53:32.064    INFO:snow_synthesis.py:line=92:compute_snow_synthesis:Sort products by acquisition date.
+2023-10-20T16:53:32.064    INFO:snow_synthesis.py:line=99:compute_snow_synthesis:Retrieve output dates.
+2023-10-20T16:53:32.067    INFO:snow_synthesis.py:line=111:compute_snow_synthesis:Merge products at the same date.
+2023-10-20T16:53:32.068    INFO:otb_wrappers.py:line=19:band_math:Processing BandMath with args:
+2023-10-20T16:53:32.068    INFO:otb_wrappers.py:line=20:band_math:il = /home/ad/barrouz/datalake/datalake/S2-L2B-COSIMS/data/Snow/FSC/31TCH/2017/12/12/FSC_20171212T105907_S2A_T31TCH_V100_1/FSC_20171212T105907_S2A_T31TCH_V100_1_FSCOG.tif;/home/ad/barrouz/datalake/datalake/S2-L2B-COSIMS/data/Snow/FSC/31TCH/2017/12/12/FSC_20171212T105436_S2A_T31TCH_V100_1/FSC_20171212T105436_S2A_T31TCH_V100_1_FSCOG.tif
+2023-10-20T16:53:32.068    INFO:otb_wrappers.py:line=21:band_math:out = /home/ad/barrouz/zacharie/TIMESERIES_PROJECT/S2_BIAS_ANALYSIS/31TCH/REDUCED/2017/98/7/SY-FSC_T-31TCH_HY-2017_N-98_I-7/tmp/20171212_merged_snow_product.tif
+2023-10-20T16:53:32.068    INFO:otb_wrappers.py:line=22:band_math:exp = (im1b1<=100?im1b1:(im2b1<=100?im2b1:im2b1))
+2023-10-20T16:53:32.300    INFO:otb_wrappers.py:line=34:band_math:ram = 4096
+2023-10-20T16:53:32.301    INFO:otb_wrappers.py:line=37:band_math:out_type = 0
+2023-10-20T16:53:34.696    INFO:snow_synthesis.py:line=117:compute_snow_synthesis:Convert snow masks into snow and cloud binary snow masks.
+2023-10-20T16:53:34.696    INFO:otb_wrappers.py:line=19:band_math:Processing BandMath with args:
+2023-10-20T16:53:34.696    INFO:otb_wrappers.py:line=20:band_math:il = /home/ad/barrouz/datalake/datalake/S2-L2B-COSIMS/data/Snow/FSC/31TCH/2017/09/05/FSC_20170905T104015_S2B_T31TCH_V100_1/FSC_20170905T104015_S2B_T31TCH_V100_1_FSCOG.tif
+2023-10-20T16:53:34.696    INFO:otb_wrappers.py:line=21:band_math:out = /home/ad/barrouz/zacharie/TIMESERIES_PROJECT/S2_BIAS_ANALYSIS/31TCH/REDUCED/2017/98/7/SY-FSC_T-31TCH_HY-2017_N-98_I-7/tmp/20170905_snow_binary.tif?&gdal:co:NBITS=1&gdal:co:COMPRESS=DEFLATE
+2023-10-20T16:53:34.696    INFO:otb_wrappers.py:line=22:band_math:exp = (im1b1>0 and im1b1<=100)?1:0
+2023-10-20T16:53:34.726    INFO:otb_wrappers.py:line=34:band_math:ram = 4096
+2023-10-20T16:53:34.727    INFO:otb_wrappers.py:line=37:band_math:out_type = 0
+2023-10-20T16:53:37.343    INFO:otb_wrappers.py:line=19:band_math:Processing BandMath with args:
+2023-10-20T16:53:37.344    INFO:otb_wrappers.py:line=20:band_math:il = /home/ad/barrouz/datalake/datalake/S2-L2B-COSIMS/data/Snow/FSC/31TCH/2017/09/08/FSC_20170908T105359_S2B_T31TCH_V100_1/FSC_20170908T105359_S2B_T31TCH_V100_1_FSCOG.tif
+2023-10-20T16:53:37.344    INFO:otb_wrappers.py:line=21:band_math:out = /home/ad/barrouz/zacharie/TIMESERIES_PROJECT/S2_BIAS_ANALYSIS/31TCH/REDUCED/2017/98/7/SY-FSC_T-31TCH_HY-2017_N-98_I-7/tmp/20170908_snow_binary.tif?&gdal:co:NBITS=1&gdal:co:COMPRESS=DEFLATE
+2023-10-20T16:53:37.344    INFO:otb_wrappers.py:line=22:band_math:exp = (im1b1>0 and im1b1<=100)?1:0
+2023-10-20T16:53:37.378    INFO:otb_wrappers.py:line=34:band_math:ram = 4096
+2023-10-20T16:53:37.378    INFO:otb_wrappers.py:line=37:band_math:out_type = 0
+2023-10-20T16:53:39.866    INFO:otb_wrappers.py:line=19:band_math:Processing BandMath with args:
+2023-10-20T16:53:39.866    INFO:otb_wrappers.py:line=20:band_math:il = /home/ad/barrouz/datalake/datalake/S2-L2B-COSIMS/data/Snow/FSC/31TCH/2017/09/10/FSC_20170910T104212_S2A_T31TCH_V100_1/FSC_20170910T104212_S2A_T31TCH_V100_1_FSCOG.tif
+2023-10-20T16:53:39.866    INFO:otb_wrappers.py:line=21:band_math:out = /home/ad/barrouz/zacharie/TIMESERIES_PROJECT/S2_BIAS_ANALYSIS/31TCH/REDUCED/2017/98/7/SY-FSC_T-31TCH_HY-2017_N-98_I-7/tmp/20170910_snow_binary.tif?&gdal:co:NBITS=1&gdal:co:COMPRESS=DEFLATE
+2023-10-20T16:53:39.866    INFO:otb_wrappers.py:line=22:band_math:exp = (im1b1>0 and im1b1<=100)?1:0
+2023-10-20T16:53:39.878    INFO:otb_wrappers.py:line=34:band_math:ram = 4096
+2023-10-20T16:53:39.879    INFO:otb_wrappers.py:line=37:band_math:out_type = 0
+2023-10-20T16:53:42.310    INFO:otb_wrappers.py:line=19:band_math:Processing BandMath with args:
+2023-10-20T16:53:42.310    INFO:otb_wrappers.py:line=20:band_math:il = /home/ad/barrouz/datalake/datalake/S2-L2B-COSIMS/data/Snow/FSC/31TCH/2017/09/13/FSC_20170913T105335_S2A_T31TCH_V100_1/FSC_20170913T105335_S2A_T31TCH_V100_1_FSCOG.tif
+2023-10-20T16:53:42.310    INFO:otb_wrappers.py:line=21:band_math:out = /home/ad/barrouz/zacharie/TIMESERIES_PROJECT/S2_BIAS_ANALYSIS/31TCH/REDUCED/2017/98/7/SY-FSC_T-31TCH_HY-2017_N-98_I-7/tmp/20170913_snow_binary.tif?&gdal:co:NBITS=1&gdal:co:COMPRESS=DEFLATE
+2023-10-20T16:53:42.310    INFO:otb_wrappers.py:line=22:band_math:exp = (im1b1>0 and im1b1<=100)?1:0
+2023-10-20T16:53:42.351    INFO:otb_wrappers.py:line=34:band_math:ram = 4096
+2023-10-20T16:53:42.351    INFO:otb_wrappers.py:line=37:band_math:out_type = 0
+2023-10-20T16:53:44.901    INFO:otb_wrappers.py:line=19:band_math:Processing BandMath with args:
+2023-10-20T16:53:44.901    INFO:otb_wrappers.py:line=20:band_math:il = /home/ad/barrouz/datalake/datalake/S2-L2B-COSIMS/data/Snow/FSC/31TCH/2017/09/20/FSC_20170920T104622_S2A_T31TCH_V100_1/FSC_20170920T104622_S2A_T31TCH_V100_1_FSCOG.tif
+2023-10-20T16:53:44.901    INFO:otb_wrappers.py:line=21:band_math:out = /home/ad/barrouz/zacharie/TIMESERIES_PROJECT/S2_BIAS_ANALYSIS/31TCH/REDUCED/2017/98/7/SY-FSC_T-31TCH_HY-2017_N-98_I-7/tmp/20170920_snow_binary.tif?&gdal:co:NBITS=1&gdal:co:COMPRESS=DEFLATE
+2023-10-20T16:53:44.901    INFO:otb_wrappers.py:line=22:band_math:exp = (im1b1>0 and im1b1<=100)?1:0
+2023-10-20T16:53:44.913    INFO:otb_wrappers.py:line=34:band_math:ram = 4096
+2023-10-20T16:53:44.913    INFO:otb_wrappers.py:line=37:band_math:out_type = 0
+2023-10-20T16:53:47.357    INFO:otb_wrappers.py:line=19:band_math:Processing BandMath with args:
+2023-10-20T16:53:47.357    INFO:otb_wrappers.py:line=20:band_math:il = /home/ad/barrouz/datalake/datalake/S2-L2B-COSIMS/data/Snow/FSC/31TCH/2017/09/23/FSC_20170923T105717_S2A_T31TCH_V100_1/FSC_20170923T105717_S2A_T31TCH_V100_1_FSCTOC.tif
+2023-10-20T16:53:47.358    INFO:otb_wrappers.py:line=21:band_math:out = /home/ad/barrouz/zacharie/TIMESERIES_PROJECT/S2_BIAS_ANALYSIS/31TCH/REDUCED/2017/98/7/SY-FSC_T-31TCH_HY-2017_N-98_I-7/tmp/20170923_snow_binary.tif?&gdal:co:NBITS=1&gdal:co:COMPRESS=DEFLATE
+2023-10-20T16:53:47.358    INFO:otb_wrappers.py:line=22:band_math:exp = (im1b1>0 and im1b1<=100)?1:0
+2023-10-20T16:53:47.392    INFO:otb_wrappers.py:line=34:band_math:ram = 4096
+2023-10-20T16:53:47.392    INFO:otb_wrappers.py:line=37:band_math:out_type = 0
+2023-10-20T16:53:49.944    INFO:otb_wrappers.py:line=19:band_math:Processing BandMath with args:
+2023-10-20T16:53:49.944    INFO:otb_wrappers.py:line=20:band_math:il = /home/ad/barrouz/datalake/datalake/S2-L2B-COSIMS/data/Snow/FSC/31TCH/2017/09/28/FSC_20170928T105619_S2B_T31TCH_V100_1/FSC_20170928T105619_S2B_T31TCH_V100_1_FSCTOC.tif
+2023-10-20T16:53:49.945    INFO:otb_wrappers.py:line=21:band_math:out = /home/ad/barrouz/zacharie/TIMESERIES_PROJECT/S2_BIAS_ANALYSIS/31TCH/REDUCED/2017/98/7/SY-FSC_T-31TCH_HY-2017_N-98_I-7/tmp/20170928_snow_binary.tif?&gdal:co:NBITS=1&gdal:co:COMPRESS=DEFLATE
+2023-10-20T16:53:49.945    INFO:otb_wrappers.py:line=22:band_math:exp = (im1b1>0 and im1b1<=100)?1:0
+2023-10-20T16:53:49.977    INFO:otb_wrappers.py:line=34:band_math:ram = 4096
+2023-10-20T16:53:49.977    INFO:otb_wrappers.py:line=37:band_math:out_type = 0
+2023-10-20T16:53:52.391    INFO:otb_wrappers.py:line=19:band_math:Processing BandMath with args:
+2023-10-20T16:53:52.391    INFO:otb_wrappers.py:line=20:band_math:il = /home/ad/barrouz/datalake/datalake/S2-L2B-COSIMS/data/Snow/FSC/31TCH/2017/10/03/FSC_20171003T105856_S2A_T31TCH_V100_1/FSC_20171003T105856_S2A_T31TCH_V100_1_FSCOG.tif
+2023-10-20T16:53:52.392    INFO:otb_wrappers.py:line=21:band_math:out = /home/ad/barrouz/zacharie/TIMESERIES_PROJECT/S2_BIAS_ANALYSIS/31TCH/REDUCED/2017/98/7/SY-FSC_T-31TCH_HY-2017_N-98_I-7/tmp/20171003_snow_binary.tif?&gdal:co:NBITS=1&gdal:co:COMPRESS=DEFLATE
+2023-10-20T16:53:52.393    INFO:otb_wrappers.py:line=22:band_math:exp = (im1b1>0 and im1b1<=100)?1:0
+2023-10-20T16:53:52.429    INFO:otb_wrappers.py:line=34:band_math:ram = 4096
+2023-10-20T16:53:52.429    INFO:otb_wrappers.py:line=37:band_math:out_type = 0
+2023-10-20T16:53:54.852    INFO:otb_wrappers.py:line=19:band_math:Processing BandMath with args:
+2023-10-20T16:53:54.853    INFO:otb_wrappers.py:line=20:band_math:il = /home/ad/barrouz/datalake/datalake/S2-L2B-COSIMS/data/Snow/FSC/31TCH/2017/10/05/FSC_20171005T104550_S2B_T31TCH_V100_1/FSC_20171005T104550_S2B_T31TCH_V100_1_FSCTOC.tif
+2023-10-20T16:53:54.853    INFO:otb_wrappers.py:line=21:band_math:out = /home/ad/barrouz/zacharie/TIMESERIES_PROJECT/S2_BIAS_ANALYSIS/31TCH/REDUCED/2017/98/7/SY-FSC_T-31TCH_HY-2017_N-98_I-7/tmp/20171005_snow_binary.tif?&gdal:co:NBITS=1&gdal:co:COMPRESS=DEFLATE
+2023-10-20T16:53:54.853    INFO:otb_wrappers.py:line=22:band_math:exp = (im1b1>0 and im1b1<=100)?1:0
+2023-10-20T16:53:54.867    INFO:otb_wrappers.py:line=34:band_math:ram = 4096
+2023-10-20T16:53:54.867    INFO:otb_wrappers.py:line=37:band_math:out_type = 0
+2023-10-20 16:53:32 (INFO) BandMath: Default RAM limit for OTB is 256 MB
+2023-10-20 16:53:32 (INFO) BandMath: GDAL maximum cache size is 6397 MB
+2023-10-20 16:53:32 (INFO) BandMath: OTB will use at most 24 threads
+2023-10-20 16:53:32 (INFO) BandMath: Image #1 has 1 components
+
+2023-10-20 16:53:32 (INFO) BandMath: Image #2 has 1 components
+
+2023-10-20 16:53:32 (INFO): Estimated memory for full processing: 862.306MB (avail.: 4096 MB), optimal image partitioning: 1 blocks
+2023-10-20 16:53:32 (INFO): File /home/ad/barrouz/zacharie/TIMESERIES_PROJECT/S2_BIAS_ANALYSIS/31TCH/REDUCED/2017/98/7/SY-FSC_T-31TCH_HY-2017_N-98_I-7/tmp/20171212_merged_snow_product.tif will be written in 1 blocks of 5490x5490 pixels
+Writing /home/ad/barrouz/zacharie/TIMESERIES_PROJECT/S2_BIAS_ANALYSIS/31TCH/REDUCED/2017/98/7/SY-FSC_T-31TCH_HY-2017_N-98_I-7/tmp/20171212_merged_snow_product.tif...: 100% [**************************************************] (2s)
+2023-10-20 16:53:34 (INFO) BandMath: Default RAM limit for OTB is 256 MB
+2023-10-20 16:53:34 (INFO) BandMath: GDAL maximum cache size is 6397 MB
+2023-10-20 16:53:34 (INFO) BandMath: OTB will use at most 24 threads
+2023-10-20 16:53:34 (INFO) BandMath: Image #1 has 1 components
+
+2023-10-20 16:53:34 (INFO): Estimated memory for full processing: 632.355MB (avail.: 4096 MB), optimal image partitioning: 1 blocks
+2023-10-20 16:53:34 (INFO): File /home/ad/barrouz/zacharie/TIMESERIES_PROJECT/S2_BIAS_ANALYSIS/31TCH/REDUCED/2017/98/7/SY-FSC_T-31TCH_HY-2017_N-98_I-7/tmp/20170905_snow_binary.tif will be written in 1 blocks of 5490x5490 pixels
+Writing /home/ad/barrouz/zacharie/TIMESERIES_PROJECT/S2_BIAS_ANALYSIS/31TCH/REDUCED/2017/98/7/SY-FSC_T-31TCH_HY-2017_N-98_I-7/tmp/20170905_snow_binary.tif?&gdal:co:NBITS=1&gdal:co:COMPRESS=DEFLATE...: 100% [**************************************************] (2s)
+2023-10-20 16:53:37 (INFO) BandMath: Default RAM limit for OTB is 256 MB
+2023-10-20 16:53:37 (INFO) BandMath: GDAL maximum cache size is 6397 MB
+2023-10-20 16:53:37 (INFO) BandMath: OTB will use at most 24 threads
+2023-10-20 16:53:37 (INFO) BandMath: Image #1 has 1 components
+
+2023-10-20 16:53:37 (INFO): Estimated memory for full processing: 632.355MB (avail.: 4096 MB), optimal image partitioning: 1 blocks
+2023-10-20 16:53:37 (INFO): File /home/ad/barrouz/zacharie/TIMESERIES_PROJECT/S2_BIAS_ANALYSIS/31TCH/REDUCED/2017/98/7/SY-FSC_T-31TCH_HY-2017_N-98_I-7/tmp/20170908_snow_binary.tif will be written in 1 blocks of 5490x5490 pixels
+Writing /home/ad/barrouz/zacharie/TIMESERIES_PROJECT/S2_BIAS_ANALYSIS/31TCH/REDUCED/2017/98/7/SY-FSC_T-31TCH_HY-2017_N-98_I-7/tmp/20170908_snow_binary.tif?&gdal:co:NBITS=1&gdal:co:COMPRESS=DEFLATE...: 100% [**************************************************] (2s)
+2023-10-20 16:53:39 (INFO) BandMath: Default RAM limit for OTB is 256 MB
+2023-10-20 16:53:39 (INFO) BandMath: GDAL maximum cache size is 6397 MB
+2023-10-20 16:53:39 (INFO) BandMath: OTB will use at most 24 threads
+2023-10-20 16:53:39 (INFO) BandMath: Image #1 has 1 components
+
+2023-10-20 16:53:39 (INFO): Estimated memory for full processing: 632.355MB (avail.: 4096 MB), optimal image partitioning: 1 blocks
+2023-10-20 16:53:39 (INFO): File /home/ad/barrouz/zacharie/TIMESERIES_PROJECT/S2_BIAS_ANALYSIS/31TCH/REDUCED/2017/98/7/SY-FSC_T-31TCH_HY-2017_N-98_I-7/tmp/20170910_snow_binary.tif will be written in 1 blocks of 5490x5490 pixels
+Writing /home/ad/barrouz/zacharie/TIMESERIES_PROJECT/S2_BIAS_ANALYSIS/31TCH/REDUCED/2017/98/7/SY-FSC_T-31TCH_HY-2017_N-98_I-7/tmp/20170910_snow_binary.tif?&gdal:co:NBITS=1&gdal:co:COMPRESS=DEFLATE...: 100% [**************************************************] (2s)
+2023-10-20 16:53:42 (INFO) BandMath: Default RAM limit for OTB is 256 MB
+2023-10-20 16:53:42 (INFO) BandMath: GDAL maximum cache size is 6397 MB
+2023-10-20 16:53:42 (INFO) BandMath: OTB will use at most 24 threads
+2023-10-20 16:53:42 (INFO) BandMath: Image #1 has 1 components
+
+2023-10-20 16:53:42 (INFO): Estimated memory for full processing: 632.355MB (avail.: 4096 MB), optimal image partitioning: 1 blocks
+2023-10-20 16:53:42 (INFO): File /home/ad/barrouz/zacharie/TIMESERIES_PROJECT/S2_BIAS_ANALYSIS/31TCH/REDUCED/2017/98/7/SY-FSC_T-31TCH_HY-2017_N-98_I-7/tmp/20170913_snow_binary.tif will be written in 1 blocks of 5490x5490 pixels
+Writing /home/ad/barrouz/zacharie/TIMESERIES_PROJECT/S2_BIAS_ANALYSIS/31TCH/REDUCED/2017/98/7/SY-FSC_T-31TCH_HY-2017_N-98_I-7/tmp/20170913_snow_binary.tif?&gdal:co:NBITS=1&gdal:co:COMPRESS=DEFLATE...: 100% [**************************************************] (2s)
+2023-10-20 16:53:44 (INFO) BandMath: Default RAM limit for OTB is 256 MB
+2023-10-20 16:53:44 (INFO) BandMath: GDAL maximum cache size is 6397 MB
+2023-10-20 16:53:44 (INFO) BandMath: OTB will use at most 24 threads
+2023-10-20 16:53:44 (INFO) BandMath: Image #1 has 1 components
+
+2023-10-20 16:53:44 (INFO): Estimated memory for full processing: 632.355MB (avail.: 4096 MB), optimal image partitioning: 1 blocks
+2023-10-20 16:53:44 (INFO): File /home/ad/barrouz/zacharie/TIMESERIES_PROJECT/S2_BIAS_ANALYSIS/31TCH/REDUCED/2017/98/7/SY-FSC_T-31TCH_HY-2017_N-98_I-7/tmp/20170920_snow_binary.tif will be written in 1 blocks of 5490x5490 pixels
+Writing /home/ad/barrouz/zacharie/TIMESERIES_PROJECT/S2_BIAS_ANALYSIS/31TCH/REDUCED/2017/98/7/SY-FSC_T-31TCH_HY-2017_N-98_I-7/tmp/20170920_snow_binary.tif?&gdal:co:NBITS=1&gdal:co:COMPRESS=DEFLATE...: 100% [**************************************************] (2s)
+2023-10-20 16:53:47 (INFO) BandMath: Default RAM limit for OTB is 256 MB
+2023-10-20 16:53:47 (INFO) BandMath: GDAL maximum cache size is 6397 MB
+2023-10-20 16:53:47 (INFO) BandMath: OTB will use at most 24 threads
+2023-10-20 16:53:47 (INFO) BandMath: Image #1 has 1 components
+
+2023-10-20 16:53:47 (INFO): Estimated memory for full processing: 632.355MB (avail.: 4096 MB), optimal image partitioning: 1 blocks
+2023-10-20 16:53:47 (INFO): File /home/ad/barrouz/zacharie/TIMESERIES_PROJECT/S2_BIAS_ANALYSIS/31TCH/REDUCED/2017/98/7/SY-FSC_T-31TCH_HY-2017_N-98_I-7/tmp/20170923_snow_binary.tif will be written in 1 blocks of 5490x5490 pixels
+Writing /home/ad/barrouz/zacharie/TIMESERIES_PROJECT/S2_BIAS_ANALYSIS/31TCH/REDUCED/2017/98/7/SY-FSC_T-31TCH_HY-2017_N-98_I-7/tmp/20170923_snow_binary.tif?&gdal:co:NBITS=1&gdal:co:COMPRESS=DEFLATE...: 100% [**************************************************] (2s)
+2023-10-20 16:53:49 (INFO) BandMath: Default RAM limit for OTB is 256 MB
+2023-10-20 16:53:49 (INFO) BandMath: GDAL maximum cache size is 6397 MB
+2023-10-20 16:53:49 (INFO) BandMath: OTB will use at most 24 threads
+2023-10-20 16:53:49 (INFO) BandMath: Image #1 has 1 components
+
+2023-10-20 16:53:49 (INFO): Estimated memory for full processing: 632.355MB (avail.: 4096 MB), optimal image partitioning: 1 blocks
+2023-10-20 16:53:49 (INFO): File /home/ad/barrouz/zacharie/TIMESERIES_PROJECT/S2_BIAS_ANALYSIS/31TCH/REDUCED/2017/98/7/SY-FSC_T-31TCH_HY-2017_N-98_I-7/tmp/20170928_snow_binary.tif will be written in 1 blocks of 5490x5490 pixels
+Writing /home/ad/barrouz/zacharie/TIMESERIES_PROJECT/S2_BIAS_ANALYSIS/31TCH/REDUCED/2017/98/7/SY-FSC_T-31TCH_HY-2017_N-98_I-7/tmp/20170928_snow_binary.tif?&gdal:co:NBITS=1&gdal:co:COMPRESS=DEFLATE...: 100% [**************************************************] (2s)
+2023-10-20 16:53:52 (INFO) BandMath: Default RAM limit for OTB is 256 MB
+2023-10-20 16:53:52 (INFO) BandMath: GDAL maximum cache size is 6397 MB
+2023-10-20 16:53:52 (INFO) BandMath: OTB will use at most 24 threads
+2023-10-20 16:53:52 (INFO) BandMath: Image #1 has 1 components
+
+2023-10-20 16:53:52 (INFO): Estimated memory for full processing: 632.355MB (avail.: 4096 MB), optimal image partitioning: 1 blocks
+2023-10-20 16:53:52 (INFO): File /home/ad/barrouz/zacharie/TIMESERIES_PROJECT/S2_BIAS_ANALYSIS/31TCH/REDUCED/2017/98/7/SY-FSC_T-31TCH_HY-2017_N-98_I-7/tmp/20171003_snow_binary.tif will be written in 1 blocks of 5490x5490 pixels
+Writing /home/ad/barrouz/zacharie/TIMESERIES_PROJECT/S2_BIAS_ANALYSIS/31TCH/REDUCED/2017/98/7/SY-FSC_T-31TCH_HY-2017_N-98_I-7/tmp/20171003_snow_binary.tif?&gdal:co:NBITS=1&gdal:co:COMPRESS=DEFLATE...: 100% [**************************************************] (2s)
+2023-10-20 16:53:54 (INFO) BandMath: Default RAM limit for OTB is 256 MB
+2023-10-20T16:53:57.282    INFO:otb_wrappers.py:line=19:band_math:Processing BandMath with args:
+2023-10-20T16:53:57.282    INFO:otb_wrappers.py:line=20:band_math:il = /home/ad/barrouz/datalake/datalake/S2-L2B-COSIMS/data/Snow/FSC/31TCH/2017/10/08/FSC_20171008T105012_S2B_T31TCH_V100_1/FSC_20171008T105012_S2B_T31TCH_V100_1_FSCOG.tif
+2023-10-20T16:53:57.282    INFO:otb_wrappers.py:line=21:band_math:out = /home/ad/barrouz/zacharie/TIMESERIES_PROJECT/S2_BIAS_ANALYSIS/31TCH/REDUCED/2017/98/7/SY-FSC_T-31TCH_HY-2017_N-98_I-7/tmp/20171008_snow_binary.tif?&gdal:co:NBITS=1&gdal:co:COMPRESS=DEFLATE
+2023-10-20T16:53:57.282    INFO:otb_wrappers.py:line=22:band_math:exp = (im1b1>0 and im1b1<=100)?1:0
+2023-10-20T16:53:57.297    INFO:otb_wrappers.py:line=34:band_math:ram = 4096
+2023-10-20T16:53:57.298    INFO:otb_wrappers.py:line=37:band_math:out_type = 0
+2023-10-20T16:53:59.837    INFO:otb_wrappers.py:line=19:band_math:Processing BandMath with args:
+2023-10-20T16:53:59.837    INFO:otb_wrappers.py:line=20:band_math:il = /home/ad/barrouz/datalake/datalake/S2-L2B-COSIMS/data/Snow/FSC/31TCH/2017/10/10/FSC_20171010T104021_S2A_T31TCH_V100_1/FSC_20171010T104021_S2A_T31TCH_V100_1_FSCOG.tif
+2023-10-20T16:53:59.837    INFO:otb_wrappers.py:line=21:band_math:out = /home/ad/barrouz/zacharie/TIMESERIES_PROJECT/S2_BIAS_ANALYSIS/31TCH/REDUCED/2017/98/7/SY-FSC_T-31TCH_HY-2017_N-98_I-7/tmp/20171010_snow_binary.tif?&gdal:co:NBITS=1&gdal:co:COMPRESS=DEFLATE
+2023-10-20T16:53:59.837    INFO:otb_wrappers.py:line=22:band_math:exp = (im1b1>0 and im1b1<=100)?1:0
+2023-10-20T16:53:59.867    INFO:otb_wrappers.py:line=34:band_math:ram = 4096
+2023-10-20T16:53:59.868    INFO:otb_wrappers.py:line=37:band_math:out_type = 0
+2023-10-20T16:54:02.188    INFO:otb_wrappers.py:line=19:band_math:Processing BandMath with args:
+2023-10-20T16:54:02.188    INFO:otb_wrappers.py:line=20:band_math:il = /home/ad/barrouz/datalake/datalake/S2-L2B-COSIMS/data/Snow/FSC/31TCH/2017/10/13/FSC_20171013T105315_S2A_T31TCH_V100_1/FSC_20171013T105315_S2A_T31TCH_V100_1_FSCTOC.tif
+2023-10-20T16:54:02.188    INFO:otb_wrappers.py:line=21:band_math:out = /home/ad/barrouz/zacharie/TIMESERIES_PROJECT/S2_BIAS_ANALYSIS/31TCH/REDUCED/2017/98/7/SY-FSC_T-31TCH_HY-2017_N-98_I-7/tmp/20171013_snow_binary.tif?&gdal:co:NBITS=1&gdal:co:COMPRESS=DEFLATE
+2023-10-20T16:54:02.188    INFO:otb_wrappers.py:line=22:band_math:exp = (im1b1>0 and im1b1<=100)?1:0
+2023-10-20T16:54:02.202    INFO:otb_wrappers.py:line=34:band_math:ram = 4096
+2023-10-20T16:54:02.202    INFO:otb_wrappers.py:line=37:band_math:out_type = 0
+2023-10-20T16:54:04.639    INFO:otb_wrappers.py:line=19:band_math:Processing BandMath with args:
+2023-10-20T16:54:04.639    INFO:otb_wrappers.py:line=20:band_math:il = /home/ad/barrouz/datalake/datalake/S2-L2B-COSIMS/data/Snow/FSC/31TCH/2017/10/15/FSC_20171015T104525_S2B_T31TCH_V100_1/FSC_20171015T104525_S2B_T31TCH_V100_1_FSCTOC.tif
+2023-10-20T16:54:04.639    INFO:otb_wrappers.py:line=21:band_math:out = /home/ad/barrouz/zacharie/TIMESERIES_PROJECT/S2_BIAS_ANALYSIS/31TCH/REDUCED/2017/98/7/SY-FSC_T-31TCH_HY-2017_N-98_I-7/tmp/20171015_snow_binary.tif?&gdal:co:NBITS=1&gdal:co:COMPRESS=DEFLATE
+2023-10-20T16:54:04.640    INFO:otb_wrappers.py:line=22:band_math:exp = (im1b1>0 and im1b1<=100)?1:0
+2023-10-20T16:54:04.660    INFO:otb_wrappers.py:line=34:band_math:ram = 4096
+2023-10-20T16:54:04.661    INFO:otb_wrappers.py:line=37:band_math:out_type = 0
+2023-10-20T16:54:07.083    INFO:otb_wrappers.py:line=19:band_math:Processing BandMath with args:
+2023-10-20T16:54:07.083    INFO:otb_wrappers.py:line=20:band_math:il = /home/ad/barrouz/datalake/datalake/S2-L2B-COSIMS/data/Snow/FSC/31TCH/2017/10/20/FSC_20171020T104323_S2A_T31TCH_V100_1/FSC_20171020T104323_S2A_T31TCH_V100_1_FSCOG.tif
+2023-10-20T16:54:07.083    INFO:otb_wrappers.py:line=21:band_math:out = /home/ad/barrouz/zacharie/TIMESERIES_PROJECT/S2_BIAS_ANALYSIS/31TCH/REDUCED/2017/98/7/SY-FSC_T-31TCH_HY-2017_N-98_I-7/tmp/20171020_snow_binary.tif?&gdal:co:NBITS=1&gdal:co:COMPRESS=DEFLATE
+2023-10-20T16:54:07.083    INFO:otb_wrappers.py:line=22:band_math:exp = (im1b1>0 and im1b1<=100)?1:0
+2023-10-20T16:54:07.123    INFO:otb_wrappers.py:line=34:band_math:ram = 4096
+2023-10-20T16:54:07.123    INFO:otb_wrappers.py:line=37:band_math:out_type = 0
+2023-10-20T16:54:09.703    INFO:otb_wrappers.py:line=19:band_math:Processing BandMath with args:
+2023-10-20T16:54:09.703    INFO:otb_wrappers.py:line=20:band_math:il = /home/ad/barrouz/datalake/datalake/S2-L2B-COSIMS/data/Snow/FSC/31TCH/2017/10/23/FSC_20171023T105154_S2A_T31TCH_V100_1/FSC_20171023T105154_S2A_T31TCH_V100_1_FSCTOC.tif
+2023-10-20T16:54:09.703    INFO:otb_wrappers.py:line=21:band_math:out = /home/ad/barrouz/zacharie/TIMESERIES_PROJECT/S2_BIAS_ANALYSIS/31TCH/REDUCED/2017/98/7/SY-FSC_T-31TCH_HY-2017_N-98_I-7/tmp/20171023_snow_binary.tif?&gdal:co:NBITS=1&gdal:co:COMPRESS=DEFLATE
+2023-10-20T16:54:09.704    INFO:otb_wrappers.py:line=22:band_math:exp = (im1b1>0 and im1b1<=100)?1:0
+2023-10-20T16:54:09.747    INFO:otb_wrappers.py:line=34:band_math:ram = 4096
+2023-10-20T16:54:09.747    INFO:otb_wrappers.py:line=37:band_math:out_type = 0
+2023-10-20T16:54:12.321    INFO:otb_wrappers.py:line=19:band_math:Processing BandMath with args:
+2023-10-20T16:54:12.321    INFO:otb_wrappers.py:line=20:band_math:il = /home/ad/barrouz/datalake/datalake/S2-L2B-COSIMS/data/Snow/FSC/31TCH/2017/10/25/FSC_20171025T104120_S2B_T31TCH_V100_1/FSC_20171025T104120_S2B_T31TCH_V100_1_FSCOG.tif
+2023-10-20T16:54:12.321    INFO:otb_wrappers.py:line=21:band_math:out = /home/ad/barrouz/zacharie/TIMESERIES_PROJECT/S2_BIAS_ANALYSIS/31TCH/REDUCED/2017/98/7/SY-FSC_T-31TCH_HY-2017_N-98_I-7/tmp/20171025_snow_binary.tif?&gdal:co:NBITS=1&gdal:co:COMPRESS=DEFLATE
+2023-10-20T16:54:12.321    INFO:otb_wrappers.py:line=22:band_math:exp = (im1b1>0 and im1b1<=100)?1:0
+2023-10-20T16:54:12.335    INFO:otb_wrappers.py:line=34:band_math:ram = 4096
+2023-10-20T16:54:12.336    INFO:otb_wrappers.py:line=37:band_math:out_type = 0
+2023-10-20T16:54:14.776    INFO:otb_wrappers.py:line=19:band_math:Processing BandMath with args:
+2023-10-20T16:54:14.776    INFO:otb_wrappers.py:line=20:band_math:il = /home/ad/barrouz/datalake/datalake/S2-L2B-COSIMS/data/Snow/FSC/31TCH/2017/10/28/FSC_20171028T105128_S2B_T31TCH_V100_1/FSC_20171028T105128_S2B_T31TCH_V100_1_FSCTOC.tif
+2023-10-20T16:54:14.776    INFO:otb_wrappers.py:line=21:band_math:out = /home/ad/barrouz/zacharie/TIMESERIES_PROJECT/S2_BIAS_ANALYSIS/31TCH/REDUCED/2017/98/7/SY-FSC_T-31TCH_HY-2017_N-98_I-7/tmp/20171028_snow_binary.tif?&gdal:co:NBITS=1&gdal:co:COMPRESS=DEFLATE
+2023-10-20T16:54:14.777    INFO:otb_wrappers.py:line=22:band_math:exp = (im1b1>0 and im1b1<=100)?1:0
+2023-10-20T16:54:14.819    INFO:otb_wrappers.py:line=34:band_math:ram = 4096
+2023-10-20T16:54:14.820    INFO:otb_wrappers.py:line=37:band_math:out_type = 0
+2023-10-20T16:54:17.414    INFO:otb_wrappers.py:line=19:band_math:Processing BandMath with args:
+2023-10-20T16:54:17.414    INFO:otb_wrappers.py:line=20:band_math:il = /home/ad/barrouz/datalake/datalake/S2-L2B-COSIMS/data/Snow/FSC/31TCH/2017/10/30/FSC_20171030T104754_S2A_T31TCH_V100_1/FSC_20171030T104754_S2A_T31TCH_V100_1_FSCOG.tif
+2023-10-20T16:54:17.414    INFO:otb_wrappers.py:line=21:band_math:out = /home/ad/barrouz/zacharie/TIMESERIES_PROJECT/S2_BIAS_ANALYSIS/31TCH/REDUCED/2017/98/7/SY-FSC_T-31TCH_HY-2017_N-98_I-7/tmp/20171030_snow_binary.tif?&gdal:co:NBITS=1&gdal:co:COMPRESS=DEFLATE
+2023-10-20T16:54:17.414    INFO:otb_wrappers.py:line=22:band_math:exp = (im1b1>0 and im1b1<=100)?1:0
+2023-10-20T16:54:17.456    INFO:otb_wrappers.py:line=34:band_math:ram = 4096
+2023-10-20T16:54:17.456    INFO:otb_wrappers.py:line=37:band_math:out_type = 0
+2023-10-20 16:53:54 (INFO) BandMath: GDAL maximum cache size is 6397 MB
+2023-10-20 16:53:54 (INFO) BandMath: OTB will use at most 24 threads
+2023-10-20 16:53:54 (INFO) BandMath: Image #1 has 1 components
+
+2023-10-20 16:53:54 (INFO): Estimated memory for full processing: 632.355MB (avail.: 4096 MB), optimal image partitioning: 1 blocks
+2023-10-20 16:53:54 (INFO): File /home/ad/barrouz/zacharie/TIMESERIES_PROJECT/S2_BIAS_ANALYSIS/31TCH/REDUCED/2017/98/7/SY-FSC_T-31TCH_HY-2017_N-98_I-7/tmp/20171005_snow_binary.tif will be written in 1 blocks of 5490x5490 pixels
+Writing /home/ad/barrouz/zacharie/TIMESERIES_PROJECT/S2_BIAS_ANALYSIS/31TCH/REDUCED/2017/98/7/SY-FSC_T-31TCH_HY-2017_N-98_I-7/tmp/20171005_snow_binary.tif?&gdal:co:NBITS=1&gdal:co:COMPRESS=DEFLATE...: 100% [**************************************************] (2s)
+2023-10-20 16:53:57 (INFO) BandMath: Default RAM limit for OTB is 256 MB
+2023-10-20 16:53:57 (INFO) BandMath: GDAL maximum cache size is 6397 MB
+2023-10-20 16:53:57 (INFO) BandMath: OTB will use at most 24 threads
+2023-10-20 16:53:57 (INFO) BandMath: Image #1 has 1 components
+
+2023-10-20 16:53:57 (INFO): Estimated memory for full processing: 632.355MB (avail.: 4096 MB), optimal image partitioning: 1 blocks
+2023-10-20 16:53:57 (INFO): File /home/ad/barrouz/zacharie/TIMESERIES_PROJECT/S2_BIAS_ANALYSIS/31TCH/REDUCED/2017/98/7/SY-FSC_T-31TCH_HY-2017_N-98_I-7/tmp/20171008_snow_binary.tif will be written in 1 blocks of 5490x5490 pixels
+Writing /home/ad/barrouz/zacharie/TIMESERIES_PROJECT/S2_BIAS_ANALYSIS/31TCH/REDUCED/2017/98/7/SY-FSC_T-31TCH_HY-2017_N-98_I-7/tmp/20171008_snow_binary.tif?&gdal:co:NBITS=1&gdal:co:COMPRESS=DEFLATE...: 100% [**************************************************] (2s)
+2023-10-20 16:53:59 (INFO) BandMath: Default RAM limit for OTB is 256 MB
+2023-10-20 16:53:59 (INFO) BandMath: GDAL maximum cache size is 6397 MB
+2023-10-20 16:53:59 (INFO) BandMath: OTB will use at most 24 threads
+2023-10-20 16:53:59 (INFO) BandMath: Image #1 has 1 components
+
+2023-10-20 16:53:59 (INFO): Estimated memory for full processing: 632.355MB (avail.: 4096 MB), optimal image partitioning: 1 blocks
+2023-10-20 16:53:59 (INFO): File /home/ad/barrouz/zacharie/TIMESERIES_PROJECT/S2_BIAS_ANALYSIS/31TCH/REDUCED/2017/98/7/SY-FSC_T-31TCH_HY-2017_N-98_I-7/tmp/20171010_snow_binary.tif will be written in 1 blocks of 5490x5490 pixels
+Writing /home/ad/barrouz/zacharie/TIMESERIES_PROJECT/S2_BIAS_ANALYSIS/31TCH/REDUCED/2017/98/7/SY-FSC_T-31TCH_HY-2017_N-98_I-7/tmp/20171010_snow_binary.tif?&gdal:co:NBITS=1&gdal:co:COMPRESS=DEFLATE...: 100% [**************************************************] (2s)
+2023-10-20 16:54:02 (INFO) BandMath: Default RAM limit for OTB is 256 MB
+2023-10-20 16:54:02 (INFO) BandMath: GDAL maximum cache size is 6397 MB
+2023-10-20 16:54:02 (INFO) BandMath: OTB will use at most 24 threads
+2023-10-20 16:54:02 (INFO) BandMath: Image #1 has 1 components
+
+2023-10-20 16:54:02 (INFO): Estimated memory for full processing: 632.355MB (avail.: 4096 MB), optimal image partitioning: 1 blocks
+2023-10-20 16:54:02 (INFO): File /home/ad/barrouz/zacharie/TIMESERIES_PROJECT/S2_BIAS_ANALYSIS/31TCH/REDUCED/2017/98/7/SY-FSC_T-31TCH_HY-2017_N-98_I-7/tmp/20171013_snow_binary.tif will be written in 1 blocks of 5490x5490 pixels
+Writing /home/ad/barrouz/zacharie/TIMESERIES_PROJECT/S2_BIAS_ANALYSIS/31TCH/REDUCED/2017/98/7/SY-FSC_T-31TCH_HY-2017_N-98_I-7/tmp/20171013_snow_binary.tif?&gdal:co:NBITS=1&gdal:co:COMPRESS=DEFLATE...: 100% [**************************************************] (2s)
+2023-10-20 16:54:04 (INFO) BandMath: Default RAM limit for OTB is 256 MB
+2023-10-20 16:54:04 (INFO) BandMath: GDAL maximum cache size is 6397 MB
+2023-10-20 16:54:04 (INFO) BandMath: OTB will use at most 24 threads
+2023-10-20 16:54:04 (INFO) BandMath: Image #1 has 1 components
+
+2023-10-20 16:54:04 (INFO): Estimated memory for full processing: 632.355MB (avail.: 4096 MB), optimal image partitioning: 1 blocks
+2023-10-20 16:54:04 (INFO): File /home/ad/barrouz/zacharie/TIMESERIES_PROJECT/S2_BIAS_ANALYSIS/31TCH/REDUCED/2017/98/7/SY-FSC_T-31TCH_HY-2017_N-98_I-7/tmp/20171015_snow_binary.tif will be written in 1 blocks of 5490x5490 pixels
+Writing /home/ad/barrouz/zacharie/TIMESERIES_PROJECT/S2_BIAS_ANALYSIS/31TCH/REDUCED/2017/98/7/SY-FSC_T-31TCH_HY-2017_N-98_I-7/tmp/20171015_snow_binary.tif?&gdal:co:NBITS=1&gdal:co:COMPRESS=DEFLATE...: 100% [**************************************************] (2s)
+2023-10-20 16:54:07 (INFO) BandMath: Default RAM limit for OTB is 256 MB
+2023-10-20 16:54:07 (INFO) BandMath: GDAL maximum cache size is 6397 MB
+2023-10-20 16:54:07 (INFO) BandMath: OTB will use at most 24 threads
+2023-10-20 16:54:07 (INFO) BandMath: Image #1 has 1 components
+
+2023-10-20 16:54:07 (INFO): Estimated memory for full processing: 632.355MB (avail.: 4096 MB), optimal image partitioning: 1 blocks
+2023-10-20 16:54:07 (INFO): File /home/ad/barrouz/zacharie/TIMESERIES_PROJECT/S2_BIAS_ANALYSIS/31TCH/REDUCED/2017/98/7/SY-FSC_T-31TCH_HY-2017_N-98_I-7/tmp/20171020_snow_binary.tif will be written in 1 blocks of 5490x5490 pixels
+Writing /home/ad/barrouz/zacharie/TIMESERIES_PROJECT/S2_BIAS_ANALYSIS/31TCH/REDUCED/2017/98/7/SY-FSC_T-31TCH_HY-2017_N-98_I-7/tmp/20171020_snow_binary.tif?&gdal:co:NBITS=1&gdal:co:COMPRESS=DEFLATE...: 100% [**************************************************] (2s)
+2023-10-20 16:54:09 (INFO) BandMath: Default RAM limit for OTB is 256 MB
+2023-10-20 16:54:09 (INFO) BandMath: GDAL maximum cache size is 6397 MB
+2023-10-20 16:54:09 (INFO) BandMath: OTB will use at most 24 threads
+2023-10-20 16:54:09 (INFO) BandMath: Image #1 has 1 components
+
+2023-10-20 16:54:09 (INFO): Estimated memory for full processing: 632.355MB (avail.: 4096 MB), optimal image partitioning: 1 blocks
+2023-10-20 16:54:09 (INFO): File /home/ad/barrouz/zacharie/TIMESERIES_PROJECT/S2_BIAS_ANALYSIS/31TCH/REDUCED/2017/98/7/SY-FSC_T-31TCH_HY-2017_N-98_I-7/tmp/20171023_snow_binary.tif will be written in 1 blocks of 5490x5490 pixels
+Writing /home/ad/barrouz/zacharie/TIMESERIES_PROJECT/S2_BIAS_ANALYSIS/31TCH/REDUCED/2017/98/7/SY-FSC_T-31TCH_HY-2017_N-98_I-7/tmp/20171023_snow_binary.tif?&gdal:co:NBITS=1&gdal:co:COMPRESS=DEFLATE...: 100% [**************************************************] (2s)
+2023-10-20 16:54:12 (INFO) BandMath: Default RAM limit for OTB is 256 MB
+2023-10-20 16:54:12 (INFO) BandMath: GDAL maximum cache size is 6397 MB
+2023-10-20 16:54:12 (INFO) BandMath: OTB will use at most 24 threads
+2023-10-20 16:54:12 (INFO) BandMath: Image #1 has 1 components
+
+2023-10-20 16:54:12 (INFO): Estimated memory for full processing: 632.355MB (avail.: 4096 MB), optimal image partitioning: 1 blocks
+2023-10-20 16:54:12 (INFO): File /home/ad/barrouz/zacharie/TIMESERIES_PROJECT/S2_BIAS_ANALYSIS/31TCH/REDUCED/2017/98/7/SY-FSC_T-31TCH_HY-2017_N-98_I-7/tmp/20171025_snow_binary.tif will be written in 1 blocks of 5490x5490 pixels
+Writing /home/ad/barrouz/zacharie/TIMESERIES_PROJECT/S2_BIAS_ANALYSIS/31TCH/REDUCED/2017/98/7/SY-FSC_T-31TCH_HY-2017_N-98_I-7/tmp/20171025_snow_binary.tif?&gdal:co:NBITS=1&gdal:co:COMPRESS=DEFLATE...: 100% [**************************************************] (2s)
+2023-10-20 16:54:14 (INFO) BandMath: Default RAM limit for OTB is 256 MB
+2023-10-20 16:54:14 (INFO) BandMath: GDAL maximum cache size is 6397 MB
+2023-10-20 16:54:14 (INFO) BandMath: OTB will use at most 24 threads
+2023-10-20 16:54:14 (INFO) BandMath: Image #1 has 1 components
+
+2023-10-20 16:54:14 (INFO): Estimated memory for full processing: 632.355MB (avail.: 4096 MB), optimal image partitioning: 1 blocks
+2023-10-20 16:54:14 (INFO): File /home/ad/barrouz/zacharie/TIMESERIES_PROJECT/S2_BIAS_ANALYSIS/31TCH/REDUCED/2017/98/7/SY-FSC_T-31TCH_HY-2017_N-98_I-7/tmp/20171028_snow_binary.tif will be written in 1 blocks of 5490x5490 pixels
+Writing /home/ad/barrouz/zacharie/TIMESERIES_PROJECT/S2_BIAS_ANALYSIS/31TCH/REDUCED/2017/98/7/SY-FSC_T-31TCH_HY-2017_N-98_I-7/tmp/20171028_snow_binary.tif?&gdal:co:NBITS=1&gdal:co:COMPRESS=DEFLATE...: 100% [**************************************************] (2s)
+2023-10-20 16:54:17 (INFO) BandMath: Default RAM limit for OTB is 256 MB
+2023-10-20 16:54:17 (INFO) BandMath: GDAL maximum cache size is 6397 MB
+2023-10-20 16:54:17 (INFO) BandMath: OTB will use at most 24 threads
+2023-10-20T16:54:20.021    INFO:otb_wrappers.py:line=19:band_math:Processing BandMath with args:
+2023-10-20T16:54:20.021    INFO:otb_wrappers.py:line=20:band_math:il = /home/ad/barrouz/datalake/datalake/S2-L2B-COSIMS/data/Snow/FSC/31TCH/2017/11/07/FSC_20171107T105753_S2B_T31TCH_V100_1/FSC_20171107T105753_S2B_T31TCH_V100_1_FSCTOC.tif
+2023-10-20T16:54:20.022    INFO:otb_wrappers.py:line=21:band_math:out = /home/ad/barrouz/zacharie/TIMESERIES_PROJECT/S2_BIAS_ANALYSIS/31TCH/REDUCED/2017/98/7/SY-FSC_T-31TCH_HY-2017_N-98_I-7/tmp/20171107_snow_binary.tif?&gdal:co:NBITS=1&gdal:co:COMPRESS=DEFLATE
+2023-10-20T16:54:20.022    INFO:otb_wrappers.py:line=22:band_math:exp = (im1b1>0 and im1b1<=100)?1:0
+2023-10-20T16:54:20.061    INFO:otb_wrappers.py:line=34:band_math:ram = 4096
+2023-10-20T16:54:20.062    INFO:otb_wrappers.py:line=37:band_math:out_type = 0
+2023-10-20T16:54:22.807    INFO:otb_wrappers.py:line=19:band_math:Processing BandMath with args:
+2023-10-20T16:54:22.807    INFO:otb_wrappers.py:line=20:band_math:il = /home/ad/barrouz/datalake/datalake/S2-L2B-COSIMS/data/Snow/FSC/31TCH/2017/11/12/FSC_20171112T105302_S2A_T31TCH_V100_1/FSC_20171112T105302_S2A_T31TCH_V100_1_FSCOG.tif
+2023-10-20T16:54:22.807    INFO:otb_wrappers.py:line=21:band_math:out = /home/ad/barrouz/zacharie/TIMESERIES_PROJECT/S2_BIAS_ANALYSIS/31TCH/REDUCED/2017/98/7/SY-FSC_T-31TCH_HY-2017_N-98_I-7/tmp/20171112_snow_binary.tif?&gdal:co:NBITS=1&gdal:co:COMPRESS=DEFLATE
+2023-10-20T16:54:22.807    INFO:otb_wrappers.py:line=22:band_math:exp = (im1b1>0 and im1b1<=100)?1:0
+2023-10-20T16:54:22.840    INFO:otb_wrappers.py:line=34:band_math:ram = 4096
+2023-10-20T16:54:22.840    INFO:otb_wrappers.py:line=37:band_math:out_type = 0
+2023-10-20T16:54:25.459    INFO:otb_wrappers.py:line=19:band_math:Processing BandMath with args:
+2023-10-20T16:54:25.459    INFO:otb_wrappers.py:line=20:band_math:il = /home/ad/barrouz/datalake/datalake/S2-L2B-COSIMS/data/Snow/FSC/31TCH/2017/11/14/FSC_20171114T104257_S2B_T31TCH_V100_1/FSC_20171114T104257_S2B_T31TCH_V100_1_FSCOG.tif
+2023-10-20T16:54:25.459    INFO:otb_wrappers.py:line=21:band_math:out = /home/ad/barrouz/zacharie/TIMESERIES_PROJECT/S2_BIAS_ANALYSIS/31TCH/REDUCED/2017/98/7/SY-FSC_T-31TCH_HY-2017_N-98_I-7/tmp/20171114_snow_binary.tif?&gdal:co:NBITS=1&gdal:co:COMPRESS=DEFLATE
+2023-10-20T16:54:25.459    INFO:otb_wrappers.py:line=22:band_math:exp = (im1b1>0 and im1b1<=100)?1:0
+2023-10-20T16:54:25.575    INFO:otb_wrappers.py:line=34:band_math:ram = 4096
+2023-10-20T16:54:25.575    INFO:otb_wrappers.py:line=37:band_math:out_type = 0
+2023-10-20T16:54:28.097    INFO:otb_wrappers.py:line=19:band_math:Processing BandMath with args:
+2023-10-20T16:54:28.097    INFO:otb_wrappers.py:line=20:band_math:il = /home/ad/barrouz/datalake/datalake/S2-L2B-COSIMS/data/Snow/FSC/31TCH/2017/11/17/FSC_20171117T105314_S2B_T31TCH_V100_1/FSC_20171117T105314_S2B_T31TCH_V100_1_FSCTOC.tif
+2023-10-20T16:54:28.097    INFO:otb_wrappers.py:line=21:band_math:out = /home/ad/barrouz/zacharie/TIMESERIES_PROJECT/S2_BIAS_ANALYSIS/31TCH/REDUCED/2017/98/7/SY-FSC_T-31TCH_HY-2017_N-98_I-7/tmp/20171117_snow_binary.tif?&gdal:co:NBITS=1&gdal:co:COMPRESS=DEFLATE
+2023-10-20T16:54:28.097    INFO:otb_wrappers.py:line=22:band_math:exp = (im1b1>0 and im1b1<=100)?1:0
+2023-10-20T16:54:28.149    INFO:otb_wrappers.py:line=34:band_math:ram = 4096
+2023-10-20T16:54:28.149    INFO:otb_wrappers.py:line=37:band_math:out_type = 0
+2023-10-20T16:54:30.830    INFO:otb_wrappers.py:line=19:band_math:Processing BandMath with args:
+2023-10-20T16:54:30.830    INFO:otb_wrappers.py:line=20:band_math:il = /home/ad/barrouz/datalake/datalake/S2-L2B-COSIMS/data/Snow/FSC/31TCH/2017/11/19/FSC_20171119T104806_S2A_T31TCH_V100_1/FSC_20171119T104806_S2A_T31TCH_V100_1_FSCOG.tif
+2023-10-20T16:54:30.830    INFO:otb_wrappers.py:line=21:band_math:out = /home/ad/barrouz/zacharie/TIMESERIES_PROJECT/S2_BIAS_ANALYSIS/31TCH/REDUCED/2017/98/7/SY-FSC_T-31TCH_HY-2017_N-98_I-7/tmp/20171119_snow_binary.tif?&gdal:co:NBITS=1&gdal:co:COMPRESS=DEFLATE
+2023-10-20T16:54:30.830    INFO:otb_wrappers.py:line=22:band_math:exp = (im1b1>0 and im1b1<=100)?1:0
+2023-10-20T16:54:30.843    INFO:otb_wrappers.py:line=34:band_math:ram = 4096
+2023-10-20T16:54:30.843    INFO:otb_wrappers.py:line=37:band_math:out_type = 0
+2023-10-20T16:54:33.309    INFO:otb_wrappers.py:line=19:band_math:Processing BandMath with args:
+2023-10-20T16:54:33.309    INFO:otb_wrappers.py:line=20:band_math:il = /home/ad/barrouz/datalake/datalake/S2-L2B-COSIMS/data/Snow/FSC/31TCH/2017/11/22/FSC_20171122T105612_S2A_T31TCH_V100_1/FSC_20171122T105612_S2A_T31TCH_V100_1_FSCOG.tif
+2023-10-20T16:54:33.309    INFO:otb_wrappers.py:line=21:band_math:out = /home/ad/barrouz/zacharie/TIMESERIES_PROJECT/S2_BIAS_ANALYSIS/31TCH/REDUCED/2017/98/7/SY-FSC_T-31TCH_HY-2017_N-98_I-7/tmp/20171122_snow_binary.tif?&gdal:co:NBITS=1&gdal:co:COMPRESS=DEFLATE
+2023-10-20T16:54:33.310    INFO:otb_wrappers.py:line=22:band_math:exp = (im1b1>0 and im1b1<=100)?1:0
+2023-10-20T16:54:33.354    INFO:otb_wrappers.py:line=34:band_math:ram = 4096
+2023-10-20T16:54:33.355    INFO:otb_wrappers.py:line=37:band_math:out_type = 0
+2023-10-20T16:54:35.885    INFO:otb_wrappers.py:line=19:band_math:Processing BandMath with args:
+2023-10-20T16:54:35.886    INFO:otb_wrappers.py:line=20:band_math:il = /home/ad/barrouz/datalake/datalake/S2-L2B-COSIMS/data/Snow/FSC/31TCH/2017/11/27/FSC_20171127T105827_S2B_T31TCH_V100_1/FSC_20171127T105827_S2B_T31TCH_V100_1_FSCTOC.tif
+2023-10-20T16:54:35.889    INFO:otb_wrappers.py:line=21:band_math:out = /home/ad/barrouz/zacharie/TIMESERIES_PROJECT/S2_BIAS_ANALYSIS/31TCH/REDUCED/2017/98/7/SY-FSC_T-31TCH_HY-2017_N-98_I-7/tmp/20171127_snow_binary.tif?&gdal:co:NBITS=1&gdal:co:COMPRESS=DEFLATE
+2023-10-20T16:54:35.889    INFO:otb_wrappers.py:line=22:band_math:exp = (im1b1>0 and im1b1<=100)?1:0
+2023-10-20T16:54:35.927    INFO:otb_wrappers.py:line=34:band_math:ram = 4096
+2023-10-20T16:54:35.928    INFO:otb_wrappers.py:line=37:band_math:out_type = 0
+2023-10-20T16:54:38.273    INFO:otb_wrappers.py:line=19:band_math:Processing BandMath with args:
+2023-10-20T16:54:38.274    INFO:otb_wrappers.py:line=20:band_math:il = /home/ad/barrouz/datalake/datalake/S2-L2B-COSIMS/data/Snow/FSC/31TCH/2017/11/29/FSC_20171129T104402_S2A_T31TCH_V100_1/FSC_20171129T104402_S2A_T31TCH_V100_1_FSCOG.tif
+2023-10-20T16:54:38.274    INFO:otb_wrappers.py:line=21:band_math:out = /home/ad/barrouz/zacharie/TIMESERIES_PROJECT/S2_BIAS_ANALYSIS/31TCH/REDUCED/2017/98/7/SY-FSC_T-31TCH_HY-2017_N-98_I-7/tmp/20171129_snow_binary.tif?&gdal:co:NBITS=1&gdal:co:COMPRESS=DEFLATE
+2023-10-20T16:54:38.274    INFO:otb_wrappers.py:line=22:band_math:exp = (im1b1>0 and im1b1<=100)?1:0
+2023-10-20T16:54:38.305    INFO:otb_wrappers.py:line=34:band_math:ram = 4096
+2023-10-20T16:54:38.306    INFO:otb_wrappers.py:line=37:band_math:out_type = 0
+2023-10-20T16:54:40.543    INFO:otb_wrappers.py:line=19:band_math:Processing BandMath with args:
+2023-10-20T16:54:40.543    INFO:otb_wrappers.py:line=20:band_math:il = /home/ad/barrouz/datalake/datalake/S2-L2B-COSIMS/data/Snow/FSC/31TCH/2017/12/09/FSC_20171209T104426_S2A_T31TCH_V100_1/FSC_20171209T104426_S2A_T31TCH_V100_1_FSCOG.tif
+2023-10-20T16:54:40.543    INFO:otb_wrappers.py:line=21:band_math:out = /home/ad/barrouz/zacharie/TIMESERIES_PROJECT/S2_BIAS_ANALYSIS/31TCH/REDUCED/2017/98/7/SY-FSC_T-31TCH_HY-2017_N-98_I-7/tmp/20171209_snow_binary.tif?&gdal:co:NBITS=1&gdal:co:COMPRESS=DEFLATE
+2023-10-20T16:54:40.543    INFO:otb_wrappers.py:line=22:band_math:exp = (im1b1>0 and im1b1<=100)?1:0
+2023-10-20T16:54:40.587    INFO:otb_wrappers.py:line=34:band_math:ram = 4096
+2023-10-20T16:54:40.588    INFO:otb_wrappers.py:line=37:band_math:out_type = 0
+2023-10-20 16:54:17 (INFO) BandMath: Image #1 has 1 components
+
+2023-10-20 16:54:17 (INFO): Estimated memory for full processing: 632.355MB (avail.: 4096 MB), optimal image partitioning: 1 blocks
+2023-10-20 16:54:17 (INFO): File /home/ad/barrouz/zacharie/TIMESERIES_PROJECT/S2_BIAS_ANALYSIS/31TCH/REDUCED/2017/98/7/SY-FSC_T-31TCH_HY-2017_N-98_I-7/tmp/20171030_snow_binary.tif will be written in 1 blocks of 5490x5490 pixels
+Writing /home/ad/barrouz/zacharie/TIMESERIES_PROJECT/S2_BIAS_ANALYSIS/31TCH/REDUCED/2017/98/7/SY-FSC_T-31TCH_HY-2017_N-98_I-7/tmp/20171030_snow_binary.tif?&gdal:co:NBITS=1&gdal:co:COMPRESS=DEFLATE...: 100% [**************************************************] (2s)
+2023-10-20 16:54:20 (INFO) BandMath: Default RAM limit for OTB is 256 MB
+2023-10-20 16:54:20 (INFO) BandMath: GDAL maximum cache size is 6397 MB
+2023-10-20 16:54:20 (INFO) BandMath: OTB will use at most 24 threads
+2023-10-20 16:54:20 (INFO) BandMath: Image #1 has 1 components
+
+2023-10-20 16:54:20 (INFO): Estimated memory for full processing: 632.355MB (avail.: 4096 MB), optimal image partitioning: 1 blocks
+2023-10-20 16:54:20 (INFO): File /home/ad/barrouz/zacharie/TIMESERIES_PROJECT/S2_BIAS_ANALYSIS/31TCH/REDUCED/2017/98/7/SY-FSC_T-31TCH_HY-2017_N-98_I-7/tmp/20171107_snow_binary.tif will be written in 1 blocks of 5490x5490 pixels
+Writing /home/ad/barrouz/zacharie/TIMESERIES_PROJECT/S2_BIAS_ANALYSIS/31TCH/REDUCED/2017/98/7/SY-FSC_T-31TCH_HY-2017_N-98_I-7/tmp/20171107_snow_binary.tif?&gdal:co:NBITS=1&gdal:co:COMPRESS=DEFLATE...: 100% [**************************************************] (2s)
+2023-10-20 16:54:22 (INFO) BandMath: Default RAM limit for OTB is 256 MB
+2023-10-20 16:54:22 (INFO) BandMath: GDAL maximum cache size is 6397 MB
+2023-10-20 16:54:22 (INFO) BandMath: OTB will use at most 24 threads
+2023-10-20 16:54:22 (INFO) BandMath: Image #1 has 1 components
+
+2023-10-20 16:54:22 (INFO): Estimated memory for full processing: 632.355MB (avail.: 4096 MB), optimal image partitioning: 1 blocks
+2023-10-20 16:54:22 (INFO): File /home/ad/barrouz/zacharie/TIMESERIES_PROJECT/S2_BIAS_ANALYSIS/31TCH/REDUCED/2017/98/7/SY-FSC_T-31TCH_HY-2017_N-98_I-7/tmp/20171112_snow_binary.tif will be written in 1 blocks of 5490x5490 pixels
+Writing /home/ad/barrouz/zacharie/TIMESERIES_PROJECT/S2_BIAS_ANALYSIS/31TCH/REDUCED/2017/98/7/SY-FSC_T-31TCH_HY-2017_N-98_I-7/tmp/20171112_snow_binary.tif?&gdal:co:NBITS=1&gdal:co:COMPRESS=DEFLATE...: 100% [**************************************************] (2s)
+2023-10-20 16:54:25 (INFO) BandMath: Default RAM limit for OTB is 256 MB
+2023-10-20 16:54:25 (INFO) BandMath: GDAL maximum cache size is 6397 MB
+2023-10-20 16:54:25 (INFO) BandMath: OTB will use at most 24 threads
+2023-10-20 16:54:25 (INFO) BandMath: Image #1 has 1 components
+
+2023-10-20 16:54:25 (INFO): Estimated memory for full processing: 632.355MB (avail.: 4096 MB), optimal image partitioning: 1 blocks
+2023-10-20 16:54:25 (INFO): File /home/ad/barrouz/zacharie/TIMESERIES_PROJECT/S2_BIAS_ANALYSIS/31TCH/REDUCED/2017/98/7/SY-FSC_T-31TCH_HY-2017_N-98_I-7/tmp/20171114_snow_binary.tif will be written in 1 blocks of 5490x5490 pixels
+Writing /home/ad/barrouz/zacharie/TIMESERIES_PROJECT/S2_BIAS_ANALYSIS/31TCH/REDUCED/2017/98/7/SY-FSC_T-31TCH_HY-2017_N-98_I-7/tmp/20171114_snow_binary.tif?&gdal:co:NBITS=1&gdal:co:COMPRESS=DEFLATE...: 100% [**************************************************] (2s)
+2023-10-20 16:54:28 (INFO) BandMath: Default RAM limit for OTB is 256 MB
+2023-10-20 16:54:28 (INFO) BandMath: GDAL maximum cache size is 6397 MB
+2023-10-20 16:54:28 (INFO) BandMath: OTB will use at most 24 threads
+2023-10-20 16:54:28 (INFO) BandMath: Image #1 has 1 components
+
+2023-10-20 16:54:28 (INFO): Estimated memory for full processing: 632.355MB (avail.: 4096 MB), optimal image partitioning: 1 blocks
+2023-10-20 16:54:28 (INFO): File /home/ad/barrouz/zacharie/TIMESERIES_PROJECT/S2_BIAS_ANALYSIS/31TCH/REDUCED/2017/98/7/SY-FSC_T-31TCH_HY-2017_N-98_I-7/tmp/20171117_snow_binary.tif will be written in 1 blocks of 5490x5490 pixels
+Writing /home/ad/barrouz/zacharie/TIMESERIES_PROJECT/S2_BIAS_ANALYSIS/31TCH/REDUCED/2017/98/7/SY-FSC_T-31TCH_HY-2017_N-98_I-7/tmp/20171117_snow_binary.tif?&gdal:co:NBITS=1&gdal:co:COMPRESS=DEFLATE...: 100% [**************************************************] (2s)
+2023-10-20 16:54:30 (INFO) BandMath: Default RAM limit for OTB is 256 MB
+2023-10-20 16:54:30 (INFO) BandMath: GDAL maximum cache size is 6397 MB
+2023-10-20 16:54:30 (INFO) BandMath: OTB will use at most 24 threads
+2023-10-20 16:54:30 (INFO) BandMath: Image #1 has 1 components
+
+2023-10-20 16:54:30 (INFO): Estimated memory for full processing: 632.355MB (avail.: 4096 MB), optimal image partitioning: 1 blocks
+2023-10-20 16:54:30 (INFO): File /home/ad/barrouz/zacharie/TIMESERIES_PROJECT/S2_BIAS_ANALYSIS/31TCH/REDUCED/2017/98/7/SY-FSC_T-31TCH_HY-2017_N-98_I-7/tmp/20171119_snow_binary.tif will be written in 1 blocks of 5490x5490 pixels
+Writing /home/ad/barrouz/zacharie/TIMESERIES_PROJECT/S2_BIAS_ANALYSIS/31TCH/REDUCED/2017/98/7/SY-FSC_T-31TCH_HY-2017_N-98_I-7/tmp/20171119_snow_binary.tif?&gdal:co:NBITS=1&gdal:co:COMPRESS=DEFLATE...: 100% [**************************************************] (2s)
+2023-10-20 16:54:33 (INFO) BandMath: Default RAM limit for OTB is 256 MB
+2023-10-20 16:54:33 (INFO) BandMath: GDAL maximum cache size is 6397 MB
+2023-10-20 16:54:33 (INFO) BandMath: OTB will use at most 24 threads
+2023-10-20 16:54:33 (INFO) BandMath: Image #1 has 1 components
+
+2023-10-20 16:54:33 (INFO): Estimated memory for full processing: 632.355MB (avail.: 4096 MB), optimal image partitioning: 1 blocks
+2023-10-20 16:54:33 (INFO): File /home/ad/barrouz/zacharie/TIMESERIES_PROJECT/S2_BIAS_ANALYSIS/31TCH/REDUCED/2017/98/7/SY-FSC_T-31TCH_HY-2017_N-98_I-7/tmp/20171122_snow_binary.tif will be written in 1 blocks of 5490x5490 pixels
+Writing /home/ad/barrouz/zacharie/TIMESERIES_PROJECT/S2_BIAS_ANALYSIS/31TCH/REDUCED/2017/98/7/SY-FSC_T-31TCH_HY-2017_N-98_I-7/tmp/20171122_snow_binary.tif?&gdal:co:NBITS=1&gdal:co:COMPRESS=DEFLATE...: 100% [**************************************************] (2s)
+2023-10-20 16:54:35 (INFO) BandMath: Default RAM limit for OTB is 256 MB
+2023-10-20 16:54:35 (INFO) BandMath: GDAL maximum cache size is 6397 MB
+2023-10-20 16:54:35 (INFO) BandMath: OTB will use at most 24 threads
+2023-10-20 16:54:35 (INFO) BandMath: Image #1 has 1 components
+
+2023-10-20 16:54:35 (INFO): Estimated memory for full processing: 632.355MB (avail.: 4096 MB), optimal image partitioning: 1 blocks
+2023-10-20 16:54:35 (INFO): File /home/ad/barrouz/zacharie/TIMESERIES_PROJECT/S2_BIAS_ANALYSIS/31TCH/REDUCED/2017/98/7/SY-FSC_T-31TCH_HY-2017_N-98_I-7/tmp/20171127_snow_binary.tif will be written in 1 blocks of 5490x5490 pixels
+Writing /home/ad/barrouz/zacharie/TIMESERIES_PROJECT/S2_BIAS_ANALYSIS/31TCH/REDUCED/2017/98/7/SY-FSC_T-31TCH_HY-2017_N-98_I-7/tmp/20171127_snow_binary.tif?&gdal:co:NBITS=1&gdal:co:COMPRESS=DEFLATE...: 100% [**************************************************] (2s)
+2023-10-20 16:54:38 (INFO) BandMath: Default RAM limit for OTB is 256 MB
+2023-10-20 16:54:38 (INFO) BandMath: GDAL maximum cache size is 6397 MB
+2023-10-20 16:54:38 (INFO) BandMath: OTB will use at most 24 threads
+2023-10-20 16:54:38 (INFO) BandMath: Image #1 has 1 components
+
+2023-10-20 16:54:38 (INFO): Estimated memory for full processing: 632.355MB (avail.: 4096 MB), optimal image partitioning: 1 blocks
+2023-10-20 16:54:38 (INFO): File /home/ad/barrouz/zacharie/TIMESERIES_PROJECT/S2_BIAS_ANALYSIS/31TCH/REDUCED/2017/98/7/SY-FSC_T-31TCH_HY-2017_N-98_I-7/tmp/20171129_snow_binary.tif will be written in 1 blocks of 5490x5490 pixels
+Writing /home/ad/barrouz/zacharie/TIMESERIES_PROJECT/S2_BIAS_ANALYSIS/31TCH/REDUCED/2017/98/7/SY-FSC_T-31TCH_HY-2017_N-98_I-7/tmp/20171129_snow_binary.tif?&gdal:co:NBITS=1&gdal:co:COMPRESS=DEFLATE...: 100% [**************************************************] (2s)
+2023-10-20 16:54:40 (INFO) BandMath: Default RAM limit for OTB is 256 MB
+2023-10-20 16:54:40 (INFO) BandMath: GDAL maximum cache size is 6397 MB
+2023-10-20 16:54:40 (INFO) BandMath: OTB will use at most 24 threads
+2023-10-20 16:54:40 (INFO) BandMath: Image #1 has 1 components
+
+2023-10-20 16:54:40 (INFO): Estimated memory for full processing: 632.355MB (avail.: 4096 MB), optimal image partitioning: 1 blocks
+2023-10-20T16:54:43.158    INFO:otb_wrappers.py:line=19:band_math:Processing BandMath with args:
+2023-10-20T16:54:43.158    INFO:otb_wrappers.py:line=20:band_math:il = /home/ad/barrouz/zacharie/TIMESERIES_PROJECT/S2_BIAS_ANALYSIS/31TCH/REDUCED/2017/98/7/SY-FSC_T-31TCH_HY-2017_N-98_I-7/tmp/20171212_merged_snow_product.tif
+2023-10-20T16:54:43.158    INFO:otb_wrappers.py:line=21:band_math:out = /home/ad/barrouz/zacharie/TIMESERIES_PROJECT/S2_BIAS_ANALYSIS/31TCH/REDUCED/2017/98/7/SY-FSC_T-31TCH_HY-2017_N-98_I-7/tmp/20171212_snow_binary.tif?&gdal:co:NBITS=1&gdal:co:COMPRESS=DEFLATE
+2023-10-20T16:54:43.158    INFO:otb_wrappers.py:line=22:band_math:exp = (im1b1>0 and im1b1<=100)?1:0
+2023-10-20T16:54:43.170    INFO:otb_wrappers.py:line=34:band_math:ram = 4096
+2023-10-20T16:54:43.170    INFO:otb_wrappers.py:line=37:band_math:out_type = 0
+2023-10-20T16:54:45.570    INFO:otb_wrappers.py:line=19:band_math:Processing BandMath with args:
+2023-10-20T16:54:45.570    INFO:otb_wrappers.py:line=20:band_math:il = /home/ad/barrouz/datalake/datalake/S2-L2B-COSIMS/data/Snow/FSC/31TCH/2017/12/17/FSC_20171217T105433_S2B_T31TCH_V100_1/FSC_20171217T105433_S2B_T31TCH_V100_1_FSCTOC.tif
+2023-10-20T16:54:45.571    INFO:otb_wrappers.py:line=21:band_math:out = /home/ad/barrouz/zacharie/TIMESERIES_PROJECT/S2_BIAS_ANALYSIS/31TCH/REDUCED/2017/98/7/SY-FSC_T-31TCH_HY-2017_N-98_I-7/tmp/20171217_snow_binary.tif?&gdal:co:NBITS=1&gdal:co:COMPRESS=DEFLATE
+2023-10-20T16:54:45.571    INFO:otb_wrappers.py:line=22:band_math:exp = (im1b1>0 and im1b1<=100)?1:0
+2023-10-20T16:54:45.608    INFO:otb_wrappers.py:line=34:band_math:ram = 4096
+2023-10-20T16:54:45.608    INFO:otb_wrappers.py:line=37:band_math:out_type = 0
+2023-10-20T16:54:48.098    INFO:otb_wrappers.py:line=19:band_math:Processing BandMath with args:
+2023-10-20T16:54:48.098    INFO:otb_wrappers.py:line=20:band_math:il = /home/ad/barrouz/datalake/datalake/S2-L2B-COSIMS/data/Snow/FSC/31TCH/2017/12/19/FSC_20171219T104438_S2A_T31TCH_V100_1/FSC_20171219T104438_S2A_T31TCH_V100_1_FSCOG.tif
+2023-10-20T16:54:48.098    INFO:otb_wrappers.py:line=21:band_math:out = /home/ad/barrouz/zacharie/TIMESERIES_PROJECT/S2_BIAS_ANALYSIS/31TCH/REDUCED/2017/98/7/SY-FSC_T-31TCH_HY-2017_N-98_I-7/tmp/20171219_snow_binary.tif?&gdal:co:NBITS=1&gdal:co:COMPRESS=DEFLATE
+2023-10-20T16:54:48.098    INFO:otb_wrappers.py:line=22:band_math:exp = (im1b1>0 and im1b1<=100)?1:0
+2023-10-20T16:54:48.158    INFO:otb_wrappers.py:line=34:band_math:ram = 4096
+2023-10-20T16:54:48.158    INFO:otb_wrappers.py:line=37:band_math:out_type = 0
+[EPILOGUE] Starting epilogue on node node194 at date Fri Oct 20 16:54:50 UTC 2023
+
+------------ JOB INFO 54430975.admin01 -------------
+
+JOBID		: 54430975.admin01
+USER		: barrouz
+GROUP		: cesbio
+JOB NAME	: synthesis
+SESSION		: 9922
+RES REQSTED	: ncpus=8,mem=40000mb,walltime=20:59:00,place=free
+RES USED	: cpupercent=0,cput=00:08:38,ncpus=8,vmem=1088620kb,mem=1088620kb,walltime=00:01:34
+BILLING         : 00:12:32 (ncpus x walltime)
+QUEUE		: qt72h
+ACCOUNT		: null
+JOB EXIT CODE	: 271
+
+------------ END JOB INFO 54430975.admin01 ---------
+
+[EPILOGUE] Ending epilogue on node node194 at date Fri Oct 20 16:54:50 UTC 2023
