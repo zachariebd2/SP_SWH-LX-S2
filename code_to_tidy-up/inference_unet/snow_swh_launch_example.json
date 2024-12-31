@@ -1,9 +1,0 @@
-{
-	"input_path" : "XXX/SPOT4-HRVIR1-XS_20010614-110246-780_L1C_039-264-0_D_V1-0.zip",
-	"output_dir" : "XXX/output",
-	"models_dir" : "XXX/models",
-	"model_type" : "mtn",
-	"dem_dir"    : "XXX/DEM",
-	"tcd_dir"    : "/datalake/static_aux/TreeCoverDensity",
-	"buffer"     : 2000
-}
