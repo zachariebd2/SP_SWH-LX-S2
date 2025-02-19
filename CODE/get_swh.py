@@ -25,7 +25,7 @@ out = arg_parser.parse_args().out
 
 ENDPOINT_URL="https://s3.datalake.cnes.fr"
 print("get credentials")
-credentials = assumerole.getCredentials("arn:aws:iam::732885638740:role/public-read-only-OT", Duration=7200)
+credentials = assumerole.getCredentials("put credentials here", Duration=7200)
 
 print("get s3filesystem")
 s3 = s3fs.S3FileSystem(
